@@ -29,8 +29,3 @@ public class Casillero {
         return this.estado;
     }
 }
-
-
-
-// Agregar contador (y sus metodos)
-// Modificar los estados

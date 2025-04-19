@@ -4,13 +4,11 @@ import java.util.UUID;
 
 public class PreparacionPedido extends ProcesoPedido {
     private final Casillero[] casilleros;
-    private final int totalPedidos;
     private final Random rand = new Random();
 
     public PreparacionPedido(Casillero[] casilleros, RepositorioPedidos repo, int totalPedidos, int tiempoEspera) {
-        super(repo, tiempoEspera);
+        super(repo, tiempoEspera, totalPedidos);
         this.casilleros = casilleros;
-        this.totalPedidos = totalPedidos;
     }
 
 

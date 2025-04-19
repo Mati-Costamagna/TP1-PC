@@ -18,19 +18,19 @@ public class Main {
 
         Thread[] despachoThreads = new Thread[2];
         for (int i = 0; i < 2; i++) {
-            despachoThreads[i] = new Thread(new DespachoPedido(casilleros, repo, 100));
+            despachoThreads[i] = new Thread(new DespachoPedido(casilleros, repo, cantidadPedidos, 100));
             despachoThreads[i].start();
         }
 
         Thread[] entregaThreads = new Thread[3];
         for (int i = 0; i < 3; i++) {
-            entregaThreads[i] = new Thread(new EntregaCliente(repo, 200));
+            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 200));
             entregaThreads[i].start();
         }
 
         Thread[] verificacionThreads = new Thread[2];
         for (int i = 0; i < 2; i++) {
-            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, 300));
+            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 300));
             verificacionThreads[i].start();
         }
         try {
