@@ -7,41 +7,44 @@ public class PreparacionPedido extends ProcesoPedido {
     private final Random rand = new Random();
 
     public PreparacionPedido(Casillero[] casilleros, RepositorioPedidos repo, int totalPedidos, int tiempoEspera) {
-        super(repo, tiempoEspera, totalPedidos);
+        super(repo, totalPedidos, tiempoEspera);
         this.casilleros = casilleros;
     }
 
-
     @Override
     public void run() {
-        int pedidosGenerados = 0;
+        while (repo.contadorGlobalPedidos.get() < totalPedidos) {
+            int idGenerado = repo.contadorGlobalPedidos.getAndIncrement(); // obtiene y luego incrementa
 
-        while (true) {
-            if (pedidosGenerados >= totalPedidos) break;
+            if (idGenerado >= totalPedidos) {
+                break; // Detenemos el hilo si ya se generaron suficientes pedidos
+            }
 
-            boolean generado = false;
+            boolean pedidoGenerado = false;
 
-            while (!generado) {
+            while (!pedidoGenerado) {
                 int idCasillero = rand.nextInt(this.casilleros.length);
                 Casillero casillero = this.casilleros[idCasillero];
 
                 if (casillero.estaDisponible()) {
-                    casillero.ocupar();
-                    String idUnico = UUID.randomUUID().toString().substring(0, 4); // 4 primeros caracteres
+                    synchronized (casillero) {
+                        if (casillero.estaDisponible()) { // Verificamos dentro del lock
+                            casillero.ocupar();
+                            String idUnico = UUID.randomUUID().toString().substring(0, 4);
+                            Pedido pedido = new Pedido(idUnico, idCasillero);
 
-                    Pedido pedido = new Pedido(idUnico, idCasillero);
+                            synchronized (repo.enPreparacion) {
+                                repo.enPreparacion.add(pedido);
+                            }
 
-                    synchronized (repo.enPreparacion) {
-                        repo.enPreparacion.add(pedido);
+                            System.out.println("[PREPARACION] Pedido #" + pedido.getId() + " asignado a casillero #" + idCasillero);
+                            pedidoGenerado = true;
+                        }
                     }
-
-                    System.out.println("[PREPARACION] Pedido #" + pedido.getId() + " asignado a casillero #" + idCasillero);
-                    generado = true;
-                    pedidosGenerados++;
                 }
-
-                esperar();
             }
+
+            esperar(); // Espera entre cada intento de generación
         }
     }
 }

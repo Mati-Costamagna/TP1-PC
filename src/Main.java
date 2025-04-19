@@ -33,20 +33,16 @@ public class Main {
             verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 300));
             verificacionThreads[i].start();
         }
-        try {
+
             for (Thread t : preparacionThreads) t.join();
             System.out.println("Pedidos preparados");
-
             for (Thread t : despachoThreads) t.join();
-            System.out.println("Pedidos despachos");
-
+            System.out.println("Pedidos despachados");
             for (Thread t : entregaThreads) t.join();
             System.out.println("Pedidos entregados");
             for (Thread t : verificacionThreads) t.join();
             System.out.println("Pedidos verificados");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
 
         System.out.println("Estadísticas finales:");
         System.out.println("Pedidos en preparación: " + repo.enPreparacion.size());

@@ -5,18 +5,15 @@ public class DespachoPedido extends ProcesoPedido {
     private final Casillero[] casilleros;
     private final Random rand = new Random();
 
-
     public DespachoPedido(Casillero[] casilleros, RepositorioPedidos repo, int totalPedidos, int tiempoEspera) {
-        super(repo, tiempoEspera, totalPedidos);
+        super(repo, totalPedidos, tiempoEspera);
         this.casilleros = casilleros;
     }
 
     @Override
     public void run() {
-        int pedidosDespachados = 0;
-        while (!Thread.currentThread().isInterrupted()) {
-            if (pedidosDespachados >= totalPedidos) break;
 
+        while (repo.pedidosDespachados.get() < totalPedidos) {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
@@ -27,7 +24,8 @@ public class DespachoPedido extends ProcesoPedido {
             }
 
             if (pedido == null) {
-                esperar();
+                esperar(); // No hay pedidos, esperamos y seguimos
+                System.out.println("Esperando pedido de despach.");
                 continue;
             }
 
@@ -38,11 +36,11 @@ public class DespachoPedido extends ProcesoPedido {
                 if (datosCorrectos) {
                     casillero.liberar();
                     pedido.setEstado(EstadoPedido.EN_TRANSITO);
+
                     synchronized (repo.enTransito) {
                         repo.enTransito.add(pedido);
                     }
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
-                    pedidosDespachados++;
                 } else {
                     casillero.ponerFueraDeServicio();
                     pedido.setEstado(EstadoPedido.FALLIDO);
@@ -50,10 +48,11 @@ public class DespachoPedido extends ProcesoPedido {
                         repo.fallidos.add(pedido);
                     }
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
-                    pedidosDespachados++;
                 }
+                repo.pedidosDespachados.incrementAndGet();
+
             }
-            if(repo.enPreparacion.isEmpty()) {}
+
             esperar();
         }
 

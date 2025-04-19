@@ -6,7 +6,7 @@ public abstract class ProcesoPedido implements Runnable {
     protected final int totalPedidos;
 
 
-    public ProcesoPedido(RepositorioPedidos repo, int tiempoEspera, int totalPedidos) {
+    public ProcesoPedido(RepositorioPedidos repo, int totalPedidos, int tiempoEspera) {
         this.totalPedidos = totalPedidos;
         this.repo = repo;
         this.tiempoEspera = tiempoEspera;

@@ -9,16 +9,16 @@ public class EntregaCliente extends ProcesoPedido {
 
     @Override
     public void run() {
-        int pedidosEntregados = 0;
-        while (!Thread.interrupted()) {
-            if(pedidosEntregados >= totalPedidos) break;
-
+        while (true) {
             Pedido pedido = null;
 
             synchronized (repo.enTransito) {
                 if (!repo.enTransito.isEmpty()) {
                     int index = rand.nextInt(repo.enTransito.size());
                     pedido = repo.enTransito.remove(index);
+                } else if (repo.pedidosDespachados.get() == totalPedidos) {
+                    // No hay más pedidos que puedan llegar a esta etapa
+                    break;
                 }
             }
 
@@ -33,19 +33,19 @@ public class EntregaCliente extends ProcesoPedido {
                 pedido.setEstado(EstadoPedido.ENTREGADO);
                 synchronized (repo.entregados) {
                     repo.entregados.add(pedido);
+                    repo.pedidosEntregados.incrementAndGet();
                 }
                 System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " entregado correctamente.");
-                pedidosEntregados++;
             } else {
                 pedido.setEstado(EstadoPedido.FALLIDO);
                 synchronized (repo.fallidos) {
                     repo.fallidos.add(pedido);
                 }
                 System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " falló en la entrega.");
-                pedidosEntregados++;
             }
 
             esperar();
         }
     }
+
 }
