@@ -9,19 +9,13 @@ public class VerificacionFinal extends ProcesoPedido {
 
     @Override
     public void run() {
-        int pedidosVerificados = 0;
-        while (true) {
+
+        while ((repo.pedidosVerificados.get()+repo.pedidosFallidos.get()) <  totalPedidos) {
 
             Pedido pedido = null;
 
             // Sincronización sobre repo.entregados para acceder a los pedidos entregados
             synchronized (repo.entregados) {
-                // Si ya no hay más pedidos entregados, y se han entregado todos, terminamos
-                if (repo.entregados.isEmpty()) {
-                    break; // Terminamos porque ya no hay pedidos por verificar
-                }
-
-                // Si hay pedidos entregados, seguimos con la verificación
                 if (!repo.entregados.isEmpty()) {
                     pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
                 }
@@ -41,18 +35,18 @@ public class VerificacionFinal extends ProcesoPedido {
                 pedido.setEstado(EstadoPedido.VERIFICADO);
                 synchronized (repo.verificados) {
                     repo.verificados.add(pedido);
+                    repo.pedidosVerificados.incrementAndGet();
                 }
                 System.out.println("[VERIFICACION] Pedido #" + pedido.getId() + " verificado correctamente.");
             } else {
                 pedido.setEstado(EstadoPedido.FALLIDO);
                 synchronized (repo.fallidos) {
                     repo.fallidos.add(pedido);
+                    repo.pedidosFallidos.incrementAndGet();
                 }
                 System.out.println("[VERIFICACION] Pedido #" + pedido.getId() + " falló la verificación final.");
             }
 
-            // Pausa después de cada verificación
-            pedidosVerificados++;
             esperar();
         }
     }

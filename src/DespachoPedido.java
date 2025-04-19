@@ -46,6 +46,7 @@ public class DespachoPedido extends ProcesoPedido {
                     pedido.setEstado(EstadoPedido.FALLIDO);
                     synchronized (repo.fallidos) {
                         repo.fallidos.add(pedido);
+                        repo.pedidosFallidos.incrementAndGet();
                     }
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
                 }

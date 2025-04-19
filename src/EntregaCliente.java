@@ -40,6 +40,7 @@ public class EntregaCliente extends ProcesoPedido {
                 pedido.setEstado(EstadoPedido.FALLIDO);
                 synchronized (repo.fallidos) {
                     repo.fallidos.add(pedido);
+                    repo.pedidosFallidos.incrementAndGet();
                 }
                 System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " falló en la entrega.");
             }
