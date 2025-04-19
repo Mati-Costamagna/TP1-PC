@@ -1,0 +1,399 @@
+Pedidos fallidos: 0, verificados: 0
+Pedidos fallidos: 1, verificados: 2
+Pedidos fallidos: 2, verificados: 3
+Pedidos fallidos: 5, verificados: 4
+Pedidos fallidos: 5, verificados: 6
+Pedidos fallidos: 5, verificados: 8
+Pedidos fallidos: 6, verificados: 10
+Pedidos fallidos: 6, verificados: 12
+Pedidos fallidos: 7, verificados: 14
+Pedidos fallidos: 9, verificados: 16
+Pedidos fallidos: 10, verificados: 18
+Pedidos fallidos: 10, verificados: 20
+Pedidos fallidos: 10, verificados: 22
+Pedidos fallidos: 11, verificados: 24
+Pedidos fallidos: 12, verificados: 26
+Pedidos fallidos: 14, verificados: 28
+Pedidos fallidos: 15, verificados: 30
+Pedidos fallidos: 15, verificados: 32
+Pedidos fallidos: 18, verificados: 33
+Pedidos fallidos: 18, verificados: 35
+Pedidos fallidos: 20, verificados: 37
+Pedidos fallidos: 20, verificados: 39
+Pedidos fallidos: 21, verificados: 40
+Pedidos fallidos: 22, verificados: 42
+Pedidos fallidos: 24, verificados: 44
+Pedidos fallidos: 24, verificados: 46
+Pedidos fallidos: 25, verificados: 48
+Pedidos fallidos: 25, verificados: 50
+Pedidos fallidos: 28, verificados: 52
+Pedidos fallidos: 29, verificados: 54
+Pedidos fallidos: 30, verificados: 56
+Pedidos fallidos: 30, verificados: 58
+Pedidos fallidos: 32, verificados: 59
+Pedidos fallidos: 33, verificados: 61
+Pedidos fallidos: 34, verificados: 63
+Pedidos fallidos: 35, verificados: 65
+Pedidos fallidos: 35, verificados: 67
+Pedidos fallidos: 35, verificados: 69
+Pedidos fallidos: 36, verificados: 71
+Pedidos fallidos: 37, verificados: 73
+Pedidos fallidos: 37, verificados: 75
+Pedidos fallidos: 40, verificados: 76
+Pedidos fallidos: 41, verificados: 78
+Pedidos fallidos: 43, verificados: 79
+Pedidos fallidos: 44, verificados: 81
+Pedidos fallidos: 46, verificados: 83
+Pedidos fallidos: 46, verificados: 85
+Pedidos fallidos: 48, verificados: 87
+Pedidos fallidos: 48, verificados: 89
+Pedidos fallidos: 49, verificados: 91
+Pedidos fallidos: 50, verificados: 93
+Pedidos fallidos: 50, verificados: 95
+Pedidos fallidos: 50, verificados: 97
+Pedidos fallidos: 51, verificados: 99
+Pedidos fallidos: 52, verificados: 101
+Pedidos fallidos: 53, verificados: 103
+Pedidos fallidos: 54, verificados: 105
+Pedidos fallidos: 55, verificados: 107
+Pedidos fallidos: 56, verificados: 109
+Pedidos fallidos: 58, verificados: 109
+Pedidos fallidos: 59, verificados: 111
+Pedidos fallidos: 60, verificados: 113
+Pedidos fallidos: 60, verificados: 115
+Pedidos fallidos: 60, verificados: 117
+Pedidos fallidos: 61, verificados: 119
+Pedidos fallidos: 61, verificados: 121
+Pedidos fallidos: 61, verificados: 123
+Pedidos fallidos: 61, verificados: 125
+Pedidos fallidos: 63, verificados: 127
+Pedidos fallidos: 65, verificados: 129
+Pedidos fallidos: 65, verificados: 131
+Pedidos fallidos: 66, verificados: 133
+Pedidos fallidos: 67, verificados: 135
+Pedidos fallidos: 67, verificados: 137
+Pedidos fallidos: 68, verificados: 139
+Pedidos fallidos: 70, verificados: 141
+Pedidos fallidos: 70, verificados: 143
+Pedidos fallidos: 70, verificados: 145
+Pedidos fallidos: 71, verificados: 147
+Pedidos fallidos: 72, verificados: 149
+Pedidos fallidos: 73, verificados: 151
+Pedidos fallidos: 74, verificados: 153
+Pedidos fallidos: 74, verificados: 155
+Pedidos fallidos: 75, verificados: 156
+Pedidos fallidos: 78, verificados: 158
+Pedidos fallidos: 78, verificados: 160
+Pedidos fallidos: 78, verificados: 162
+Pedidos fallidos: 80, verificados: 164
+Pedidos fallidos: 80, verificados: 166
+Pedidos fallidos: 81, verificados: 168
+Pedidos fallidos: 82, verificados: 170
+Pedidos fallidos: 83, verificados: 172
+Pedidos fallidos: 84, verificados: 174
+Pedidos fallidos: 85, verificados: 175
+Pedidos fallidos: 86, verificados: 177
+Pedidos fallidos: 86, verificados: 179
+Pedidos fallidos: 87, verificados: 181
+Pedidos fallidos: 87, verificados: 183
+Pedidos fallidos: 88, verificados: 185
+Pedidos fallidos: 90, verificados: 187
+Pedidos fallidos: 90, verificados: 189
+Pedidos fallidos: 91, verificados: 191
+Pedidos fallidos: 93, verificados: 193
+Pedidos fallidos: 93, verificados: 195
+Pedidos fallidos: 96, verificados: 197
+Pedidos fallidos: 97, verificados: 199
+Pedidos fallidos: 97, verificados: 201
+Pedidos fallidos: 98, verificados: 203
+Pedidos fallidos: 98, verificados: 205
+Pedidos fallidos: 99, verificados: 207
+Pedidos fallidos: 102, verificados: 209
+Pedidos fallidos: 102, verificados: 211
+Pedidos fallidos: 103, verificados: 213
+Pedidos fallidos: 105, verificados: 215
+Pedidos fallidos: 106, verificados: 217
+Pedidos fallidos: 109, verificados: 218
+Pedidos fallidos: 111, verificados: 220
+Pedidos fallidos: 112, verificados: 222
+Pedidos fallidos: 113, verificados: 224
+Pedidos fallidos: 115, verificados: 226
+Pedidos fallidos: 116, verificados: 228
+Pedidos fallidos: 119, verificados: 230
+Pedidos fallidos: 120, verificados: 231
+Pedidos fallidos: 121, verificados: 233
+Pedidos fallidos: 121, verificados: 235
+Pedidos fallidos: 122, verificados: 237
+Pedidos fallidos: 122, verificados: 239
+Pedidos fallidos: 122, verificados: 241
+Pedidos fallidos: 122, verificados: 243
+Pedidos fallidos: 123, verificados: 245
+Pedidos fallidos: 123, verificados: 247
+Pedidos fallidos: 123, verificados: 249
+Pedidos fallidos: 123, verificados: 251
+Pedidos fallidos: 123, verificados: 253
+Pedidos fallidos: 123, verificados: 255
+Pedidos fallidos: 123, verificados: 257
+Pedidos fallidos: 123, verificados: 259
+Pedidos fallidos: 123, verificados: 261
+Pedidos fallidos: 123, verificados: 263
+Pedidos fallidos: 123, verificados: 265
+Pedidos fallidos: 123, verificados: 267
+Pedidos fallidos: 123, verificados: 269
+Pedidos fallidos: 123, verificados: 271
+Pedidos fallidos: 123, verificados: 273
+Pedidos fallidos: 123, verificados: 275
+Pedidos fallidos: 123, verificados: 277
+Pedidos fallidos: 123, verificados: 279
+Pedidos fallidos: 123, verificados: 281
+Pedidos fallidos: 123, verificados: 283
+Pedidos fallidos: 123, verificados: 285
+Pedidos fallidos: 123, verificados: 287
+Pedidos fallidos: 123, verificados: 289
+Pedidos fallidos: 123, verificados: 291
+Pedidos fallidos: 123, verificados: 293
+Pedidos fallidos: 123, verificados: 295
+Pedidos fallidos: 124, verificados: 296
+Pedidos fallidos: 124, verificados: 298
+Pedidos fallidos: 124, verificados: 300
+Pedidos fallidos: 125, verificados: 301
+Pedidos fallidos: 125, verificados: 303
+Pedidos fallidos: 125, verificados: 305
+Pedidos fallidos: 125, verificados: 307
+Pedidos fallidos: 125, verificados: 309
+Pedidos fallidos: 125, verificados: 311
+Pedidos fallidos: 125, verificados: 313
+Pedidos fallidos: 125, verificados: 315
+Pedidos fallidos: 126, verificados: 316
+Pedidos fallidos: 126, verificados: 318
+Pedidos fallidos: 126, verificados: 320
+Pedidos fallidos: 126, verificados: 322
+Pedidos fallidos: 126, verificados: 324
+Pedidos fallidos: 126, verificados: 326
+Pedidos fallidos: 126, verificados: 328
+Pedidos fallidos: 126, verificados: 330
+Pedidos fallidos: 126, verificados: 332
+Pedidos fallidos: 126, verificados: 334
+Pedidos fallidos: 126, verificados: 336
+Pedidos fallidos: 126, verificados: 338
+Pedidos fallidos: 126, verificados: 340
+Pedidos fallidos: 126, verificados: 342
+Pedidos fallidos: 126, verificados: 344
+Pedidos fallidos: 126, verificados: 346
+Pedidos fallidos: 126, verificados: 348
+Pedidos fallidos: 126, verificados: 350
+Pedidos fallidos: 127, verificados: 351
+Pedidos fallidos: 127, verificados: 353
+Pedidos fallidos: 128, verificados: 354
+Pedidos fallidos: 128, verificados: 356
+Pedidos fallidos: 128, verificados: 358
+Pedidos fallidos: 128, verificados: 360
+Pedidos fallidos: 129, verificados: 361
+Pedidos fallidos: 129, verificados: 363
+Pedidos fallidos: 129, verificados: 365
+Pedidos fallidos: 130, verificados: 366
+Pedidos fallidos: 130, verificados: 368
+Pedidos fallidos: 130, verificados: 370
+
+--- Estadísticas Finales ---
+Tiempo total: 39818 ms
+Casillero #0 - Estado final: VACIO
+Casillero #1 - Estado final: VACIO
+Casillero #2 - Estado final: FUERA_DE_SERVICIO
+Casillero #3 - Estado final: VACIO
+Casillero #4 - Estado final: VACIO
+Casillero #5 - Estado final: VACIO
+Casillero #6 - Estado final: VACIO
+Casillero #7 - Estado final: FUERA_DE_SERVICIO
+Casillero #8 - Estado final: FUERA_DE_SERVICIO
+Casillero #9 - Estado final: VACIO
+Casillero #10 - Estado final: FUERA_DE_SERVICIO
+Casillero #11 - Estado final: VACIO
+Casillero #12 - Estado final: VACIO
+Casillero #13 - Estado final: VACIO
+Casillero #14 - Estado final: FUERA_DE_SERVICIO
+Casillero #15 - Estado final: VACIO
+Casillero #16 - Estado final: VACIO
+Casillero #17 - Estado final: FUERA_DE_SERVICIO
+Casillero #18 - Estado final: FUERA_DE_SERVICIO
+Casillero #19 - Estado final: VACIO
+Casillero #20 - Estado final: VACIO
+Casillero #21 - Estado final: VACIO
+Casillero #22 - Estado final: VACIO
+Casillero #23 - Estado final: FUERA_DE_SERVICIO
+Casillero #24 - Estado final: VACIO
+Casillero #25 - Estado final: FUERA_DE_SERVICIO
+Casillero #26 - Estado final: VACIO
+Casillero #27 - Estado final: VACIO
+Casillero #28 - Estado final: FUERA_DE_SERVICIO
+Casillero #29 - Estado final: VACIO
+Casillero #30 - Estado final: VACIO
+Casillero #31 - Estado final: VACIO
+Casillero #32 - Estado final: VACIO
+Casillero #33 - Estado final: VACIO
+Casillero #34 - Estado final: VACIO
+Casillero #35 - Estado final: FUERA_DE_SERVICIO
+Casillero #36 - Estado final: FUERA_DE_SERVICIO
+Casillero #37 - Estado final: FUERA_DE_SERVICIO
+Casillero #38 - Estado final: VACIO
+Casillero #39 - Estado final: VACIO
+Casillero #40 - Estado final: VACIO
+Casillero #41 - Estado final: VACIO
+Casillero #42 - Estado final: VACIO
+Casillero #43 - Estado final: FUERA_DE_SERVICIO
+Casillero #44 - Estado final: VACIO
+Casillero #45 - Estado final: FUERA_DE_SERVICIO
+Casillero #46 - Estado final: VACIO
+Casillero #47 - Estado final: VACIO
+Casillero #48 - Estado final: FUERA_DE_SERVICIO
+Casillero #49 - Estado final: FUERA_DE_SERVICIO
+Casillero #50 - Estado final: FUERA_DE_SERVICIO
+Casillero #51 - Estado final: FUERA_DE_SERVICIO
+Casillero #52 - Estado final: FUERA_DE_SERVICIO
+Casillero #53 - Estado final: VACIO
+Casillero #54 - Estado final: VACIO
+Casillero #55 - Estado final: VACIO
+Casillero #56 - Estado final: FUERA_DE_SERVICIO
+Casillero #57 - Estado final: VACIO
+Casillero #58 - Estado final: FUERA_DE_SERVICIO
+Casillero #59 - Estado final: FUERA_DE_SERVICIO
+Casillero #60 - Estado final: VACIO
+Casillero #61 - Estado final: FUERA_DE_SERVICIO
+Casillero #62 - Estado final: VACIO
+Casillero #63 - Estado final: VACIO
+Casillero #64 - Estado final: VACIO
+Casillero #65 - Estado final: VACIO
+Casillero #66 - Estado final: FUERA_DE_SERVICIO
+Casillero #67 - Estado final: VACIO
+Casillero #68 - Estado final: FUERA_DE_SERVICIO
+Casillero #69 - Estado final: VACIO
+Casillero #70 - Estado final: FUERA_DE_SERVICIO
+Casillero #71 - Estado final: FUERA_DE_SERVICIO
+Casillero #72 - Estado final: VACIO
+Casillero #73 - Estado final: FUERA_DE_SERVICIO
+Casillero #74 - Estado final: FUERA_DE_SERVICIO
+Casillero #75 - Estado final: FUERA_DE_SERVICIO
+Casillero #76 - Estado final: VACIO
+Casillero #77 - Estado final: VACIO
+Casillero #78 - Estado final: VACIO
+Casillero #79 - Estado final: VACIO
+Casillero #80 - Estado final: VACIO
+Casillero #81 - Estado final: VACIO
+Casillero #82 - Estado final: VACIO
+Casillero #83 - Estado final: FUERA_DE_SERVICIO
+Casillero #84 - Estado final: FUERA_DE_SERVICIO
+Casillero #85 - Estado final: FUERA_DE_SERVICIO
+Casillero #86 - Estado final: FUERA_DE_SERVICIO
+Casillero #87 - Estado final: FUERA_DE_SERVICIO
+Casillero #88 - Estado final: FUERA_DE_SERVICIO
+Casillero #89 - Estado final: VACIO
+Casillero #90 - Estado final: FUERA_DE_SERVICIO
+Casillero #91 - Estado final: VACIO
+Casillero #92 - Estado final: VACIO
+Casillero #93 - Estado final: VACIO
+Casillero #94 - Estado final: VACIO
+Casillero #95 - Estado final: VACIO
+Casillero #96 - Estado final: FUERA_DE_SERVICIO
+Casillero #97 - Estado final: VACIO
+Casillero #98 - Estado final: FUERA_DE_SERVICIO
+Casillero #99 - Estado final: VACIO
+Casillero #100 - Estado final: VACIO
+Casillero #101 - Estado final: VACIO
+Casillero #102 - Estado final: VACIO
+Casillero #103 - Estado final: FUERA_DE_SERVICIO
+Casillero #104 - Estado final: VACIO
+Casillero #105 - Estado final: FUERA_DE_SERVICIO
+Casillero #106 - Estado final: VACIO
+Casillero #107 - Estado final: VACIO
+Casillero #108 - Estado final: VACIO
+Casillero #109 - Estado final: VACIO
+Casillero #110 - Estado final: VACIO
+Casillero #111 - Estado final: VACIO
+Casillero #112 - Estado final: VACIO
+Casillero #113 - Estado final: VACIO
+Casillero #114 - Estado final: VACIO
+Casillero #115 - Estado final: VACIO
+Casillero #116 - Estado final: FUERA_DE_SERVICIO
+Casillero #117 - Estado final: FUERA_DE_SERVICIO
+Casillero #118 - Estado final: FUERA_DE_SERVICIO
+Casillero #119 - Estado final: VACIO
+Casillero #120 - Estado final: FUERA_DE_SERVICIO
+Casillero #121 - Estado final: VACIO
+Casillero #122 - Estado final: VACIO
+Casillero #123 - Estado final: VACIO
+Casillero #124 - Estado final: VACIO
+Casillero #125 - Estado final: VACIO
+Casillero #126 - Estado final: FUERA_DE_SERVICIO
+Casillero #127 - Estado final: VACIO
+Casillero #128 - Estado final: VACIO
+Casillero #129 - Estado final: FUERA_DE_SERVICIO
+Casillero #130 - Estado final: FUERA_DE_SERVICIO
+Casillero #131 - Estado final: VACIO
+Casillero #132 - Estado final: VACIO
+Casillero #133 - Estado final: VACIO
+Casillero #134 - Estado final: FUERA_DE_SERVICIO
+Casillero #135 - Estado final: FUERA_DE_SERVICIO
+Casillero #136 - Estado final: FUERA_DE_SERVICIO
+Casillero #137 - Estado final: FUERA_DE_SERVICIO
+Casillero #138 - Estado final: VACIO
+Casillero #139 - Estado final: VACIO
+Casillero #140 - Estado final: VACIO
+Casillero #141 - Estado final: VACIO
+Casillero #142 - Estado final: VACIO
+Casillero #143 - Estado final: VACIO
+Casillero #144 - Estado final: VACIO
+Casillero #145 - Estado final: VACIO
+Casillero #146 - Estado final: VACIO
+Casillero #147 - Estado final: VACIO
+Casillero #148 - Estado final: FUERA_DE_SERVICIO
+Casillero #149 - Estado final: VACIO
+Casillero #150 - Estado final: VACIO
+Casillero #151 - Estado final: VACIO
+Casillero #152 - Estado final: VACIO
+Casillero #153 - Estado final: FUERA_DE_SERVICIO
+Casillero #154 - Estado final: FUERA_DE_SERVICIO
+Casillero #155 - Estado final: VACIO
+Casillero #156 - Estado final: VACIO
+Casillero #157 - Estado final: FUERA_DE_SERVICIO
+Casillero #158 - Estado final: VACIO
+Casillero #159 - Estado final: FUERA_DE_SERVICIO
+Casillero #160 - Estado final: FUERA_DE_SERVICIO
+Casillero #161 - Estado final: VACIO
+Casillero #162 - Estado final: FUERA_DE_SERVICIO
+Casillero #163 - Estado final: FUERA_DE_SERVICIO
+Casillero #164 - Estado final: FUERA_DE_SERVICIO
+Casillero #165 - Estado final: VACIO
+Casillero #166 - Estado final: VACIO
+Casillero #167 - Estado final: FUERA_DE_SERVICIO
+Casillero #168 - Estado final: VACIO
+Casillero #169 - Estado final: FUERA_DE_SERVICIO
+Casillero #170 - Estado final: FUERA_DE_SERVICIO
+Casillero #171 - Estado final: VACIO
+Casillero #172 - Estado final: VACIO
+Casillero #173 - Estado final: VACIO
+Casillero #174 - Estado final: FUERA_DE_SERVICIO
+Casillero #175 - Estado final: FUERA_DE_SERVICIO
+Casillero #176 - Estado final: VACIO
+Casillero #177 - Estado final: FUERA_DE_SERVICIO
+Casillero #178 - Estado final: VACIO
+Casillero #179 - Estado final: VACIO
+Casillero #180 - Estado final: VACIO
+Casillero #181 - Estado final: VACIO
+Casillero #182 - Estado final: VACIO
+Casillero #183 - Estado final: FUERA_DE_SERVICIO
+Casillero #184 - Estado final: VACIO
+Casillero #185 - Estado final: VACIO
+Casillero #186 - Estado final: VACIO
+Casillero #187 - Estado final: VACIO
+Casillero #188 - Estado final: VACIO
+Casillero #189 - Estado final: VACIO
+Casillero #190 - Estado final: VACIO
+Casillero #191 - Estado final: FUERA_DE_SERVICIO
+Casillero #192 - Estado final: FUERA_DE_SERVICIO
+Casillero #193 - Estado final: FUERA_DE_SERVICIO
+Casillero #194 - Estado final: FUERA_DE_SERVICIO
+Casillero #195 - Estado final: VACIO
+Casillero #196 - Estado final: VACIO
+Casillero #197 - Estado final: FUERA_DE_SERVICIO
+Casillero #198 - Estado final: FUERA_DE_SERVICIO
+Casillero #199 - Estado final: VACIO
