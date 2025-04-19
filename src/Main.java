@@ -52,7 +52,7 @@ public class Main {
         System.out.println("Pedidos en preparación: " + repo.enPreparacion.size());
         System.out.println("Pedidos en tránsito: " + repo.enTransito.size());
         System.out.println("Pedidos entregados: " + repo.entregados.size());
-        System.out.println("Pedidos fallidos: " + repo.fallidos.size());
-        System.out.println("Pedidos verificados: " + repo.verificados.size());
+        //System.out.println("Pedidos fallidos: " + repo.fallidos.size());
+        //System.out.println("Pedidos verificados: " + repo.verificados.size());
     }
 }
