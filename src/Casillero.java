@@ -31,4 +31,8 @@ public class Casillero {
     public EstadoCasillero getEstado() {
         return this.estado;
     }
+
+    public int getContador() {
+        return contador;
+    }
 }

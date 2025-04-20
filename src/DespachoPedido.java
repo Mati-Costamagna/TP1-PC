@@ -1,5 +1,6 @@
 import java.util.concurrent.TimeUnit;
 import java.util.Random;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class DespachoPedido extends ProcesoPedido {
     private final Casillero[] casilleros;
@@ -12,21 +13,21 @@ public class DespachoPedido extends ProcesoPedido {
 
     @Override
     public void run() {
-
         while (repo.pedidosDespachados.get() < totalPedidos) {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
-                if (!repo.enPreparacion.isEmpty()) {
-                    int index = rand.nextInt(repo.enPreparacion.size());
-                    pedido = repo.enPreparacion.remove(index);
+                while (repo.enPreparacion.isEmpty()) {
+                    if (repo.contadorGlobalPedidos.get() >= totalPedidos) return;
+                    try {
+                        repo.enPreparacion.wait();
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
                 }
-            }
-
-            if (pedido == null) {
-                esperar(); // No hay pedidos, esperamos y seguimos
-                System.out.println("Esperando pedido de despach.");
-                continue;
+                int index = rand.nextInt(repo.enPreparacion.size());
+                pedido = repo.enPreparacion.remove(index);
             }
 
             synchronized (pedido) {
@@ -36,9 +37,9 @@ public class DespachoPedido extends ProcesoPedido {
                 if (datosCorrectos) {
                     casillero.liberar();
                     pedido.setEstado(EstadoPedido.EN_TRANSITO);
-
                     synchronized (repo.enTransito) {
                         repo.enTransito.add(pedido);
+                        repo.enTransito.notifyAll();
                     }
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
                 } else {
@@ -51,11 +52,8 @@ public class DespachoPedido extends ProcesoPedido {
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
                 }
                 repo.pedidosDespachados.incrementAndGet();
-
             }
-
             esperar();
         }
-
     }
 }

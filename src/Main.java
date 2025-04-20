@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        int cantidadPedidos = 500;
-        int numeroCasilleros = 200;
+        int cantidadPedidos = 50;
+        int numeroCasilleros = 25;
         long inicio = System.currentTimeMillis();
 
         Casillero[] casilleros = new Casillero[numeroCasilleros];
@@ -38,15 +38,39 @@ public class Main {
             verificacionThreads[i].start();
         }
 
-            for (Thread t : preparacionThreads) t.join();
-            System.out.println("Pedidos preparados");
-            for (Thread t : despachoThreads) t.join();
-            System.out.println("Pedidos despachados");
-            for (Thread t : entregaThreads) t.join();
-            System.out.println("Pedidos entregados");
-            for (Thread t : verificacionThreads) t.join();
-            System.out.println("Pedidos verificados");
+        for (Thread t : preparacionThreads) {
+            try{
+                t.join();
 
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("Pedidos preparados");
+        for (Thread t : despachoThreads) {
+            try{
+                t.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("Pedidos despachados");
+        for (Thread t : entregaThreads) {
+            try{
+                t.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("Pedidos entregados");
+        for (Thread t : verificacionThreads) {
+            try{
+                t.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("Pedidos verificados");
 
         System.out.println("Estadísticas finales:");
         System.out.println("Pedidos preparados: " + repo.pedidosDespachados.get());
@@ -55,6 +79,10 @@ public class Main {
         System.out.println("Pedidos fallidos: " + repo.pedidosFallidos.get());
 
         logger.finalizar();
-        logger.join();
+        try{
+            logger.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -9,26 +9,22 @@ public class VerificacionFinal extends ProcesoPedido {
 
     @Override
     public void run() {
-
-        while ((repo.pedidosVerificados.get()+repo.pedidosFallidos.get()) <  totalPedidos) {
-
+        while ((repo.pedidosVerificados.get() + repo.pedidosFallidos.get()) < totalPedidos) {
             Pedido pedido = null;
 
-            // Sincronización sobre repo.entregados para acceder a los pedidos entregados
             synchronized (repo.entregados) {
-                if (!repo.entregados.isEmpty()) {
-                    pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
+                while (repo.entregados.isEmpty()) {
+                    if ((repo.pedidosVerificados.get() + repo.pedidosFallidos.get()) >= totalPedidos) return;
+                    try {
+                        repo.entregados.wait();
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
                 }
+                pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
             }
 
-            // Si no hay pedido, esperamos y seguimos
-            if (pedido == null) {
-                esperar();
-                System.out.println("Esperando...");
-                continue;
-            }
-
-            // Simulación de verificación
             boolean verificado = rand.nextDouble() < 0.95;
 
             if (verificado) {
@@ -46,7 +42,6 @@ public class VerificacionFinal extends ProcesoPedido {
                 }
                 System.out.println("[VERIFICACION] Pedido #" + pedido.getId() + " falló la verificación final.");
             }
-
             esperar();
         }
     }

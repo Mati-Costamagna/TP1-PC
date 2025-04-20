@@ -28,6 +28,7 @@ public class LoggerEstadistico extends Thread {
     @Override
     public void run() {
         try {
+            // Log periódico
             while (!finalizar.get()) {
                 writer.write("Pedidos fallidos: " + repo.pedidosFallidos.get() +
                         ", verificados: " + repo.pedidosVerificados.get() + "\n");
@@ -35,13 +36,26 @@ public class LoggerEstadistico extends Thread {
                 Thread.sleep(200);
             }
 
-            // Finalizar log con estadísticas finales
-            writer.write("\n--- Estadísticas Finales ---\n");
+            // Estadísticas finales
+            writer.write("\n--- ESTADÍSTICAS FINALES ---\n");
             writer.write("Tiempo total: " + (System.currentTimeMillis() - inicio) + " ms\n");
 
+            writer.write("Pedidos generados: " + repo.contadorGlobalPedidos.get() + "\n");
+            writer.write("Pedidos despachados: " + repo.pedidosDespachados.get() + "\n");
+            writer.write("Pedidos entregados: " + repo.pedidosEntregados.get() + "\n");
+            writer.write("Pedidos verificados: " + repo.pedidosVerificados.get() + "\n");
+            writer.write("Pedidos fallidos: " + repo.pedidosFallidos.get() + "\n\n");
+
+            writer.write("--- ESTADO DE CASILLEROS ---\n");
             for (int i = 0; i < this.casilleros.length; i++) {
                 Casillero c = this.casilleros[i];
-                writer.write("Casillero #" + i + " - Estado final: " + c.getEstado().toString() + "\n");
+                String estado;
+                synchronized (c) {
+                    if (c.getEstado()==EstadoCasillero.FUERA_DE_SERVICIO) estado = "FUERA DE SERVICIO";
+                    else if (c.estaDisponible()) estado = "VACÍO";
+                    else estado = "OCUPADO";
+                }
+                writer.write("Casillero #" + i + " | Estado: " + estado + " | Usado: " + c.getContador() + " veces\n");
             }
 
             writer.close();
