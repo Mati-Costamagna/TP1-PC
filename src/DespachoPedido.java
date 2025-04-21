@@ -30,7 +30,7 @@ public class DespachoPedido extends ProcesoPedido {
                 pedido = repo.enPreparacion.remove(index);
             }
 
-            synchronized (pedido) {
+            /*synchronized (pedido) {*/
                 Casillero casillero = casilleros[pedido.getIdCasillero()];
                 boolean datosCorrectos = rand.nextDouble() < 0.85;
 
@@ -52,7 +52,7 @@ public class DespachoPedido extends ProcesoPedido {
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
                 }
                 repo.pedidosDespachados.incrementAndGet();
-            }
+            //}
             esperar();
         }
     }
