@@ -10,15 +10,18 @@ public class Casillero {
         if (estaDisponible()) {
             this.estado = EstadoCasillero.OCUPADO;
             this.contador++;
+            this.notifyAll();
         }
     }
 
     public synchronized void liberar() {
         this.estado = EstadoCasillero.VACIO;
+        this.notifyAll();
     }
 
     public synchronized void ponerFueraDeServicio() {
         this.estado = EstadoCasillero.FUERA_DE_SERVICIO;
+        this.notifyAll();
     }
 
     public synchronized boolean estaDisponible() {
@@ -28,9 +31,8 @@ public class Casillero {
     public EstadoCasillero getEstado() {
         return this.estado;
     }
+
+    public int getContador() {
+        return contador;
+    }
 }
-
-
-
-// Agregar contador (y sus metodos)
-// Modificar los estados

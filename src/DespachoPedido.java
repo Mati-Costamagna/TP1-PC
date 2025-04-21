@@ -1,36 +1,33 @@
 import java.util.concurrent.TimeUnit;
 import java.util.Random;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class DespachoPedido extends ProcesoPedido {
     private final Casillero[] casilleros;
     private final Random rand = new Random();
-    private boolean pedidosListo = false;
 
-
-    public DespachoPedido(Casillero[] casilleros, RepositorioPedidos repo, int tiempoEspera) {
-        super(repo, tiempoEspera);
+    public DespachoPedido(Casillero[] casilleros, RepositorioPedidos repo, int totalPedidos, int tiempoEspera) {
+        super(repo, totalPedidos, tiempoEspera);
         this.casilleros = casilleros;
-    }
-
-    public void setBandera(boolean bandera) {
-        this.pedidosListo = bandera;
     }
 
     @Override
     public void run() {
-        while (!Thread.currentThread().isInterrupted()) {
+        while (repo.pedidosDespachados.get() < totalPedidos) {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
-                if (!repo.enPreparacion.isEmpty()) {
-                    int index = rand.nextInt(repo.enPreparacion.size());
-                    pedido = repo.enPreparacion.remove(index);
+                while (repo.enPreparacion.isEmpty()) {
+                    if (repo.contadorGlobalPedidos.get() >= totalPedidos) return;
+                    try {
+                        repo.enPreparacion.wait();
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
                 }
-            }
-
-            if (pedido == null) {
-                esperar();
-                continue;
+                int index = rand.nextInt(repo.enPreparacion.size());
+                pedido = repo.enPreparacion.remove(index);
             }
 
             synchronized (pedido) {
@@ -42,6 +39,7 @@ public class DespachoPedido extends ProcesoPedido {
                     pedido.setEstado(EstadoPedido.EN_TRANSITO);
                     synchronized (repo.enTransito) {
                         repo.enTransito.add(pedido);
+                        repo.enTransito.notifyAll();
                     }
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
                 } else {
@@ -49,13 +47,13 @@ public class DespachoPedido extends ProcesoPedido {
                     pedido.setEstado(EstadoPedido.FALLIDO);
                     synchronized (repo.fallidos) {
                         repo.fallidos.add(pedido);
+                        repo.pedidosFallidos.incrementAndGet();
                     }
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
                 }
+                repo.pedidosDespachados.incrementAndGet();
             }
-            if(repo.enPreparacion.isEmpty()) {}
             esperar();
         }
-
     }
 }
