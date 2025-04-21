@@ -35,4 +35,5 @@ public class Casillero {
     public int getContador() {
         return contador;
     }
+
 }

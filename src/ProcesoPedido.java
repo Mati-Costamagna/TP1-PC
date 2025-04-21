@@ -20,5 +20,5 @@ public abstract class ProcesoPedido implements Runnable {
         }
     }
 
-    public abstract void run();
+    //public abstract void run();
 }
