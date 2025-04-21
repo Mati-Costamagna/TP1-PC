@@ -37,7 +37,6 @@ public class PreparacionPedido extends ProcesoPedido {
                         pedidoGenerado = true;
                     }
                 }
-
                 if (!pedidoGenerado) esperar();
             }
             esperar();

@@ -1,6 +1,4 @@
-import java.util.concurrent.TimeUnit;
 import java.util.Random;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class DespachoPedido extends ProcesoPedido {
     private final Casillero[] casilleros;

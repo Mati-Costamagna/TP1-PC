@@ -19,6 +19,4 @@ public abstract class ProcesoPedido implements Runnable {
             e.printStackTrace();
         }
     }
-
-    public abstract void run();
 }
