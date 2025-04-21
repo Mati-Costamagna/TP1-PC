@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        int cantidadPedidos = 50;
-        int numeroCasilleros = 25;
+        int cantidadPedidos = 500;
+        int numeroCasilleros = 200;
         long inicio = System.currentTimeMillis();
 
         Casillero[] casilleros = new Casillero[numeroCasilleros];
@@ -16,25 +16,25 @@ public class Main {
 
         Thread[] preparacionThreads = new Thread[3];
         for (int i = 0; i < 3; i++) {
-            preparacionThreads[i] = new Thread(new PreparacionPedido(casilleros, repo, cantidadPedidos, 50));
+            preparacionThreads[i] = new Thread(new PreparacionPedido(casilleros, repo, cantidadPedidos, 20));
             preparacionThreads[i].start();
         }
 
         Thread[] despachoThreads = new Thread[2];
         for (int i = 0; i < 2; i++) {
-            despachoThreads[i] = new Thread(new DespachoPedido(casilleros, repo, cantidadPedidos, 100));
+            despachoThreads[i] = new Thread(new DespachoPedido(casilleros, repo, cantidadPedidos, 50));
             despachoThreads[i].start();
         }
 
         Thread[] entregaThreads = new Thread[3];
         for (int i = 0; i < 3; i++) {
-            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 150));
+            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 90));
             entregaThreads[i].start();
         }
 
         Thread[] verificacionThreads = new Thread[2];
         for (int i = 0; i < 2; i++) {
-            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 200));
+            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 120));
             verificacionThreads[i].start();
         }
 
@@ -84,5 +84,8 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        long fin = System.currentTimeMillis();
+        System.out.println("Tiempo total: " + (fin - inicio) + " ms");
+
     }
 }
