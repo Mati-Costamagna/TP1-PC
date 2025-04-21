@@ -24,7 +24,7 @@ public class PreparacionPedido extends ProcesoPedido {
             boolean generado = false;
 
             while (!generado) {
-                int idCasillero = rand.nextInt(this.casilleros.length);
+                int idCasillero = rand.nextInt(this.casilleros.length); //Selecciona un casillero aleatorio del arreglo casilleros
                 Casillero casillero = this.casilleros[idCasillero];
 
                 if (casillero.estaDisponible()) {
@@ -40,9 +40,8 @@ public class PreparacionPedido extends ProcesoPedido {
                     System.out.println("[PREPARACION] Pedido #" + pedido.getId() + " asignado a casillero #" + idCasillero);
                     generado = true;
                     pedidosGenerados++;
+                    esperar(); //Agrego esperar() para simular el tiempo de preparación para no esperar innecesariamente en la busqueda de otro casillero
                 }
-
-                esperar();
             }
         }
     }

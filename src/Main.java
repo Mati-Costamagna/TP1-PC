@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        int cantidadPedidos = 50;
-        int numeroCasilleros = 25;
+        int cantidadPedidos = 500;
+        int numeroCasilleros = 200;
 
-        Casillero[] casilleros = new Casillero[numeroCasilleros];
+        Casillero[] casilleros = new Casillero[numeroCasilleros]; //Inicializa el array de casilleros todos en vacío
         for (int i = 0; i < numeroCasilleros; i++) {
             casilleros[i] = new Casillero();
         }
@@ -52,7 +52,7 @@ public class Main {
         System.out.println("Pedidos en preparación: " + repo.enPreparacion.size());
         System.out.println("Pedidos en tránsito: " + repo.enTransito.size());
         System.out.println("Pedidos entregados: " + repo.entregados.size());
-        //System.out.println("Pedidos fallidos: " + repo.fallidos.size());
-        //System.out.println("Pedidos verificados: " + repo.verificados.size());
+        System.out.println("Pedidos fallidos: " + repo.fallidos.size());
+        System.out.println("Pedidos verificados: " + repo.verificados.size());
     }
 }
