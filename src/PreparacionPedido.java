@@ -41,6 +41,7 @@ public class PreparacionPedido extends ProcesoPedido {
                     esperar(); //Agrego esperar() para simular el tiempo de preparación para no esperar innecesariamente en la busqueda de otro casillero
                 }
             }
+            esperar();
         }
     }
 }

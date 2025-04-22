@@ -4,15 +4,10 @@ import java.util.Random;
 public class DespachoPedido extends ProcesoPedido {
     private final Casillero[] casilleros;
     private final Random rand = new Random();
-    private boolean pedidosListo = false;
 
     public DespachoPedido(Casillero[] casilleros, RepositorioPedidos repo, int tiempoEspera) {
         super(repo, tiempoEspera);
         this.casilleros = casilleros;
-    }
-
-    public void setBandera(boolean bandera) {
-        this.pedidosListo = bandera;
     }
 
     @Override
