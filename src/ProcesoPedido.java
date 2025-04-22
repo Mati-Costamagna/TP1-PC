@@ -17,6 +17,10 @@ public abstract class ProcesoPedido implements Runnable {
         }
     }
 
+    public class EstadoGlobal {
+        public static volatile boolean preparacionTerminada = false;
+    }
+
     public abstract void run();
 }
 

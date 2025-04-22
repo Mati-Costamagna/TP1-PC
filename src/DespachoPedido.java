@@ -6,7 +6,6 @@ public class DespachoPedido extends ProcesoPedido {
     private final Random rand = new Random();
     private boolean pedidosListo = false;
 
-
     public DespachoPedido(Casillero[] casilleros, RepositorioPedidos repo, int tiempoEspera) {
         super(repo, tiempoEspera);
         this.casilleros = casilleros;
@@ -22,7 +21,13 @@ public class DespachoPedido extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
-                if (!repo.enPreparacion.isEmpty()) {
+                if (repo.enPreparacion.isEmpty()) {
+                    if (EstadoGlobal.preparacionTerminada) {
+                        System.out.println("Pedidos despachados");
+                        break;
+                    }
+                }
+                else {
                     int index = rand.nextInt(repo.enPreparacion.size());
                     pedido = repo.enPreparacion.remove(index);
                 }
@@ -53,7 +58,7 @@ public class DespachoPedido extends ProcesoPedido {
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
                 }
             }
-            if(repo.enPreparacion.isEmpty()) {}
+
             esperar();
         }
 

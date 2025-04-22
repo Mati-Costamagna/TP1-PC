@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        int cantidadPedidos = 100;
-        int numeroCasilleros = 40;
+        int cantidadPedidos = 50;
+        int numeroCasilleros = 20;
 
         Casillero[] casilleros = new Casillero[numeroCasilleros]; //Inicializa el array de casilleros todos en vacío
         for (int i = 0; i < numeroCasilleros; i++) {
@@ -39,13 +39,28 @@ public class Main {
             t.join(); // No es necesario un try-catch aquí porque el método main ya lanza InterruptedException
         }
         System.out.println("Pedidos preparados");
+        EstadoGlobal.preparacionTerminada = true; // Indicar que la preparación ha terminado
 
-        try {
+        for (Thread t : despachoThreads) {
+            t.join();
+        }
+        System.out.println("Pedidos despachados");
+
+        for (Thread t : entregaThreads) {
+            t.join();
+        }
+        System.out.println("Pedidos entregados");
+        for (Thread t : verificacionThreads) {
+            t.join();
+        }
+        System.out.println("Pedidos verificados");
+
+        /*try {
             //for (Thread t : preparacionThreads) t.join();
             //System.out.println("Pedidos preparados");
 
-            for (Thread t : despachoThreads) t.join();
-            System.out.println("Pedidos despachos");
+            //for (Thread t : despachoThreads) t.join();
+            //System.out.println("Pedidos despachos");
 
             for (Thread t : entregaThreads) t.join();
             System.out.println("Pedidos entregados");
@@ -53,7 +68,7 @@ public class Main {
             System.out.println("Pedidos verificados");
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
 
         System.out.println("Estadísticas finales:");
         System.out.println("Pedidos en preparación: " + repo.enPreparacion.size());
