@@ -23,7 +23,6 @@ public class DespachoPedido extends ProcesoPedido {
             synchronized (repo.enPreparacion) {
                 if (repo.enPreparacion.isEmpty()) {
                     if (EstadoGlobal.preparacionTerminada) {
-                        System.out.println("Pedidos despachados");
                         break;
                     }
                 }
@@ -61,6 +60,5 @@ public class DespachoPedido extends ProcesoPedido {
 
             esperar();
         }
-
     }
 }

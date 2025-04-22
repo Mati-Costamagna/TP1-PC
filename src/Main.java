@@ -45,11 +45,14 @@ public class Main {
             t.join();
         }
         System.out.println("Pedidos despachados");
+        EstadoGlobal.transitoTerminada = true;
 
         for (Thread t : entregaThreads) {
             t.join();
         }
         System.out.println("Pedidos entregados");
+        EstadoGlobal.entregaTerminada = true;
+
         for (Thread t : verificacionThreads) {
             t.join();
         }
