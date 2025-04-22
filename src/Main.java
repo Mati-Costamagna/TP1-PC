@@ -53,11 +53,15 @@ public class Main {
         System.out.println("Pedidos entregados");
         EstadoGlobal.entregaTerminada = true;
 
+        synchronized (repo.entregados) {
+            EstadoGlobal.verificacionTerminada = true;
+            repo.entregados.notifyAll();
+        }
+
         for (Thread t : verificacionThreads) {
             t.join();
         }
         System.out.println("Pedidos verificados");
-        EstadoGlobal.verificacionTerminada = true;
 
         // Mostrar estadísticas finales
         System.out.println("Estadísticas finales:");

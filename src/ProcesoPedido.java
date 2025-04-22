@@ -13,7 +13,7 @@ public abstract class ProcesoPedido implements Runnable {
         try {
             TimeUnit.MILLISECONDS.sleep(tiempoEspera);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            Thread.currentThread().interrupt();
         }
     }
 

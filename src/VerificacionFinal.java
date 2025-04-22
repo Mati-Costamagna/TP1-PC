@@ -11,28 +11,45 @@ public class VerificacionFinal extends ProcesoPedido{
     @Override
     public void run() {
         while (!Thread.currentThread().isInterrupted()) {
-            synchronized (repo.entregados) {
-                if (repo.entregados.isEmpty()) {
-                    break;
-                }
-                else {
-                    Pedido pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
-                    boolean verificado = rand.nextDouble() < 0.95;
+            Pedido pedido = null;
 
-                    if (verificado) {
-                        pedido.setEstado(EstadoPedido.VERIFICADO);
-                        synchronized (repo.verificados) {
-                            repo.verificados.add(pedido);
-                        }
-                    } else {
-                        pedido.setEstado(EstadoPedido.FALLIDO);
-                        synchronized (repo.fallidos) {
-                            repo.fallidos.add(pedido);
-                        }
+            synchronized (repo.entregados) {
+                while (repo.entregados.isEmpty()) {
+                    if (EstadoGlobal.verificacionTerminada) {
+                        return; // Terminar el hilo si todo está verificado
+                    }
+
+                   try {
+                        repo.entregados.wait();  // Esperar hasta que haya elementos
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return; // Salir si el hilo es interrumpido
                     }
                 }
+                // Extraer un pedido de la lista
+                pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
             }
-            esperar();
+
+            //if (pedido != null) {
+                boolean verificado = rand.nextDouble() < 0.95;
+
+                if (verificado) {
+                    pedido.setEstado(EstadoPedido.VERIFICADO);
+                    synchronized (repo.verificados) {
+                            repo.verificados.add(pedido);
+                            System.out.println("[VERIFICACION] Pedido #" + pedido.getId() + " verificado correctamente.");
+                    }
+                }
+                else {
+                    pedido.setEstado(EstadoPedido.FALLIDO);
+                    synchronized (repo.fallidos) {
+                            repo.fallidos.add(pedido);
+                            System.out.println("[VERIFICACION] Pedido #" + pedido.getId() + " falló la verificación.");
+                    }
+                }
+           //}
+
+            esperar(); // Esperar el tiempo configurado
         }
     }
 }

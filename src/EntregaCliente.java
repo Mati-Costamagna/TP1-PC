@@ -37,6 +37,7 @@ public class EntregaCliente extends ProcesoPedido {
                     pedido.setEstado(EstadoPedido.ENTREGADO);
                     synchronized (repo.entregados) {
                         repo.entregados.add(pedido);
+                        repo.entregados.notifyAll();
                     }
                     System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " entregado correctamente.");
                 } else {
