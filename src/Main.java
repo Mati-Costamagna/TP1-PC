@@ -38,38 +38,13 @@ public class Main {
             verificacionThreads[i].start();
         }
 
-        for (Thread t : preparacionThreads) {
-            try{
-                t.join();
-
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+        for (Thread t : preparacionThreads) t.join();
         System.out.println("Pedidos preparados");
-        for (Thread t : despachoThreads) {
-            try{
-                t.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+        for (Thread t : despachoThreads) t.join();
         System.out.println("Pedidos despachados");
-        for (Thread t : entregaThreads) {
-            try{
-                t.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+        for (Thread t : entregaThreads) t.join();
         System.out.println("Pedidos entregados");
-        for (Thread t : verificacionThreads) {
-            try{
-                t.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+        for (Thread t : verificacionThreads) t.join();
         System.out.println("Pedidos verificados");
 
         System.out.println("Estadísticas finales:");
