@@ -18,9 +18,7 @@ public class PreparacionPedido extends ProcesoPedido {
     public void run() {
         int pedidosGenerados = 0;
 
-        while (true) {
-            if (pedidosGenerados >= totalPedidos) break;
-
+        while (pedidosGenerados < totalPedidos) { // Cambio la condicion y elimino el if y el break
             boolean generado = false;
 
             while (!generado) {

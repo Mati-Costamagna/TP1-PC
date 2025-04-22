@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        int cantidadPedidos = 500;
-        int numeroCasilleros = 200;
+        int cantidadPedidos = 100;
+        int numeroCasilleros = 40;
 
         Casillero[] casilleros = new Casillero[numeroCasilleros]; //Inicializa el array de casilleros todos en vacío
         for (int i = 0; i < numeroCasilleros; i++) {
@@ -33,9 +33,16 @@ public class Main {
             verificacionThreads[i] = new Thread(new VerificacionFinal(repo, 300));
             verificacionThreads[i].start();
         }
+
+        // Esperar a que los hilos de preparación terminen
+        for (Thread t : preparacionThreads) {
+            t.join(); // No es necesario un try-catch aquí porque el método main ya lanza InterruptedException
+        }
+        System.out.println("Pedidos preparados");
+
         try {
-            for (Thread t : preparacionThreads) t.join();
-            System.out.println("Pedidos preparados");
+            //for (Thread t : preparacionThreads) t.join();
+            //System.out.println("Pedidos preparados");
 
             for (Thread t : despachoThreads) t.join();
             System.out.println("Pedidos despachos");
