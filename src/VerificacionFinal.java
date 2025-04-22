@@ -10,9 +10,12 @@ public class VerificacionFinal extends ProcesoPedido{
 
     @Override
     public void run() {
-        while (!Thread.interrupted()) {
+        while (!Thread.currentThread().isInterrupted()) {
             synchronized (repo.entregados) {
-                if (!repo.entregados.isEmpty()) {
+                if (repo.entregados.isEmpty()) {
+                    break;
+                }
+                else {
                     Pedido pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
                     boolean verificado = rand.nextDouble() < 0.95;
 

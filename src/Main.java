@@ -36,7 +36,7 @@ public class Main {
 
         // Esperar a que los hilos de preparación terminen
         for (Thread t : preparacionThreads) {
-            t.join(); // No es necesario un try-catch aquí porque el método main ya lanza InterruptedException
+            t.join();
         }
         System.out.println("Pedidos preparados");
         EstadoGlobal.preparacionTerminada = true; // Indicar que la preparación ha terminado
@@ -57,22 +57,9 @@ public class Main {
             t.join();
         }
         System.out.println("Pedidos verificados");
+        EstadoGlobal.verificacionTerminada = true;
 
-        /*try {
-            //for (Thread t : preparacionThreads) t.join();
-            //System.out.println("Pedidos preparados");
-
-            //for (Thread t : despachoThreads) t.join();
-            //System.out.println("Pedidos despachos");
-
-            for (Thread t : entregaThreads) t.join();
-            System.out.println("Pedidos entregados");
-            for (Thread t : verificacionThreads) t.join();
-            System.out.println("Pedidos verificados");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }*/
-
+        // Mostrar estadísticas finales
         System.out.println("Estadísticas finales:");
         System.out.println("Pedidos en preparación: " + repo.enPreparacion.size());
         System.out.println("Pedidos en tránsito: " + repo.enTransito.size());
