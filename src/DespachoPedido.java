@@ -27,29 +27,28 @@ public class DespachoPedido extends ProcesoPedido {
                 pedido = repo.enPreparacion.remove(index);
             }
 
-            synchronized (pedido) {
-                Casillero casillero = casilleros[pedido.getIdCasillero()];
-                boolean datosCorrectos = rand.nextDouble() < 0.85;
+            Casillero casillero = casilleros[pedido.getIdCasillero()];
+            boolean datosCorrectos = rand.nextDouble() < 0.85;
 
-                if (datosCorrectos) {
-                    casillero.liberar();
-                    pedido.setEstado(EstadoPedido.EN_TRANSITO);
-                    synchronized (repo.enTransito) {
-                        repo.enTransito.add(pedido);
-                        repo.enTransito.notifyAll();
-                    }
-                    System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
-                } else {
-                    casillero.ponerFueraDeServicio();
-                    pedido.setEstado(EstadoPedido.FALLIDO);
-                    synchronized (repo.fallidos) {
-                        repo.fallidos.add(pedido);
-                        repo.pedidosFallidos.incrementAndGet();
-                    }
-                    System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
+            if (datosCorrectos) {
+                casillero.liberar();
+                pedido.setEstado(EstadoPedido.EN_TRANSITO);
+                synchronized (repo.enTransito) {
+                    repo.enTransito.add(pedido);
+                    repo.enTransito.notifyAll();
                 }
-                repo.pedidosDespachados.incrementAndGet();
+                System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
+            } else {
+                casillero.ponerFueraDeServicio();
+                pedido.setEstado(EstadoPedido.FALLIDO);
+                synchronized (repo.fallidos) {
+                    repo.fallidos.add(pedido);
+                    repo.pedidosFallidos.incrementAndGet();
+                }
+                System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
             }
+
+            repo.pedidosDespachados.incrementAndGet();
             esperar();
         }
     }

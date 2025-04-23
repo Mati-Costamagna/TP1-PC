@@ -13,8 +13,6 @@ public class PreparacionPedido extends ProcesoPedido {
     @Override
     public void run() {
         while (repo.contadorGlobalPedidos.get() < totalPedidos) {
-            int idGenerado = repo.contadorGlobalPedidos.getAndIncrement();
-            if (idGenerado >= totalPedidos) break;
 
             boolean pedidoGenerado = false;
 
@@ -31,6 +29,7 @@ public class PreparacionPedido extends ProcesoPedido {
                         synchronized (repo.enPreparacion) {
                             repo.enPreparacion.add(pedido);
                             repo.enPreparacion.notifyAll();
+                            repo.contadorGlobalPedidos.getAndIncrement();
                         }
 
                         System.out.println("[PREPARACION] Pedido #" + pedido.getId() + " asignado a casillero #" + idCasillero);

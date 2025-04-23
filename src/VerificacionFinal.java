@@ -13,7 +13,8 @@ public class VerificacionFinal extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.entregados) {
-                while (repo.entregados.isEmpty()) {
+
+                while (repo.entregados.isEmpty() && (repo.pedidosVerificados.get() + repo.pedidosFallidos.get()) < totalPedidos) {
                     try {
                         repo.entregados.wait();
                     } catch (InterruptedException e) {

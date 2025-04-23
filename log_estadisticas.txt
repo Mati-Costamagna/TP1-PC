@@ -1,58 +1,135 @@
 Pedidos fallidos: 0, verificados: 0
 Pedidos fallidos: 0, verificados: 2
-Pedidos fallidos: 1, verificados: 4
-Pedidos fallidos: 3, verificados: 6
-Pedidos fallidos: 3, verificados: 8
-Pedidos fallidos: 4, verificados: 10
+Pedidos fallidos: 2, verificados: 5
+Pedidos fallidos: 4, verificados: 7
 Pedidos fallidos: 6, verificados: 11
-Pedidos fallidos: 8, verificados: 12
-Pedidos fallidos: 8, verificados: 14
-Pedidos fallidos: 9, verificados: 16
-Pedidos fallidos: 9, verificados: 18
-Pedidos fallidos: 9, verificados: 20
-Pedidos fallidos: 9, verificados: 22
-Pedidos fallidos: 9, verificados: 24
-Pedidos fallidos: 9, verificados: 26
-Pedidos fallidos: 9, verificados: 28
-Pedidos fallidos: 9, verificados: 30
-Pedidos fallidos: 10, verificados: 31
-Pedidos fallidos: 10, verificados: 33
-Pedidos fallidos: 10, verificados: 35
-Pedidos fallidos: 10, verificados: 37
-Pedidos fallidos: 10, verificados: 39
-Pedidos fallidos: 10, verificados: 40
-
---- ESTADÍSTICAS FINALES ---
-Tiempo total: 4736 ms
-Pedidos generados: 50
-Pedidos despachados: 50
-Pedidos entregados: 43
-Pedidos verificados: 40
-Pedidos fallidos: 10
-
---- ESTADO DE CASILLEROS ---
-Casillero #0 | Estado: VACÍO | Usado: 4 veces
-Casillero #1 | Estado: FUERA DE SERVICIO | Usado: 3 veces
-Casillero #2 | Estado: VACÍO | Usado: 1 veces
-Casillero #3 | Estado: VACÍO | Usado: 1 veces
-Casillero #4 | Estado: VACÍO | Usado: 1 veces
-Casillero #5 | Estado: VACÍO | Usado: 2 veces
-Casillero #6 | Estado: VACÍO | Usado: 1 veces
-Casillero #7 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #8 | Estado: VACÍO | Usado: 2 veces
-Casillero #9 | Estado: VACÍO | Usado: 1 veces
-Casillero #10 | Estado: VACÍO | Usado: 2 veces
-Casillero #11 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #12 | Estado: VACÍO | Usado: 1 veces
-Casillero #13 | Estado: VACÍO | Usado: 3 veces
-Casillero #14 | Estado: VACÍO | Usado: 2 veces
-Casillero #15 | Estado: VACÍO | Usado: 4 veces
-Casillero #16 | Estado: VACÍO | Usado: 3 veces
-Casillero #17 | Estado: VACÍO | Usado: 2 veces
-Casillero #18 | Estado: VACÍO | Usado: 2 veces
-Casillero #19 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #20 | Estado: VACÍO | Usado: 2 veces
-Casillero #21 | Estado: VACÍO | Usado: 2 veces
-Casillero #22 | Estado: VACÍO | Usado: 3 veces
-Casillero #23 | Estado: VACÍO | Usado: 1 veces
-Casillero #24 | Estado: VACÍO | Usado: 1 veces
+Pedidos fallidos: 9, verificados: 13
+Pedidos fallidos: 11, verificados: 16
+Pedidos fallidos: 11, verificados: 18
+Pedidos fallidos: 14, verificados: 22
+Pedidos fallidos: 17, verificados: 26
+Pedidos fallidos: 19, verificados: 28
+Pedidos fallidos: 23, verificados: 31
+Pedidos fallidos: 26, verificados: 35
+Pedidos fallidos: 29, verificados: 37
+Pedidos fallidos: 31, verificados: 41
+Pedidos fallidos: 35, verificados: 44
+Pedidos fallidos: 36, verificados: 47
+Pedidos fallidos: 39, verificados: 51
+Pedidos fallidos: 42, verificados: 53
+Pedidos fallidos: 43, verificados: 57
+Pedidos fallidos: 47, verificados: 61
+Pedidos fallidos: 51, verificados: 63
+Pedidos fallidos: 54, verificados: 67
+Pedidos fallidos: 56, verificados: 70
+Pedidos fallidos: 58, verificados: 72
+Pedidos fallidos: 58, verificados: 76
+Pedidos fallidos: 61, verificados: 76
+Pedidos fallidos: 62, verificados: 80
+Pedidos fallidos: 64, verificados: 84
+Pedidos fallidos: 66, verificados: 86
+Pedidos fallidos: 68, verificados: 90
+Pedidos fallidos: 70, verificados: 92
+Pedidos fallidos: 71, verificados: 96
+Pedidos fallidos: 71, verificados: 100
+Pedidos fallidos: 73, verificados: 102
+Pedidos fallidos: 75, verificados: 106
+Pedidos fallidos: 77, verificados: 110
+Pedidos fallidos: 79, verificados: 112
+Pedidos fallidos: 79, verificados: 116
+Pedidos fallidos: 81, verificados: 118
+Pedidos fallidos: 86, verificados: 121
+Pedidos fallidos: 90, verificados: 125
+Pedidos fallidos: 92, verificados: 127
+Pedidos fallidos: 95, verificados: 130
+Pedidos fallidos: 97, verificados: 133
+Pedidos fallidos: 98, verificados: 135
+Pedidos fallidos: 100, verificados: 139
+Pedidos fallidos: 102, verificados: 142
+Pedidos fallidos: 103, verificados: 145
+Pedidos fallidos: 106, verificados: 149
+Pedidos fallidos: 108, verificados: 152
+Pedidos fallidos: 109, verificados: 155
+Pedidos fallidos: 111, verificados: 158
+Pedidos fallidos: 114, verificados: 161
+Pedidos fallidos: 116, verificados: 164
+Pedidos fallidos: 116, verificados: 168
+Pedidos fallidos: 118, verificados: 170
+Pedidos fallidos: 121, verificados: 174
+Pedidos fallidos: 122, verificados: 178
+Pedidos fallidos: 124, verificados: 179
+Pedidos fallidos: 127, verificados: 183
+Pedidos fallidos: 129, verificados: 187
+Pedidos fallidos: 130, verificados: 189
+Pedidos fallidos: 133, verificados: 193
+Pedidos fallidos: 136, verificados: 197
+Pedidos fallidos: 138, verificados: 199
+Pedidos fallidos: 140, verificados: 203
+Pedidos fallidos: 142, verificados: 204
+Pedidos fallidos: 144, verificados: 208
+Pedidos fallidos: 145, verificados: 212
+Pedidos fallidos: 145, verificados: 214
+Pedidos fallidos: 146, verificados: 217
+Pedidos fallidos: 146, verificados: 221
+Pedidos fallidos: 146, verificados: 223
+Pedidos fallidos: 146, verificados: 227
+Pedidos fallidos: 146, verificados: 229
+Pedidos fallidos: 146, verificados: 233
+Pedidos fallidos: 146, verificados: 237
+Pedidos fallidos: 146, verificados: 239
+Pedidos fallidos: 146, verificados: 243
+Pedidos fallidos: 146, verificados: 246
+Pedidos fallidos: 147, verificados: 248
+Pedidos fallidos: 147, verificados: 252
+Pedidos fallidos: 147, verificados: 254
+Pedidos fallidos: 148, verificados: 257
+Pedidos fallidos: 148, verificados: 261
+Pedidos fallidos: 148, verificados: 263
+Pedidos fallidos: 149, verificados: 266
+Pedidos fallidos: 149, verificados: 269
+Pedidos fallidos: 149, verificados: 272
+Pedidos fallidos: 149, verificados: 276
+Pedidos fallidos: 149, verificados: 278
+Pedidos fallidos: 149, verificados: 282
+Pedidos fallidos: 149, verificados: 286
+Pedidos fallidos: 149, verificados: 288
+Pedidos fallidos: 149, verificados: 292
+Pedidos fallidos: 149, verificados: 295
+Pedidos fallidos: 149, verificados: 298
+Pedidos fallidos: 150, verificados: 301
+Pedidos fallidos: 150, verificados: 303
+Pedidos fallidos: 150, verificados: 307
+Pedidos fallidos: 150, verificados: 311
+Pedidos fallidos: 150, verificados: 313
+Pedidos fallidos: 150, verificados: 317
+Pedidos fallidos: 151, verificados: 319
+Pedidos fallidos: 151, verificados: 322
+Pedidos fallidos: 151, verificados: 326
+Pedidos fallidos: 151, verificados: 328
+Pedidos fallidos: 151, verificados: 332
+Pedidos fallidos: 151, verificados: 336
+Pedidos fallidos: 151, verificados: 338
+Pedidos fallidos: 151, verificados: 342
+Pedidos fallidos: 151, verificados: 345
+Pedidos fallidos: 151, verificados: 348
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349
+Pedidos fallidos: 151, verificados: 349

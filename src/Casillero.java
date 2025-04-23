@@ -10,18 +10,15 @@ public class Casillero {
         if (estaDisponible()) {
             this.estado = EstadoCasillero.OCUPADO;
             this.contador++;
-            this.notifyAll();
         }
     }
 
     public synchronized void liberar() {
         this.estado = EstadoCasillero.VACIO;
-        this.notifyAll();
     }
 
     public synchronized void ponerFueraDeServicio() {
         this.estado = EstadoCasillero.FUERA_DE_SERVICIO;
-        this.notifyAll();
     }
 
     public synchronized boolean estaDisponible() {

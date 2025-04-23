@@ -20,7 +20,6 @@ public class Pedido {
     }
 
     public synchronized void setEstado(EstadoPedido estado) {
-        // Validar que la transición de estado sea permitida
         if (this.estado == EstadoPedido.EN_PREPARACION && estado == EstadoPedido.EN_TRANSITO) {
             this.estado = estado;
         } else if (this.estado == EstadoPedido.EN_PREPARACION && estado == EstadoPedido.FALLIDO) {
