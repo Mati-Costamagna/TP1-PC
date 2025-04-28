@@ -13,8 +13,8 @@ public class PreparacionPedido extends ProcesoPedido {
     @Override
     public void run() {
         while (repo.contadorGlobalPedidos.get() < totalPedidos) {
-            int idGenerado = repo.contadorGlobalPedidos.getAndIncrement();
-            if (idGenerado >= totalPedidos) break;
+
+
 
             boolean pedidoGenerado = false;
 
@@ -30,6 +30,7 @@ public class PreparacionPedido extends ProcesoPedido {
 
                         synchronized (repo.enPreparacion) {
                             repo.enPreparacion.add(pedido);
+                            repo.contadorGlobalPedidos.getAndIncrement();
                             repo.enPreparacion.notifyAll();
                         }
 
@@ -38,7 +39,6 @@ public class PreparacionPedido extends ProcesoPedido {
                     }
                 }
 
-                if (!pedidoGenerado) esperar();
             }
             esperar();
         }

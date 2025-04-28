@@ -18,7 +18,6 @@ public class DespachoPedido extends ProcesoPedido {
 
             synchronized (repo.enPreparacion) {
                 while (repo.enPreparacion.isEmpty()) {
-                    if (repo.contadorGlobalPedidos.get() >= totalPedidos) return;
                     try {
                         repo.enPreparacion.wait();
                     } catch (InterruptedException e) {

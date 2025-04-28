@@ -14,7 +14,7 @@ public class VerificacionFinal extends ProcesoPedido {
 
             synchronized (repo.entregados) {
                 while (repo.entregados.isEmpty()) {
-                   // if ((repo.pedidosVerificados.get() + repo.pedidosFallidos.get()) >= totalPedidos) return;
+                    //if ((repo.pedidosVerificados.get() + repo.pedidosFallidos.get()) >= totalPedidos) return;
                     try {
                         repo.entregados.wait();
                     } catch (InterruptedException e) {

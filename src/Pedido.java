@@ -30,7 +30,6 @@ public class Pedido {
     // Control de estado
     public synchronized void setEstado(EstadoPedido nuevoEstado) {
         Set<EstadoPedido> posibles = transicionesEstado.getOrDefault(this.estado, Set.of());
-
         if (posibles.contains(nuevoEstado)) {
             this.estado = nuevoEstado;
         } else {
