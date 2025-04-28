@@ -28,12 +28,11 @@ public class PreparacionPedido extends ProcesoPedido {
 
                         synchronized (repo.enPreparacion) {
                             repo.enPreparacion.add(pedido);
-                            repo.enPreparacion.notifyAll();
                             repo.contadorGlobalPedidos.getAndIncrement();
+                            repo.enPreparacion.notifyAll();
+                            System.out.println("[PREPARACION] Pedido #" + pedido.getId() + " asignado a casillero #" + idCasillero);
+                            pedidoGenerado = true;
                         }
-
-                        System.out.println("[PREPARACION] Pedido #" + pedido.getId() + " asignado a casillero #" + idCasillero);
-                        pedidoGenerado = true;
                     }
                 }
             }

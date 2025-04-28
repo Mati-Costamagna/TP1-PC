@@ -36,16 +36,18 @@ public class DespachoPedido extends ProcesoPedido {
                 synchronized (repo.enTransito) {
                     repo.enTransito.add(pedido);
                     repo.enTransito.notifyAll();
+                    System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
                 }
-                System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
+                //System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
             } else {
                 casillero.ponerFueraDeServicio();
                 pedido.setEstado(EstadoPedido.FALLIDO);
                 synchronized (repo.fallidos) {
                     repo.fallidos.add(pedido);
                     repo.pedidosFallidos.incrementAndGet();
+                    System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
                 }
-                System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
+                //System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
             }
 
             repo.pedidosDespachados.incrementAndGet();
