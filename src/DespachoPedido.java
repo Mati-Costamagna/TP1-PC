@@ -35,6 +35,7 @@ public class DespachoPedido extends ProcesoPedido {
                 pedido.setEstado(EstadoPedido.EN_TRANSITO);
                 synchronized (repo.enTransito) {
                     repo.enTransito.add(pedido);
+                    repo.pedidosDespachados.incrementAndGet();
                     repo.enTransito.notifyAll();
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
                 }
@@ -44,13 +45,15 @@ public class DespachoPedido extends ProcesoPedido {
                 pedido.setEstado(EstadoPedido.FALLIDO);
                 synchronized (repo.fallidos) {
                     repo.fallidos.add(pedido);
+                    repo.pedidosDespachados.incrementAndGet();
                     repo.pedidosFallidos.incrementAndGet();
+                    repo.fallidos.notifyAll();
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
                 }
                 //System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
             }
 
-            repo.pedidosDespachados.incrementAndGet();
+            //repo.pedidosDespachados.incrementAndGet();
             esperar();
         }
     }
