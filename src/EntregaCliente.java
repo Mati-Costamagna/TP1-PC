@@ -9,7 +9,7 @@ public class EntregaCliente extends ProcesoPedido {
 
     @Override
     public void run() {
-            while (repo.pedidosDespachados.get() < totalPedidos) {
+            while (repo.pedidosEntregados.get() + repo.pedidosFallidos.get() < totalPedidos) {
                 Pedido pedido = null;
 
                 synchronized (repo.enTransito) {

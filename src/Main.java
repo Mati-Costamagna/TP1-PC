@@ -28,13 +28,13 @@ public class Main {
 
         Thread[] entregaThreads = new Thread[3];
         for (int i = 0; i < 3; i++) {
-            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 90));
+            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 120));
             entregaThreads[i].start();
         }
 
         Thread[] verificacionThreads = new Thread[2];
         for (int i = 0; i < 2; i++) {
-            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 120));
+            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 150));
             verificacionThreads[i].start();
         }
 
@@ -51,7 +51,7 @@ public class Main {
         System.out.println("Pedidos preparados: " + repo.pedidosDespachados.get());
         System.out.println("Pedidos entregados: " + repo.pedidosEntregados.get());
         System.out.println("Pedidos verificados: " + repo.pedidosVerificados.get());
-        System.out.println("Pedidos fallidos: " + repo.pedidosFallidos.get());
+        System.out.println("Pedidos fallidos: " + repo.fallidos.size());
 
         logger.finalizar();
         try{
