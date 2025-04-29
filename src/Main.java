@@ -28,13 +28,13 @@ public class Main {
 
         Thread[] entregaThreads = new Thread[3];
         for (int i = 0; i < 3; i++) {
-            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 90));
+            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 120));
             entregaThreads[i].start();
         }
 
         Thread[] verificacionThreads = new Thread[2];
         for (int i = 0; i < 2; i++) {
-            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 120));
+            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 150));
             verificacionThreads[i].start();
         }
 
