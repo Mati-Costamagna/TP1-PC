@@ -1,42 +1,38 @@
 Pedidos fallidos: 0, verificados: 0
-Pedidos fallidos: 2, verificados: 2
-Pedidos fallidos: 6, verificados: 6
-Pedidos fallidos: 9, verificados: 9
-Pedidos fallidos: 11, verificados: 12
-Pedidos fallidos: 13, verificados: 16
-Pedidos fallidos: 17, verificados: 17
-Pedidos fallidos: 18, verificados: 21
-Pedidos fallidos: 18, verificados: 24
-Pedidos fallidos: 18, verificados: 27
-Pedidos fallidos: 18, verificados: 31
-Pedidos fallidos: 18, verificados: 32
+Pedidos fallidos: 1, verificados: 0
+Pedidos fallidos: 3, verificados: 0
+Pedidos fallidos: 5, verificados: 0
+Pedidos fallidos: 7, verificados: 0
+Pedidos fallidos: 10, verificados: 0
+Pedidos fallidos: 10, verificados: 0
+Pedidos fallidos: 13, verificados: 0
 
 --- ESTADÍSTICAS FINALES ---
-Tiempo total: 2451 ms
-Pedidos generados: 52
+Tiempo total: 1644 ms
+Pedidos generados: 51
 Pedidos despachados: 50
-Pedidos entregados: 33
-Pedidos verificados: 32
-Pedidos fallidos: 18
+Pedidos entregados: 37
+Pedidos verificados: 0
+Pedidos fallidos: 13
 
 --- ESTADO DE CASILLEROS ---
-Casillero #0 | Estado: FUERA DE SERVICIO | Usado: 4 veces
-Casillero #1 | Estado: OCUPADO | Usado: 5 veces
-Casillero #2 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #3 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #4 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #5 | Estado: OCUPADO | Usado: 3 veces
-Casillero #6 | Estado: FUERA DE SERVICIO | Usado: 3 veces
-Casillero #7 | Estado: FUERA DE SERVICIO | Usado: 3 veces
-Casillero #8 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #9 | Estado: VACÍO | Usado: 2 veces
-Casillero #10 | Estado: VACÍO | Usado: 3 veces
-Casillero #11 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #12 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #13 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #14 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #15 | Estado: FUERA DE SERVICIO | Usado: 11 veces
+Casillero #0 | Estado: VACÍO | Usado: 2 veces
+Casillero #1 | Estado: VACÍO | Usado: 1 veces
+Casillero #2 | Estado: VACÍO | Usado: 4 veces
+Casillero #3 | Estado: FUERA DE SERVICIO | Usado: 4 veces
+Casillero #4 | Estado: VACÍO | Usado: 5 veces
+Casillero #5 | Estado: VACÍO | Usado: 3 veces
+Casillero #6 | Estado: FUERA DE SERVICIO | Usado: 2 veces
+Casillero #7 | Estado: VACÍO | Usado: 1 veces
+Casillero #8 | Estado: VACÍO | Usado: 3 veces
+Casillero #9 | Estado: FUERA DE SERVICIO | Usado: 1 veces
+Casillero #10 | Estado: FUERA DE SERVICIO | Usado: 1 veces
+Casillero #11 | Estado: VACÍO | Usado: 3 veces
+Casillero #12 | Estado: OCUPADO | Usado: 5 veces
+Casillero #13 | Estado: VACÍO | Usado: 4 veces
+Casillero #14 | Estado: VACÍO | Usado: 2 veces
+Casillero #15 | Estado: VACÍO | Usado: 1 veces
 Casillero #16 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #17 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #18 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #19 | Estado: VACÍO | Usado: 4 veces
+Casillero #17 | Estado: VACÍO | Usado: 2 veces
+Casillero #18 | Estado: VACÍO | Usado: 4 veces
+Casillero #19 | Estado: VACÍO | Usado: 2 veces

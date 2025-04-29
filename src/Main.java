@@ -76,7 +76,7 @@ public class Main {
         System.out.println("Pedidos preparados: " + repo.pedidosDespachados.get());
         System.out.println("Pedidos entregados: " + repo.pedidosEntregados.get());
         System.out.println("Pedidos verificados: " + repo.pedidosVerificados.get());
-        System.out.println("Pedidos fallidos: " + repo.pedidosFallidos.get());
+        System.out.println("Pedidos fallidos: " + repo.fallidos.size());
 
         logger.finalizar();
         try{

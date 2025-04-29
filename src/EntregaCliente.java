@@ -9,12 +9,12 @@ public class EntregaCliente extends ProcesoPedido {
 
     @Override
     public void run() {
-        while (true) {
+        while (repo.pedidosEntregados.get() + repo.pedidosFallidos.get() < totalPedidos) {
             Pedido pedido = null;
 
             synchronized (repo.enTransito) {
                 while (repo.enTransito.isEmpty()) {
-                    if (repo.pedidosDespachados.get() == totalPedidos) return;
+
                     try {
                         repo.enTransito.wait();
                     } catch (InterruptedException e) {
@@ -34,15 +34,17 @@ public class EntregaCliente extends ProcesoPedido {
                     repo.entregados.add(pedido);
                     repo.pedidosEntregados.incrementAndGet();
                     repo.entregados.notifyAll();
+                    System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " entregado correctamente.");
                 }
-                System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " entregado correctamente.");
+
             } else {
                 pedido.setEstado(EstadoPedido.FALLIDO);
                 synchronized (repo.fallidos) {
                     repo.fallidos.add(pedido);
                     repo.pedidosFallidos.incrementAndGet();
+                    System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " falló en la entrega.");
                 }
-                System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " falló en la entrega.");
+
             }
             esperar();
         }

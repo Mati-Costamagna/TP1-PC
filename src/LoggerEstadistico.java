@@ -30,7 +30,7 @@ public class LoggerEstadistico extends Thread {
         try {
             // Log periódico
             while (!finalizar.get()) {
-                writer.write("Pedidos fallidos: " + repo.pedidosFallidos.get() +
+                writer.write("Pedidos fallidos: " + repo.fallidos.size() +
                         ", verificados: " + repo.pedidosVerificados.get() + "\n");
                 writer.flush();
                 Thread.sleep(200);
@@ -44,7 +44,7 @@ public class LoggerEstadistico extends Thread {
             writer.write("Pedidos despachados: " + repo.pedidosDespachados.get() + "\n");
             writer.write("Pedidos entregados: " + repo.pedidosEntregados.get() + "\n");
             writer.write("Pedidos verificados: " + repo.pedidosVerificados.get() + "\n");
-            writer.write("Pedidos fallidos: " + repo.pedidosFallidos.get() + "\n\n");
+            writer.write("Pedidos fallidos: " + repo.fallidos.size() + "\n\n");
 
             writer.write("--- ESTADO DE CASILLEROS ---\n");
             for (int i = 0; i < this.casilleros.length; i++) {
