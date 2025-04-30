@@ -18,7 +18,7 @@ public class DespachoPedido extends ProcesoPedido {
                 if (repo.enPreparacion.isEmpty()) {
                     try {
                         System.out.println("esperando despacho " + Thread.currentThread().getName());
-                        repo.enPreparacion.wait();
+                        repo.enPreparacion.wait(200);
                         System.out.println("toy despachado " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
