@@ -20,19 +20,17 @@ public class PreparacionPedido extends ProcesoPedido {
                 int idCasillero = rand.nextInt(this.casilleros.length);
                 Casillero casillero = this.casilleros[idCasillero];
 
-                synchronized (casillero) {
-                    if (casillero.estaDisponible()) {
-                        casillero.ocupar();
-                        String idUnico = UUID.randomUUID().toString().substring(0, 4);
-                        Pedido pedido = new Pedido(idUnico, idCasillero);
+                if (casillero.ocupar()) { //ocupar es boolean
+                    String idUnico = UUID.randomUUID().toString().substring(0, 4);
+                    Pedido pedido = new Pedido(idUnico, idCasillero);
 
-                        synchronized (repo.enPreparacion) {
-                            repo.enPreparacion.add(pedido);
-                            repo.contadorGlobalPedidos.getAndIncrement();
-                            repo.enPreparacion.notifyAll();
-                            System.out.println("[PREPARACION] Pedido #" + pedido.getId() + " asignado a casillero #" + idCasillero);
-                            pedidoGenerado = true;
-                        }
+                    synchronized (repo.enPreparacion) {
+                        if(repo.contadorGlobalPedidos.get() == totalPedidos) break;
+                        repo.enPreparacion.add(pedido);
+                        repo.contadorGlobalPedidos.getAndIncrement();
+                        repo.enPreparacion.notifyAll();
+                        System.out.println("[PREPARACION] Pedido #" + pedido.getId() + " asignado a casillero #" + idCasillero);
+                        pedidoGenerado = true;
                     }
                 }
             }

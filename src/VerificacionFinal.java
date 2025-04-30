@@ -15,7 +15,9 @@ public class VerificacionFinal extends ProcesoPedido {
             synchronized (repo.entregados) {
                 while (repo.entregados.isEmpty()){
                     try {
-                        repo.entregados.wait();
+                        System.out.println("esperando " + Thread.currentThread().getName());
+                        repo.entregados.wait(200);
+                        System.out.println("toy " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;

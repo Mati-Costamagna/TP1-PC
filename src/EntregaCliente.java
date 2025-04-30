@@ -15,7 +15,9 @@ public class EntregaCliente extends ProcesoPedido {
                 synchronized (repo.enTransito) {
                     while (repo.enTransito.isEmpty()) {
                         try {
-                            repo.enTransito.wait();
+                            System.out.println("esperando entregado " + Thread.currentThread().getName());
+                            repo.enTransito.wait(200);
+                            System.out.println("toy entregado " + Thread.currentThread().getName());
                         } catch (InterruptedException e) {
                             Thread.currentThread().interrupt();
                             return;
