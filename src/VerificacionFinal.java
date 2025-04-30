@@ -16,7 +16,7 @@ public class VerificacionFinal extends ProcesoPedido {
                 if (repo.entregados.isEmpty()){
                     try {
                         System.out.println("esperando " + Thread.currentThread().getName());
-                        repo.entregados.wait(200);
+                        repo.entregados.wait();
                         System.out.println("toy " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
@@ -26,7 +26,7 @@ public class VerificacionFinal extends ProcesoPedido {
                 try {
                     pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
                 } catch (IllegalArgumentException e){
-                    break;
+                    continue;
                 }
             }
 

@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {//throws InterruptedException {
-        int cantidadPedidos = 50;
-        int numeroCasilleros = 25;
+        int cantidadPedidos = 500;
+        int numeroCasilleros = 200;
         long inicio = System.currentTimeMillis();
 
         Casillero[] casilleros = new Casillero[numeroCasilleros];
@@ -34,7 +34,7 @@ public class Main {
 
         Thread[] verificacionThreads = new Thread[2];
         for (int i = 0; i < 2; i++) {
-            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 150));
+            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 120));
             verificacionThreads[i].start();
         }
 
