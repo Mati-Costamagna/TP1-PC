@@ -9,41 +9,48 @@ public class EntregaCliente extends ProcesoPedido {
 
     @Override
     public void run() {
-            while (repo.pedidosEntregados.get() + repo.pedidosFallidos.get() < totalPedidos) {
-                Pedido pedido = null;
+        while (repo.pedidosEntregados.get() + repo.pedidosFallidos.get() < totalPedidos) {
+            Pedido pedido = null;
 
-                synchronized (repo.enTransito) {
-                    while (repo.enTransito.isEmpty()) {
-                        try {
-                            repo.enTransito.wait();
-                        } catch (InterruptedException e) {
-                            Thread.currentThread().interrupt();
-                            return;
-                        }
-                    }
-                    int index = rand.nextInt(repo.enTransito.size());
-                    pedido = repo.enTransito.remove(index);
-                }
-
-                boolean entregado = rand.nextDouble() < 0.90;
-
-                if (entregado) {
-                    pedido.setEstado(EstadoPedido.ENTREGADO);
-                    synchronized (repo.entregados) {
-                        repo.entregados.add(pedido);
-                        repo.pedidosEntregados.incrementAndGet();
-                        repo.entregados.notifyAll();
-                        System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " entregado correctamente.");
-                    }
-                } else {
-                    pedido.setEstado(EstadoPedido.FALLIDO);
-                    synchronized (repo.fallidos) {
-                        repo.fallidos.add(pedido);
-                        repo.pedidosFallidos.incrementAndGet();
-                        System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " falló en la entrega.");
+            synchronized (repo.enTransito) {
+                if (repo.enTransito.isEmpty()
+                        && repo.pedidosEntregados.get() + repo.pedidosFallidos.get() < totalPedidos) {
+                    try {
+                        System.out.println("Esperando en transito");
+                        repo.enTransito.wait();
+                        System.out.println("Toy en transito");
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
                     }
                 }
-                esperar();
+                if (repo.enTransito.isEmpty())
+                    continue;
+
+                int index = rand.nextInt(repo.enTransito.size());
+                pedido = repo.enTransito.remove(index);
+
             }
+
+            boolean entregado = rand.nextDouble() < 0.90;
+
+            if (entregado) {
+                pedido.setEstado(EstadoPedido.ENTREGADO);
+                synchronized (repo.entregados) {
+                    repo.entregados.add(pedido);
+                    repo.pedidosEntregados.incrementAndGet();
+                    repo.entregados.notifyAll();
+                    System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " entregado correctamente.");
+                }
+            } else {
+                pedido.setEstado(EstadoPedido.FALLIDO);
+                synchronized (repo.fallidos) {
+                    repo.fallidos.add(pedido);
+                    repo.pedidosFallidos.incrementAndGet();
+                    System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " falló en la entrega.");
+                }
+            }
+            esperar();
+        }
     }
 }

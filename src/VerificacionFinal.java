@@ -11,16 +11,24 @@ public class VerificacionFinal extends ProcesoPedido {
     public void run() {
         while ((repo.pedidosVerificados.get() + repo.fallidos.size()) < totalPedidos) {
             Pedido pedido = null;
+            System.out.println("Verificacion final " + Thread.currentThread().getName() + ": "
+                    + (repo.pedidosVerificados.get() + repo.fallidos.size()));
 
             synchronized (repo.entregados) {
-                while (repo.entregados.isEmpty()){
+                if (repo.entregados.isEmpty()
+                        && (repo.pedidosVerificados.get() + repo.fallidos.size()) < totalPedidos) {
                     try {
+                        System.out.println("Esperando entregados" + Thread.currentThread().getName());
                         repo.entregados.wait();
+                        System.out.println("Toy entregando");
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;
                     }
                 }
+
+                if (repo.entregados.isEmpty())
+                    continue;
                 pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
             }
 

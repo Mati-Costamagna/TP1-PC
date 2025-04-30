@@ -27,10 +27,13 @@ public class PreparacionPedido extends ProcesoPedido {
                         Pedido pedido = new Pedido(idUnico, idCasillero);
 
                         synchronized (repo.enPreparacion) {
+                            if (repo.contadorGlobalPedidos.get() == totalPedidos)
+                                break;
                             repo.enPreparacion.add(pedido);
                             repo.contadorGlobalPedidos.getAndIncrement();
                             repo.enPreparacion.notifyAll();
-                            System.out.println("[PREPARACION] Pedido #" + pedido.getId() + " asignado a casillero #" + idCasillero);
+                            System.out.println("[PREPARACION] Pedido #" + pedido.getId() + " asignado a casillero #"
+                                    + idCasillero);
                             pedidoGenerado = true;
                         }
                     }
