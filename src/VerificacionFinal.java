@@ -13,7 +13,7 @@ public class VerificacionFinal extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.entregados) {
-                while (repo.entregados.isEmpty()){
+                if (repo.entregados.isEmpty()){
                     try {
                         System.out.println("esperando " + Thread.currentThread().getName());
                         repo.entregados.wait(200);
@@ -23,7 +23,11 @@ public class VerificacionFinal extends ProcesoPedido {
                         return;
                     }
                 }
-                pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
+                try {
+                    pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
+                } catch (IllegalArgumentException e){
+                    break;
+                }
             }
 
             boolean verificado = rand.nextDouble() < 0.95;

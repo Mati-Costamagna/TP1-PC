@@ -15,7 +15,7 @@ public class DespachoPedido extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
-                while (repo.enPreparacion.isEmpty()) {
+                if (repo.enPreparacion.isEmpty()) {
                     try {
                         System.out.println("esperando despacho " + Thread.currentThread().getName());
                         repo.enPreparacion.wait(200);

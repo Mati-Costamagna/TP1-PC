@@ -13,7 +13,7 @@ public class EntregaCliente extends ProcesoPedido {
                 Pedido pedido = null;
 
                 synchronized (repo.enTransito) {
-                    while (repo.enTransito.isEmpty()) {
+                    if (repo.enTransito.isEmpty()) {
                         try {
                             System.out.println("esperando entregado " + Thread.currentThread().getName());
                             repo.enTransito.wait(200);
@@ -23,8 +23,13 @@ public class EntregaCliente extends ProcesoPedido {
                             return;
                         }
                     }
-                    int index = rand.nextInt(repo.enTransito.size());
-                    pedido = repo.enTransito.remove(index);
+                    try{
+                        int index = rand.nextInt(repo.enTransito.size());
+                        pedido = repo.enTransito.remove(index);
+                    } catch (IllegalArgumentException e){
+                        break;
+                    }
+
                 }
 
                 boolean entregado = rand.nextDouble() < 0.90;
