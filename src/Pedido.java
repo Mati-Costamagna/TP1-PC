@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class Pedido {
     private final String id;
@@ -16,7 +18,7 @@ public class Pedido {
     public Pedido(String id, int idCasillero) {
         this.id = id;
         this.idCasillero = idCasillero;
-        this.estado = EstadoPedido.EN_PREPARACION;  // Estado inicial
+        this.estado = EstadoPedido.EN_PREPARACION; // Estado inicial
     }
 
     public String getId() {

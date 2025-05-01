@@ -16,25 +16,25 @@ public class Main {
 
         Thread[] preparacionThreads = new Thread[3];
         for (int i = 0; i < 3; i++) {
-            preparacionThreads[i] = new Thread(new PreparacionPedido(casilleros, repo, cantidadPedidos, 2));
+            preparacionThreads[i] = new Thread(new PreparacionPedido(casilleros, repo, cantidadPedidos, 10));
             preparacionThreads[i].start();
         }
 
         Thread[] despachoThreads = new Thread[2];
         for (int i = 0; i < 2; i++) {
-            despachoThreads[i] = new Thread(new DespachoPedido(casilleros, repo, cantidadPedidos, 5));
+            despachoThreads[i] = new Thread(new DespachoPedido(casilleros, repo, cantidadPedidos, 25));
             despachoThreads[i].start();
         }
 
         Thread[] entregaThreads = new Thread[3];
         for (int i = 0; i < 3; i++) {
-            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 9));
+            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 45));
             entregaThreads[i].start();
         }
 
-        Thread[] verificacionThreads = new Thread[4];
-        for (int i = 0; i < 4; i++) {
-            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 15));
+        Thread[] verificacionThreads = new Thread[2];
+        for (int i = 0; i < 2; i++) {
+            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 75));
             verificacionThreads[i].start();
         }
 

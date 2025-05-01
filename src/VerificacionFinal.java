@@ -11,24 +11,25 @@ public class VerificacionFinal extends ProcesoPedido {
     public void run() {
         while ((repo.pedidosVerificados.get() + repo.fallidos.size()) < totalPedidos) {
             Pedido pedido = null;
-            System.out.println("Verificacion final " + Thread.currentThread().getName() + ": "
-                    + (repo.pedidosVerificados.get() + repo.fallidos.size()));
 
             synchronized (repo.entregados) {
-                if (repo.entregados.isEmpty()
-                        && (repo.pedidosVerificados.get() + repo.fallidos.size()) < totalPedidos) {
-                    try {
-                        System.out.println("Esperando entregados" + Thread.currentThread().getName());
-                        repo.entregados.wait();
-                        System.out.println("Toy entregando");
-                    } catch (InterruptedException e) {
-                        Thread.currentThread().interrupt();
-                        return;
-                    }
-                }
+                // if (repo.entregados.isEmpty()
+                // && (repo.pedidosVerificados.get() + repo.fallidos.size()) < totalPedidos) {
+                // try {
+                // System.out.println("Esperando entregados" +
+                // Thread.currentThread().getName());
+                // repo.entregados.wait();
+                // System.out.println("Toy entregando");
+                // } catch (InterruptedException e) {
+                // Thread.currentThread().interrupt();
+                // return;
+                // }
+                // }
 
-                if (repo.entregados.isEmpty())
+                if (repo.entregados.isEmpty()) {
+                    System.out.println("Esperando entregas");
                     continue;
+                }
                 pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
             }
 
@@ -39,7 +40,8 @@ public class VerificacionFinal extends ProcesoPedido {
                 synchronized (repo.verificados) {
                     repo.verificados.add(pedido);
                     repo.pedidosVerificados.incrementAndGet();
-                    System.out.println("[VERIFICACION] Pedido #" + pedido.getId() + " verificado correctamente.");
+                    System.out.println("[VERIFICACION " + Thread.currentThread().getName() + "] Pedido #"
+                            + pedido.getId() + " verificado correctamente.");
                 }
             } else {
                 pedido.setEstado(EstadoPedido.FALLIDO);
