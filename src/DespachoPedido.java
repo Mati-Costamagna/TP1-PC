@@ -16,14 +16,18 @@ public class DespachoPedido extends ProcesoPedido {
 
             synchronized (repo.enPreparacion) {
                 if (repo.enPreparacion.isEmpty()) {
+                    /*if(repo.pedidosDespachados.get() >= totalPedidos) {
+                        return;
+                    }
                     try {
                         System.out.println("esperando despacho " + Thread.currentThread().getName());
                         repo.enPreparacion.wait();
-                        System.out.println("toy despachado " + Thread.currentThread().getName());
+                        System.out.println("estoy despachando " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;
-                    }
+                    }*/
+                    continue;
                 }
                 try {
                     pedido = repo.enPreparacion.remove(rand.nextInt(repo.enPreparacion.size()));
@@ -41,7 +45,7 @@ public class DespachoPedido extends ProcesoPedido {
                 synchronized (repo.enTransito) {
                     repo.enTransito.add(pedido);
                     repo.pedidosDespachados.incrementAndGet();
-                    repo.enTransito.notifyAll();
+                    //repo.enTransito.notifyAll();
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
                 }
             } else {

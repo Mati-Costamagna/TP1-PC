@@ -23,7 +23,7 @@ public class Casillero {
         this.estado = EstadoCasillero.FUERA_DE_SERVICIO;
     }
 
-    public synchronized boolean estaDisponible() {
+    public boolean estaDisponible() {
         return this.estado == EstadoCasillero.VACIO;
     }
 

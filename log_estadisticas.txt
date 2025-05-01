@@ -1,71 +1,215 @@
 Pedidos fallidos: 0, verificados: 0
-Pedidos fallidos: 0, verificados: 2
-Pedidos fallidos: 1, verificados: 6
-Pedidos fallidos: 3, verificados: 9
-Pedidos fallidos: 5, verificados: 10
-Pedidos fallidos: 6, verificados: 14
-Pedidos fallidos: 9, verificados: 18
-Pedidos fallidos: 10, verificados: 20
-Pedidos fallidos: 11, verificados: 24
-Pedidos fallidos: 13, verificados: 28
-Pedidos fallidos: 14, verificados: 30
-Pedidos fallidos: 15, verificados: 34
-Pedidos fallidos: 16, verificados: 36
-Pedidos fallidos: 17, verificados: 39
-Pedidos fallidos: 18, verificados: 43
-Pedidos fallidos: 19, verificados: 45
-Pedidos fallidos: 20, verificados: 49
-Pedidos fallidos: 21, verificados: 53
-Pedidos fallidos: 24, verificados: 55
-Pedidos fallidos: 25, verificados: 58
-Pedidos fallidos: 25, verificados: 60
-Pedidos fallidos: 25, verificados: 64
-Pedidos fallidos: 25, verificados: 68
-Pedidos fallidos: 25, verificados: 70
-Pedidos fallidos: 25, verificados: 74
-Pedidos fallidos: 25, verificados: 78
-Pedidos fallidos: 25, verificados: 80
-Pedidos fallidos: 25, verificados: 84
-Pedidos fallidos: 25, verificados: 86
-Pedidos fallidos: 25, verificados: 90
-Pedidos fallidos: 25, verificados: 94
-Pedidos fallidos: 25, verificados: 96
-Pedidos fallidos: 26, verificados: 99
-Pedidos fallidos: 26, verificados: 103
-Pedidos fallidos: 26, verificados: 105
-Pedidos fallidos: 27, verificados: 108
-Pedidos fallidos: 27, verificados: 111
-Pedidos fallidos: 27, verificados: 114
-Pedidos fallidos: 27, verificados: 118
-Pedidos fallidos: 27, verificados: 120
-Pedidos fallidos: 27, verificados: 123
-
---- ESTADÍSTICAS FINALES ---
-Tiempo total: 8367 ms
-Pedidos fallidos: 27, verificados: 123
---- ESTADO DE CASILLEROS ---
-Casillero #0 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #1 | Estado: VACÍO | Usado: 14 veces
-Casillero #2 | Estado: VACÍO | Usado: 11 veces
-Casillero #3 | Estado: VACÍO | Usado: 12 veces
-Casillero #4 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #5 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #6 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #7 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #8 | Estado: VACÍO | Usado: 6 veces
-Casillero #9 | Estado: VACÍO | Usado: 9 veces
-Casillero #10 | Estado: FUERA DE SERVICIO | Usado: 7 veces
-Casillero #11 | Estado: VACÍO | Usado: 7 veces
-Casillero #12 | Estado: OCUPADO | Usado: 4 veces
-Casillero #13 | Estado: FUERA DE SERVICIO | Usado: 7 veces
-Casillero #14 | Estado: OCUPADO | Usado: 12 veces
-Casillero #15 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #16 | Estado: VACÍO | Usado: 9 veces
-Casillero #17 | Estado: FUERA DE SERVICIO | Usado: 7 veces
-Casillero #18 | Estado: VACÍO | Usado: 7 veces
-Casillero #19 | Estado: VACÍO | Usado: 10 veces
-Casillero #20 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #21 | Estado: VACÍO | Usado: 8 veces
-Casillero #22 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #23 | Estado: VACÍO | Usado: 5 veces
-Casillero #24 | Estado: FUERA DE SERVICIO | Usado: 3 veces
+Pedidos fallidos: 1, verificados: 3
+Pedidos fallidos: 3, verificados: 4
+Pedidos fallidos: 8, verificados: 7
+Pedidos fallidos: 8, verificados: 9
+Pedidos fallidos: 11, verificados: 12
+Pedidos fallidos: 12, verificados: 16
+Pedidos fallidos: 13, verificados: 18
+Pedidos fallidos: 15, verificados: 22
+Pedidos fallidos: 16, verificados: 26
+Pedidos fallidos: 20, verificados: 27
+Pedidos fallidos: 23, verificados: 31
+Pedidos fallidos: 27, verificados: 35
+Pedidos fallidos: 29, verificados: 37
+Pedidos fallidos: 30, verificados: 41
+Pedidos fallidos: 34, verificados: 44
+Pedidos fallidos: 38, verificados: 45
+Pedidos fallidos: 41, verificados: 48
+Pedidos fallidos: 41, verificados: 52
+Pedidos fallidos: 42, verificados: 53
+Pedidos fallidos: 42, verificados: 57
+Pedidos fallidos: 42, verificados: 61
+Pedidos fallidos: 42, verificados: 63
+Pedidos fallidos: 42, verificados: 67
+Pedidos fallidos: 42, verificados: 71
+Pedidos fallidos: 42, verificados: 73
+Pedidos fallidos: 42, verificados: 77
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
+Pedidos fallidos: 42, verificados: 79
