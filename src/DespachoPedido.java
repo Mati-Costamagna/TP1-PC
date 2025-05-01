@@ -18,7 +18,7 @@ public class DespachoPedido extends ProcesoPedido {
                 if (repo.enPreparacion.isEmpty()) {
                     try {
                         System.out.println("esperando despacho " + Thread.currentThread().getName());
-                        repo.enPreparacion.wait(200);
+                        repo.enPreparacion.wait();
                         System.out.println("toy despachado " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
@@ -26,8 +26,7 @@ public class DespachoPedido extends ProcesoPedido {
                     }
                 }
                 try {
-                    int index = rand.nextInt(repo.enPreparacion.size());
-                    pedido = repo.enPreparacion.remove(index);
+                    pedido = repo.enPreparacion.remove(rand.nextInt(repo.enPreparacion.size()));
                 } catch (IllegalArgumentException e){
                     continue;
                 }

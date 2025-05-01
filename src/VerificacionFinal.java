@@ -13,23 +13,37 @@ public class VerificacionFinal extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.entregados) {
-                if (repo.entregados.isEmpty()){
+                // **Verificamos la condición *DENTRO* del bloque synchronized**
+                if (repo.entregados.isEmpty()) {
+                    // **Revisamos *otra vez* si ya terminaron antes de esperar**
+                    if ((repo.pedidosVerificados.get() + repo.fallidos.size()) >= totalPedidos) {
+                        System.out.println("Ya se procesaron todos los pedidos. Sale " + Thread.currentThread().getName());
+                        return;
+                    }
                     try {
                         System.out.println("esperando " + Thread.currentThread().getName());
-                        repo.entregados.wait(200);
-                        System.out.println("toy " + Thread.currentThread().getName());
+                        repo.entregados.wait();
+                        System.out.println("despertado " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;
                     }
+                    // **¡¡¡VOLVEMOS A VERIFICAR DESPUÉS DEL WAIT!!!**
+                    if (repo.entregados.isEmpty()) {
+                        return; // Puede que otro hilo haya tomado el último pedido
+                    }
                 }
+
                 try {
+                    System.out.println(repo.entregados.size() + " " + Thread.currentThread().getName());
                     pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
-                } catch (IllegalArgumentException e){
+                    System.out.println(repo.entregados.size() + " " + Thread.currentThread().getName());
+                } catch (IllegalArgumentException e) {
                     continue;
                 }
             }
 
+            // Simular verificación
             boolean verificado = rand.nextDouble() < 0.95;
 
             if (verificado) {
@@ -46,6 +60,7 @@ public class VerificacionFinal extends ProcesoPedido {
                     System.out.println("[VERIFICACION] Pedido #" + pedido.getId() + " falló la verificación final.");
                 }
             }
+
             esperar();
         }
     }

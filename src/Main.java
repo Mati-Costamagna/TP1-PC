@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {//throws InterruptedException {
-        int cantidadPedidos = 500;
-        int numeroCasilleros = 200;
+        int cantidadPedidos = 150;
+        int numeroCasilleros = 25;
         long inicio = System.currentTimeMillis();
 
         Casillero[] casilleros = new Casillero[numeroCasilleros];
@@ -15,26 +15,34 @@ public class Main {
         logger.start();
 
         Thread[] preparacionThreads = new Thread[3];
+        System.out.println("Hilos de preparacion 3");
         for (int i = 0; i < 3; i++) {
             preparacionThreads[i] = new Thread(new PreparacionPedido(casilleros, repo, cantidadPedidos, 20));
+            System.out.println(preparacionThreads[i].getName());
             preparacionThreads[i].start();
         }
 
         Thread[] despachoThreads = new Thread[2];
+        System.out.println("Hilos de despacho 2");
         for (int i = 0; i < 2; i++) {
             despachoThreads[i] = new Thread(new DespachoPedido(casilleros, repo, cantidadPedidos, 50));
+            System.out.println(despachoThreads[i].getName());
             despachoThreads[i].start();
         }
 
         Thread[] entregaThreads = new Thread[3];
+        System.out.println("Hilos de entrega 3");
         for (int i = 0; i < 3; i++) {
             entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 90));
+            System.out.println(entregaThreads[i].getName());
             entregaThreads[i].start();
         }
 
         Thread[] verificacionThreads = new Thread[2];
+        System.out.println("Hilos de verificacion 2");
         for (int i = 0; i < 2; i++) {
             verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 120));
+            System.out.println(verificacionThreads[i].getName());
             verificacionThreads[i].start();
         }
 

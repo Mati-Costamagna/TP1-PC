@@ -16,7 +16,7 @@ public class EntregaCliente extends ProcesoPedido {
                     if (repo.enTransito.isEmpty()) {
                         try {
                             System.out.println("esperando entregado " + Thread.currentThread().getName());
-                            repo.enTransito.wait(200);
+                            repo.enTransito.wait();
                             System.out.println("toy entregado " + Thread.currentThread().getName());
                         } catch (InterruptedException e) {
                             Thread.currentThread().interrupt();
@@ -28,7 +28,6 @@ public class EntregaCliente extends ProcesoPedido {
                     } catch (IllegalArgumentException e){
                         continue;
                     }
-
                 }
 
                 boolean entregado = rand.nextDouble() < 0.90;
