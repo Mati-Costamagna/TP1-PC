@@ -40,13 +40,13 @@ public class Main {
 
         try {
             for (Thread t : preparacionThreads) t.join();
-            System.out.println("Pedidos preparados ✔");
+            System.out.println("Pedidos preparados OK");
             for (Thread t : despachoThreads) t.join();
-            System.out.println("Pedidos despachados ✔");
+            System.out.println("Pedidos despachados OK");
             for (Thread t : entregaThreads) t.join();
-            System.out.println("Pedidos entregados ✔");
+            System.out.println("Pedidos entregados OK");
             for (Thread t : verificacionThreads) t.join();
-            System.out.println("Pedidos verificados ✔");
+            System.out.println("Pedidos verificados OK");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
