@@ -13,22 +13,23 @@ public class EntregaCliente extends ProcesoPedido {
                 Pedido pedido = null;
 
                 synchronized (repo.enTransito) {
-                    if (repo.enTransito.isEmpty()) {
-                        /*try {
-                            System.out.println("esperando entregado " + Thread.currentThread().getName());
+                    if (repo.enTransito.isEmpty() //Todavia me falta entregar pedidos
+                            && !repo.enPreparacion.isEmpty() //Todavia tengo pedidos en preparacion que tienen que entregarse
+                            && repo.contadorGlobalPedidos.get() < totalPedidos) //Todavia me falta generar pedidos
+                    {
+                        try {
                             repo.enTransito.wait();
-                            System.out.println("estoy entregando " + Thread.currentThread().getName());
                         } catch (InterruptedException e) {
                             Thread.currentThread().interrupt();
                             return;
-                        }*/
-                        continue;
+                        }
                     }
                     try{
                         pedido = repo.enTransito.remove(rand.nextInt(repo.enTransito.size()));
                     } catch (IllegalArgumentException e){
                         continue;
                     }
+
                 }
 
                 boolean entregado = rand.nextDouble() < 0.90;
@@ -38,7 +39,7 @@ public class EntregaCliente extends ProcesoPedido {
                     synchronized (repo.entregados) {
                         repo.entregados.add(pedido);
                         repo.pedidosEntregados.incrementAndGet();
-                        //repo.entregados.notifyAll();
+                        repo.entregados.notifyAll();
                         System.out.println("[ENTREGA] Pedido #" + pedido.getId() + " entregado correctamente.");
                     }
                 } else {

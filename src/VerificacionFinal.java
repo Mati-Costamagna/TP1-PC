@@ -13,25 +13,21 @@ public class VerificacionFinal extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.entregados) {
-                if (repo.entregados.isEmpty()) {
-                    /*if ((repo.pedidosVerificados.get() + repo.fallidos.size()) >= totalPedidos) {
-                        System.out.println("Ya se procesaron todos los pedidos. Sale " + Thread.currentThread().getName());
-                        return;
-                    }
+                if (repo.entregados.isEmpty() // Todavia me falta verificar pedidos
+                        && !repo.enTransito.isEmpty() // Todavia tengo pedidos en transito que tienen que ser verificados
+                        && !repo.enPreparacion.isEmpty() // Todavia tengo pedidos en preparacion que tienen que ser verificados
+                        && repo.contadorGlobalPedidos.get() < totalPedidos) // Todavia me falta generar pedidos
+                {
                     try {
-                        System.out.println("esperando verificacion " + Thread.currentThread().getName());
                         repo.entregados.wait();
-                        System.out.println("estoy verificando " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;
-                    }*/
-                    continue;
+                    }
                 }
-
                 try {
                     pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
-                } catch (IllegalArgumentException e) {
+                } catch (IllegalArgumentException e){
                     continue;
                 }
             }
@@ -52,7 +48,6 @@ public class VerificacionFinal extends ProcesoPedido {
                     System.out.println("[VERIFICACION] Pedido #" + pedido.getId() + " falló la verificación final.");
                 }
             }
-
             esperar();
         }
     }

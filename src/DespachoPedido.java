@@ -15,22 +15,19 @@ public class DespachoPedido extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
-                if (repo.enPreparacion.isEmpty()) {
-                    /*if(repo.pedidosDespachados.get() >= totalPedidos) {
-                        return;
-                    }
+                if (repo.enPreparacion.isEmpty() // Todavia tengo que despachar pedidos
+                    && repo.contadorGlobalPedidos.get() < totalPedidos) // Todavia me falta generar pedidos
+                {
                     try {
-                        System.out.println("esperando despacho " + Thread.currentThread().getName());
                         repo.enPreparacion.wait();
-                        System.out.println("estoy despachando " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;
-                    }*/
-                    continue;
+                    }
                 }
                 try {
-                    pedido = repo.enPreparacion.remove(rand.nextInt(repo.enPreparacion.size()));
+                    int index = rand.nextInt(repo.enPreparacion.size());
+                    pedido = repo.enPreparacion.remove(index);
                 } catch (IllegalArgumentException e){
                     continue;
                 }
@@ -45,7 +42,7 @@ public class DespachoPedido extends ProcesoPedido {
                 synchronized (repo.enTransito) {
                     repo.enTransito.add(pedido);
                     repo.pedidosDespachados.incrementAndGet();
-                    //repo.enTransito.notifyAll();
+                    repo.enTransito.notifyAll();
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
                 }
             } else {
