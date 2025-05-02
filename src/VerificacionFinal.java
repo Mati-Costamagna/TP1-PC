@@ -13,14 +13,13 @@ public class VerificacionFinal extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.entregados) {
-                if (repo.entregados.isEmpty()
-                        && repo.enTransito.isEmpty()
-                        && repo.enPreparacion.isEmpty()
-                        && repo.contadorGlobalPedidos.get() < totalPedidos) {
+                if (repo.entregados.isEmpty() // Todavia me falta verificar pedidos
+                        && !repo.enTransito.isEmpty() // Todavia tengo pedidos en transito que tienen que ser verificados
+                        && !repo.enPreparacion.isEmpty() // Todavia tengo pedidos en preparacion que tienen que ser verificados
+                        && repo.contadorGlobalPedidos.get() < totalPedidos) // Todavia me falta generar pedidos
+                {
                     try {
-                        System.out.println("esperando " + Thread.currentThread().getName());
                         repo.entregados.wait();
-                        System.out.println("toy " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;

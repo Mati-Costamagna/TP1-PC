@@ -15,13 +15,11 @@ public class DespachoPedido extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
-                if (repo.enPreparacion.isEmpty()
-                        && repo.contadorGlobalPedidos.get() < totalPedidos)
+                if (repo.enPreparacion.isEmpty() // Todavia tengo que despachar pedidos
+                    && repo.contadorGlobalPedidos.get() < totalPedidos) // Todavia me falta generar pedidos
                 {
                     try {
-                        System.out.println("esperando despacho " + Thread.currentThread().getName());
                         repo.enPreparacion.wait();
-                        System.out.println("toy despachado " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;

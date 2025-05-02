@@ -13,13 +13,12 @@ public class EntregaCliente extends ProcesoPedido {
                 Pedido pedido = null;
 
                 synchronized (repo.enTransito) {
-                    if (repo.enTransito.isEmpty()
-                            && repo.enPreparacion.isEmpty()
-                            && repo.contadorGlobalPedidos.get() < totalPedidos) {
+                    if (repo.enTransito.isEmpty() //Todavia me falta entregar pedidos
+                            && !repo.enPreparacion.isEmpty() //Todavia tengo pedidos en preparacion que tienen que entregarse
+                            && repo.contadorGlobalPedidos.get() < totalPedidos) //Todavia me falta generar pedidos
+                    {
                         try {
-                            System.out.println("esperando entregado " + Thread.currentThread().getName());
                             repo.enTransito.wait();
-                            System.out.println("toy entregado " + Thread.currentThread().getName());
                         } catch (InterruptedException e) {
                             Thread.currentThread().interrupt();
                             return;
