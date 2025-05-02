@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {//throws InterruptedException {
-        int cantidadPedidos = 150;
-        int numeroCasilleros = 25;
+        int cantidadPedidos = 500;
+        int numeroCasilleros = 200;
         long inicio = System.currentTimeMillis();
 
         Casillero[] casilleros = new Casillero[numeroCasilleros];
