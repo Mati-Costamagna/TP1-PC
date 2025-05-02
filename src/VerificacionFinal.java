@@ -13,10 +13,10 @@ public class VerificacionFinal extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.entregados) {
-                if (repo.entregados.isEmpty()){
+                if (repo.entregados.isEmpty() && repo.enTransito.isEmpty() && repo.enPreparacion.isEmpty()) {
                     try {
                         System.out.println("esperando " + Thread.currentThread().getName());
-                        repo.entregados.wait(200);
+                        repo.entregados.wait();
                         System.out.println("toy " + Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
