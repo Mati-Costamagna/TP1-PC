@@ -13,7 +13,9 @@ public class EntregaCliente extends ProcesoPedido {
                 Pedido pedido = null;
 
                 synchronized (repo.enTransito) {
-                    if (repo.enTransito.isEmpty() && repo.enPreparacion.isEmpty()) {
+                    if (repo.enTransito.isEmpty()
+                            && repo.enPreparacion.isEmpty()
+                            && repo.contadorGlobalPedidos.get() < totalPedidos) {
                         try {
                             System.out.println("esperando entregado " + Thread.currentThread().getName());
                             repo.enTransito.wait();

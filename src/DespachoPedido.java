@@ -15,7 +15,8 @@ public class DespachoPedido extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
-                if (repo.enPreparacion.isEmpty())
+                if (repo.enPreparacion.isEmpty()
+                        && repo.contadorGlobalPedidos.get() < totalPedidos)
                 {
                     try {
                         System.out.println("esperando despacho " + Thread.currentThread().getName());
