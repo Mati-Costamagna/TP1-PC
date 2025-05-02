@@ -15,17 +15,16 @@ public class DespachoPedido extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
-                // if (repo.enPreparacion.isEmpty() && repo.pedidosDespachados.get() <
-                // totalPedidos) {
-                // try {
-                // System.out.println("Esperando en preparacion");
-                // repo.enPreparacion.wait();
-                // System.out.println("Toy en preparacion");
-                // } catch (InterruptedException e) {
-                // Thread.currentThread().interrupt();
-                // return;
-                // }
-                // }
+                if (repo.enPreparacion.isEmpty() && repo.contadorGlobalPedidos.get() < totalPedidos) {
+                    try {
+                        System.out.println("Esperando en preparacion");
+                        repo.enPreparacion.wait();
+                        System.out.println("Toy en preparacion");
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                }
                 if (repo.enPreparacion.isEmpty())
                     continue;
                 int index = rand.nextInt(repo.enPreparacion.size());

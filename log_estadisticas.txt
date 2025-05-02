@@ -1,279 +1,2426 @@
-Pedidos fallidos: 0, verificados: 0
-Pedidos fallidos: 1, verificados: 1
-Pedidos fallidos: 4, verificados: 5
-Pedidos fallidos: 9, verificados: 11
-Pedidos fallidos: 13, verificados: 15
-Pedidos fallidos: 19, verificados: 21
-Pedidos fallidos: 21, verificados: 27
-Pedidos fallidos: 23, verificados: 31
-Pedidos fallidos: 27, verificados: 37
-Pedidos fallidos: 31, verificados: 43
-Pedidos fallidos: 37, verificados: 46
-Pedidos fallidos: 41, verificados: 52
-Pedidos fallidos: 46, verificados: 57
-Pedidos fallidos: 52, verificados: 60
-Pedidos fallidos: 55, verificados: 66
-Pedidos fallidos: 58, verificados: 72
-Pedidos fallidos: 63, verificados: 76
-Pedidos fallidos: 63, verificados: 82
-Pedidos fallidos: 69, verificados: 87
-Pedidos fallidos: 71, verificados: 91
-Pedidos fallidos: 77, verificados: 97
-Pedidos fallidos: 84, verificados: 103
-Pedidos fallidos: 87, verificados: 107
-Pedidos fallidos: 94, verificados: 112
-Pedidos fallidos: 100, verificados: 116
-Pedidos fallidos: 101, verificados: 121
-Pedidos fallidos: 105, verificados: 127
-Pedidos fallidos: 109, verificados: 131
-Pedidos fallidos: 110, verificados: 137
-Pedidos fallidos: 111, verificados: 143
-Pedidos fallidos: 115, verificados: 146
-Pedidos fallidos: 119, verificados: 152
-Pedidos fallidos: 122, verificados: 158
-Pedidos fallidos: 125, verificados: 160
-Pedidos fallidos: 125, verificados: 166
-Pedidos fallidos: 125, verificados: 172
-Pedidos fallidos: 125, verificados: 176
-Pedidos fallidos: 125, verificados: 182
-Pedidos fallidos: 125, verificados: 188
-Pedidos fallidos: 125, verificados: 192
-Pedidos fallidos: 125, verificados: 198
-Pedidos fallidos: 125, verificados: 202
-Pedidos fallidos: 125, verificados: 208
-Pedidos fallidos: 126, verificados: 213
-Pedidos fallidos: 126, verificados: 217
-Pedidos fallidos: 126, verificados: 223
-Pedidos fallidos: 127, verificados: 228
-Pedidos fallidos: 127, verificados: 232
-Pedidos fallidos: 127, verificados: 238
-Pedidos fallidos: 127, verificados: 244
-Pedidos fallidos: 127, verificados: 250
-Pedidos fallidos: 127, verificados: 254
-Pedidos fallidos: 127, verificados: 260
-Pedidos fallidos: 127, verificados: 264
-Pedidos fallidos: 127, verificados: 270
-Pedidos fallidos: 127, verificados: 276
-Pedidos fallidos: 127, verificados: 280
-Pedidos fallidos: 127, verificados: 286
-Pedidos fallidos: 127, verificados: 292
-Pedidos fallidos: 127, verificados: 296
-Pedidos fallidos: 127, verificados: 302
-Pedidos fallidos: 127, verificados: 308
-Pedidos fallidos: 127, verificados: 312
-Pedidos fallidos: 127, verificados: 318
-Pedidos fallidos: 128, verificados: 323
-Pedidos fallidos: 128, verificados: 327
-Pedidos fallidos: 128, verificados: 333
-Pedidos fallidos: 129, verificados: 338
-Pedidos fallidos: 129, verificados: 342
-Pedidos fallidos: 129, verificados: 348
-Pedidos fallidos: 129, verificados: 352
-Pedidos fallidos: 130, verificados: 357
-Pedidos fallidos: 130, verificados: 363
-Pedidos fallidos: 130, verificados: 367
+Esperando en preparacion
+Esperando en preparacion
+Esperando en transito
+Esperando en transito
+Esperando en transito
+Esperando entregadosThread-9
+Esperando entregadosThread-10
+[PREPARACION] Pedido #9262 asignado a casillero $163
+Toy en preparacion
+[PREPARACION] Pedido #dba6 asignado a casillero $159
+Toy en preparacion
+[PREPARACION] Pedido #bcea asignado a casillero $108
+[DESPACHO] Pedido #9262 despachado con Úxito.
+Toy en transito
+[DESPACHO] Pedido #dba6 despachado con Úxito.
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #9262 entregado correctamente.
+Toy entregando
+[ENTREGA] Pedido #dba6 entregado correctamente.
+Toy entregando
+[VERIFICACION Thread-9] Pedido #9262 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #dba6 verificado correctamente.
+[PREPARACION] Pedido #e225 asignado a casillero $176
+[PREPARACION] Pedido #2cd9 asignado a casillero $58
+[PREPARACION] Pedido #d436 asignado a casillero $62
+[PREPARACION] Pedido #7774 asignado a casillero $73
+[PREPARACION] Pedido #b5d4 asignado a casillero $34
+[DESPACHO] Pedido #d436 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #3c15 asignado a casillero $78
+[DESPACHO] Pedido #bcea despachado con Úxito.
+[ENTREGA] Pedido #d436 entregado correctamente.
+Esperando en transito
+[ENTREGA] Pedido #bcea entregado correctamente.
+[PREPARACION] Pedido #1323 asignado a casillero $115
+[PREPARACION] Pedido #3799 asignado a casillero $133
+[PREPARACION] Pedido #e633 asignado a casillero $36
+[PREPARACION] Pedido #c50d asignado a casillero $18
+[PREPARACION] Pedido #c61f asignado a casillero $118
+[PREPARACION] Pedido #c800 asignado a casillero $170
+[VERIFICACION Thread-9] Pedido #d436 verificado correctamente.
+[DESPACHO] Pedido #3c15 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #3c15 entregado correctamente.
+[DESPACHO] Pedido #b5d4 despachado con Úxito.
+[VERIFICACION Thread-10] Pedido #3c15 verificado correctamente.
+[PREPARACION] Pedido #f639 asignado a casillero $8
+[ENTREGA] Pedido #b5d4 entregado correctamente.
+[PREPARACION] Pedido #e393 asignado a casillero $146
+[PREPARACION] Pedido #453b asignado a casillero $27
+Esperando en transito
+[PREPARACION] Pedido #1efc asignado a casillero $169
+[DESPACHO] Pedido #c61f despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #c61f entregado correctamente.
+[PREPARACION] Pedido #8428 asignado a casillero $48
+[PREPARACION] Pedido #a684 asignado a casillero $178
+[DESPACHO] Pedido #8428 despachado con Úxito.
+[ENTREGA] Pedido #8428 entregado correctamente.
+[PREPARACION] Pedido #f5c8 asignado a casillero $122
+[PREPARACION] Pedido #f93e asignado a casillero $92
+[PREPARACION] Pedido #3a14 asignado a casillero $25
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #bcea verificado correctamente.
+[PREPARACION] Pedido #ecfc asignado a casillero $95
+[DESPACHO] Pedido #f5c8 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #f5c8 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #8428 verificado correctamente.
+[PREPARACION] Pedido #9d43 asignado a casillero $160
+[PREPARACION] Pedido #e824 asignado a casillero $89
+[DESPACHO] Pedido #1323 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+[PREPARACION] Pedido #c10c asignado a casillero $54
+Esperando en transito
+[PREPARACION] Pedido #53af asignado a casillero $67
+[PREPARACION] Pedido #7889 asignado a casillero $144
+[DESPACHO] Pedido #2cd9 fall¾ verificaci¾n y casillero marcado FDS.
+[PREPARACION] Pedido #a048 asignado a casillero $13
+Esperando en transito
+[DESPACHO] Pedido #e633 despachado con Úxito.
+[PREPARACION] Pedido #e905 asignado a casillero $161
+Toy en transito
+[PREPARACION] Pedido #8e02 asignado a casillero $40
+[ENTREGA] Pedido #e633 entregado correctamente.
+Toy en transito
+Esperando en transito
+Toy en transito
+Esperando en transito
+[PREPARACION] Pedido #3ee5 asignado a casillero $159
+[PREPARACION] Pedido #26a4 asignado a casillero $181
+[PREPARACION] Pedido #a41a asignado a casillero $147
+[VERIFICACION Thread-9] Pedido #e633 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #c61f verificado correctamente.
+[DESPACHO] Pedido #f639 despachado con Úxito.
+[PREPARACION] Pedido #9f31 asignado a casillero $167
+Toy en transito
+[PREPARACION] Pedido #0b40 asignado a casillero $183
+[ENTREGA] Pedido #f639 entregado correctamente.
+Toy en transito
+Esperando en transito
+[PREPARACION] Pedido #c4c5 asignado a casillero $48
+[DESPACHO] Pedido #3ee5 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #3ee5 fall¾ en la entrega.
+[PREPARACION] Pedido #439b asignado a casillero $107
+[PREPARACION] Pedido #c3fa asignado a casillero $11
+Esperando en transito
+[PREPARACION] Pedido #dfa0 asignado a casillero $103
+[PREPARACION] Pedido #4dcf asignado a casillero $80
+[PREPARACION] Pedido #c92c asignado a casillero $187
+[DESPACHO] Pedido #e824 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #e824 entregado correctamente.
+[DESPACHO] Pedido #c4c5 despachado con Úxito.
+[PREPARACION] Pedido #a439 asignado a casillero $192
+[PREPARACION] Pedido #c8b2 asignado a casillero $69
+[ENTREGA] Pedido #c4c5 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #a60c asignado a casillero $68
+[PREPARACION] Pedido #73be asignado a casillero $84
+[VERIFICACION Thread-10] Pedido #c4c5 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #e824 verificado correctamente.
+[PREPARACION] Pedido #3196 asignado a casillero $62
+[DESPACHO] Pedido #c3fa despachado con Úxito.
+[PREPARACION] Pedido #bc1a asignado a casillero $1
+Toy en transito
+[PREPARACION] Pedido #6204 asignado a casillero $82
+[ENTREGA] Pedido #c3fa entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #0b40 despachado con Úxito.
+[PREPARACION] Pedido #f2ed asignado a casillero $185
+Toy en transito
+[ENTREGA] Pedido #0b40 entregado correctamente.
+[PREPARACION] Pedido #4077 asignado a casillero $143
+[PREPARACION] Pedido #ec19 asignado a casillero $183
+[PREPARACION] Pedido #a890 asignado a casillero $114
+[PREPARACION] Pedido #eee4 asignado a casillero $31
+Esperando en transito
+[PREPARACION] Pedido #3a77 asignado a casillero $198
+[DESPACHO] Pedido #ecfc despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #ecfc entregado correctamente.
+[PREPARACION] Pedido #027b asignado a casillero $109
+[PREPARACION] Pedido #31e5 asignado a casillero $140
+Esperando en transito
+[DESPACHO] Pedido #c8b2 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #c8b2 entregado correctamente.
+[PREPARACION] Pedido #3ece asignado a casillero $179
+[VERIFICACION Thread-9] Pedido #b5d4 verificado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #0b40 verificado correctamente.
+[PREPARACION] Pedido #df76 asignado a casillero $37
+[PREPARACION] Pedido #2aaf asignado a casillero $153
+[DESPACHO] Pedido #e393 despachado con Úxito.
+[PREPARACION] Pedido #e648 asignado a casillero $118
+Toy en transito
+[ENTREGA] Pedido #e393 entregado correctamente.
+[PREPARACION] Pedido #41dd asignado a casillero $0
+Esperando en transito
+[PREPARACION] Pedido #48aa asignado a casillero $142
+[PREPARACION] Pedido #99f5 asignado a casillero $38
+[PREPARACION] Pedido #c4cf asignado a casillero $55
+[DESPACHO] Pedido #26a4 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #26a4 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #3f1f asignado a casillero $131
+[PREPARACION] Pedido #58db asignado a casillero $35
+[PREPARACION] Pedido #5e3b asignado a casillero $162
+[DESPACHO] Pedido #a048 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #a048 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #d362 asignado a casillero $81
+[PREPARACION] Pedido #14da asignado a casillero $117
+[PREPARACION] Pedido #457c asignado a casillero $94
+[VERIFICACION Thread-10] Pedido #ecfc verificado correctamente.
+[DESPACHO] Pedido #48aa despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #f639 verificado correctamente.
+Toy en transito
+[ENTREGA] Pedido #48aa entregado correctamente.
+[PREPARACION] Pedido #a0ec asignado a casillero $41
+Esperando en transito
+[PREPARACION] Pedido #6af6 asignado a casillero $137
+[PREPARACION] Pedido #fcb1 asignado a casillero $106
+[DESPACHO] Pedido #58db despachado con Úxito.
+[PREPARACION] Pedido #e9ec asignado a casillero $83
+Toy en transito
+[ENTREGA] Pedido #58db fall¾ en la entrega.
+Esperando en transito
+[PREPARACION] Pedido #bbb5 asignado a casillero $171
+[PREPARACION] Pedido #8469 asignado a casillero $112
+[PREPARACION] Pedido #4744 asignado a casillero $113
+[DESPACHO] Pedido #027b despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #027b entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #4c62 asignado a casillero $71
+[PREPARACION] Pedido #8df1 asignado a casillero $191
+[PREPARACION] Pedido #4573 asignado a casillero $56
+[DESPACHO] Pedido #f93e despachado con Úxito.
+[VERIFICACION Thread-10] Pedido #c3fa verificado correctamente.
+Toy en transito
+[ENTREGA] Pedido #f93e entregado correctamente.
+[PREPARACION] Pedido #e92f asignado a casillero $92
+[PREPARACION] Pedido #ebad asignado a casillero $128
+[VERIFICACION Thread-9] Pedido #48aa verificado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #27fd asignado a casillero $2
+[PREPARACION] Pedido #f2ef asignado a casillero $11
+[DESPACHO] Pedido #3a14 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #d7ee asignado a casillero $64
+[ENTREGA] Pedido #3a14 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #3db7 asignado a casillero $175
+[PREPARACION] Pedido #238a asignado a casillero $126
+[DESPACHO] Pedido #bbb5 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #a5bd asignado a casillero $109
+[ENTREGA] Pedido #bbb5 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #c04f asignado a casillero $88
+[PREPARACION] Pedido #ac66 asignado a casillero $181
+[PREPARACION] Pedido #5699 asignado a casillero $6
+[DESPACHO] Pedido #7774 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #7774 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #027b verificado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #f152 asignado a casillero $34
+[PREPARACION] Pedido #ae91 asignado a casillero $189
+[PREPARACION] Pedido #bd19 asignado a casillero $35
+[VERIFICACION Thread-9] Pedido #c8b2 verificado correctamente.
+[DESPACHO] Pedido #6204 fall¾ verificaci¾n y casillero marcado FDS.
+[PREPARACION] Pedido #e76b asignado a casillero $16
+Esperando en transito
+[PREPARACION] Pedido #b86a asignado a casillero $3
+[PREPARACION] Pedido #a769 asignado a casillero $87
+[DESPACHO] Pedido #99f5 despachado con Úxito.
+[PREPARACION] Pedido #f293 asignado a casillero $120
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #99f5 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #0306 asignado a casillero $168
+[PREPARACION] Pedido #b099 asignado a casillero $33
+[DESPACHO] Pedido #eee4 despachado con Úxito.
+[PREPARACION] Pedido #5ed0 asignado a casillero $195
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #eee4 entregado correctamente.
+[PREPARACION] Pedido #c145 asignado a casillero $36
+[PREPARACION] Pedido #8cbb asignado a casillero $116
+[DESPACHO] Pedido #d7ee despachado con Úxito.
+[PREPARACION] Pedido #f3ef asignado a casillero $163
+[VERIFICACION Thread-10] Pedido #a048 verificado correctamente.
+Toy en transito
+[ENTREGA] Pedido #d7ee entregado correctamente.
+[VERIFICACION Thread-9] Pedido #e393 verificado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #cbe2 asignado a casillero $158
+[PREPARACION] Pedido #c16a asignado a casillero $17
+[PREPARACION] Pedido #e522 asignado a casillero $111
+[DESPACHO] Pedido #4dcf despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #4dcf entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #e752 asignado a casillero $39
+[PREPARACION] Pedido #1d1a asignado a casillero $108
+[PREPARACION] Pedido #51aa asignado a casillero $24
+[DESPACHO] Pedido #e225 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #e225 entregado correctamente.
+[PREPARACION] Pedido #a7e6 asignado a casillero $77
+[PREPARACION] Pedido #7af9 asignado a casillero $164
+Esperando en transito
+[PREPARACION] Pedido #0685 asignado a casillero $79
+[PREPARACION] Pedido #db4b asignado a casillero $180
+[PREPARACION] Pedido #ff66 asignado a casillero $155
+[DESPACHO] Pedido #a439 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #a439 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #26a4 verificado correctamente.
+[DESPACHO] Pedido #e752 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #7913 asignado a casillero $63
+[ENTREGA] Pedido #e752 fall¾ en la entrega.
+Esperando en transito
+[PREPARACION] Pedido #df61 asignado a casillero $139
+[VERIFICACION Thread-9] Pedido #d7ee verificado correctamente.
+[PREPARACION] Pedido #72aa asignado a casillero $65
+[PREPARACION] Pedido #0e34 asignado a casillero $110
+[DESPACHO] Pedido #8cbb fall¾ verificaci¾n y casillero marcado FDS.
+[PREPARACION] Pedido #ee3d asignado a casillero $130
+[PREPARACION] Pedido #4e69 asignado a casillero $192
+[DESPACHO] Pedido #b86a despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #b86a entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #60b4 asignado a casillero $176
+Esperando en transito
+[PREPARACION] Pedido #3ad1 asignado a casillero $172
+[PREPARACION] Pedido #a981 asignado a casillero $121
+[PREPARACION] Pedido #97a1 asignado a casillero $70
+[DESPACHO] Pedido #a60c despachado con Úxito.
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #a60c entregado correctamente.
+[PREPARACION] Pedido #d7bb asignado a casillero $136
+[VERIFICACION Thread-10] Pedido #b86a verificado correctamente.
+[DESPACHO] Pedido #53af despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #ff1d asignado a casillero $129
+[ENTREGA] Pedido #53af fall¾ en la entrega.
+Esperando en transito
+[PREPARACION] Pedido #fc68 asignado a casillero $75
+[VERIFICACION Thread-9] Pedido #f5c8 verificado correctamente.
+[PREPARACION] Pedido #cf3b asignado a casillero $22
+[PREPARACION] Pedido #8f87 asignado a casillero $159
+[DESPACHO] Pedido #439b despachado con Úxito.
+[PREPARACION] Pedido #7745 asignado a casillero $80
+Toy en transito
+[PREPARACION] Pedido #bfb5 asignado a casillero $50
+[ENTREGA] Pedido #439b entregado correctamente.
+[PREPARACION] Pedido #ac65 asignado a casillero $105
+Esperando en transito
+[DESPACHO] Pedido #a5bd despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #a5bd entregado correctamente.
+[PREPARACION] Pedido #2e45 asignado a casillero $28
+Esperando en transito
+[PREPARACION] Pedido #f8a8 asignado a casillero $38
+[PREPARACION] Pedido #c351 asignado a casillero $8
+[VERIFICACION Thread-10] Pedido #3a14 verificado correctamente.
+[PREPARACION] Pedido #b317 asignado a casillero $19
+[DESPACHO] Pedido #a41a despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #a41a entregado correctamente.
+[PREPARACION] Pedido #b6ea asignado a casillero $59
+[PREPARACION] Pedido #8e8e asignado a casillero $64
+[VERIFICACION Thread-9] Pedido #439b verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #7af9 despachado con Úxito.
+[PREPARACION] Pedido #3bac asignado a casillero $99
+Toy en transito
+[ENTREGA] Pedido #7af9 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #f581 asignado a casillero $184
+[PREPARACION] Pedido #0e1c asignado a casillero $199
+[DESPACHO] Pedido #4573 despachado con Úxito.
+[PREPARACION] Pedido #cd50 asignado a casillero $132
+Toy en transito
+[ENTREGA] Pedido #4573 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #bbb0 asignado a casillero $73
+[PREPARACION] Pedido #559d asignado a casillero $177
+[PREPARACION] Pedido #d953 asignado a casillero $100
+[DESPACHO] Pedido #d362 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #d362 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #7774 verificado correctamente.
+[PREPARACION] Pedido #2f6a asignado a casillero $107
+[PREPARACION] Pedido #2d37 asignado a casillero $154
+[PREPARACION] Pedido #008b asignado a casillero $10
+[DESPACHO] Pedido #41dd despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #41dd entregado correctamente.
+[VERIFICACION] Pedido #e225 fall¾ la verificaci¾n final.
+Esperando en transito
+[PREPARACION] Pedido #5396 asignado a casillero $165
+[PREPARACION] Pedido #7f3a asignado a casillero $164
+[PREPARACION] Pedido #b9c7 asignado a casillero $86
+[DESPACHO] Pedido #f152 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #f152 entregado correctamente.
+[PREPARACION] Pedido #33f0 asignado a casillero $44
+[PREPARACION] Pedido #e355 asignado a casillero $68
+Esperando en transito
+[PREPARACION] Pedido #38af asignado a casillero $152
+[PREPARACION] Pedido #0d15 asignado a casillero $150
+[PREPARACION] Pedido #7529 asignado a casillero $9
+[DESPACHO] Pedido #3f1f despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #3f1f entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #8737 asignado a casillero $39
+[PREPARACION] Pedido #91ab asignado a casillero $104
+[VERIFICACION Thread-10] Pedido #7af9 verificado correctamente.
+[PREPARACION] Pedido #1211 asignado a casillero $157
+[DESPACHO] Pedido #db4b despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #db4b entregado correctamente.
+[PREPARACION] Pedido #f2f2 asignado a casillero $25
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #a41a verificado correctamente.
+[PREPARACION] Pedido #bc6f asignado a casillero $122
+[PREPARACION] Pedido #3303 asignado a casillero $45
+[DESPACHO] Pedido #c16a despachado con Úxito.
+[PREPARACION] Pedido #faec asignado a casillero $49
+Toy en transito
+[ENTREGA] Pedido #c16a entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #915f asignado a casillero $109
+[PREPARACION] Pedido #4bab asignado a casillero $23
+[PREPARACION] Pedido #950a asignado a casillero $4
+[DESPACHO] Pedido #7913 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #7913 entregado correctamente.
+[PREPARACION] Pedido #0a6e asignado a casillero $131
+Esperando en transito
+[PREPARACION] Pedido #e4ba asignado a casillero $166
+[PREPARACION] Pedido #b037 asignado a casillero $119
+[DESPACHO] Pedido #df61 despachado con Úxito.
+[PREPARACION] Pedido #ca52 asignado a casillero $72
+Toy en transito
+[ENTREGA] Pedido #df61 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #f152 verificado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #4eb5 asignado a casillero $17
+[PREPARACION] Pedido #3c77 asignado a casillero $7
+[PREPARACION] Pedido #8ac0 asignado a casillero $43
+[DESPACHO] Pedido #f2f2 despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #a5bd verificado correctamente.
+Toy en transito
+[ENTREGA] Pedido #f2f2 entregado correctamente.
+[PREPARACION] Pedido #8f2a asignado a casillero $31
+Esperando en transito
+[PREPARACION] Pedido #ce37 asignado a casillero $93
+[PREPARACION] Pedido #4ed2 asignado a casillero $134
+[DESPACHO] Pedido #c800 despachado con Úxito.
+[PREPARACION] Pedido #22b5 asignado a casillero $101
+Toy en transito
+[ENTREGA] Pedido #c800 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #090b asignado a casillero $197
+[PREPARACION] Pedido #0aaa asignado a casillero $60
+[DESPACHO] Pedido #7745 fall¾ verificaci¾n y casillero marcado FDS.
+[PREPARACION] Pedido #333d asignado a casillero $32
+[PREPARACION] Pedido #243c asignado a casillero $127
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #4dcf verificado correctamente.
+[PREPARACION] Pedido #330a asignado a casillero $48
+[DESPACHO] Pedido #c4cf despachado con Úxito.
+[PREPARACION] Pedido #d457 asignado a casillero $46
+Toy en transito
+[PREPARACION] Pedido #7439 asignado a casillero $53
+[ENTREGA] Pedido #c4cf entregado correctamente.
+Toy en transito
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #4573 verificado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #ccf1 asignado a casillero $15
+[PREPARACION] Pedido #d320 asignado a casillero $190
+[DESPACHO] Pedido #ebad despachado con Úxito.
+[PREPARACION] Pedido #4128 asignado a casillero $135
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #ebad entregado correctamente.
+[PREPARACION] Pedido #cdc1 asignado a casillero $26
+[PREPARACION] Pedido #9976 asignado a casillero $193
+[DESPACHO] Pedido #238a despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #238a fall¾ en la entrega.
+[PREPARACION] Pedido #a1de asignado a casillero $51
+[PREPARACION] Pedido #ba52 asignado a casillero $61
+Esperando en transito
+[PREPARACION] Pedido #4953 asignado a casillero $29
+[VERIFICACION Thread-10] Pedido #c4cf verificado correctamente.
+[DESPACHO] Pedido #bc6f despachado con Úxito.
+[PREPARACION] Pedido #f1e7 asignado a casillero $102
+Toy en transito
+[PREPARACION] Pedido #66f4 asignado a casillero $78
+[ENTREGA] Pedido #bc6f entregado correctamente.
+[DESPACHO] Pedido #3a77 despachado con Úxito.
+[PREPARACION] Pedido #3a46 asignado a casillero $30
+[ENTREGA] Pedido #3a77 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #99f5 verificado correctamente.
+[PREPARACION] Pedido #5cfe asignado a casillero $95
+[PREPARACION] Pedido #2a51 asignado a casillero $151
+Esperando en transito
+[PREPARACION] Pedido #6015 asignado a casillero $124
+[PREPARACION] Pedido #04c1 asignado a casillero $67
+[PREPARACION] Pedido #5bbd asignado a casillero $0
+[DESPACHO] Pedido #c351 fall¾ verificaci¾n y casillero marcado FDS.
+[PREPARACION] Pedido #4938 asignado a casillero $89
+[PREPARACION] Pedido #3d95 asignado a casillero $55
+[DESPACHO] Pedido #bfb5 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #bfb5 fall¾ en la entrega.
+Esperando en transito
+[PREPARACION] Pedido #b76d asignado a casillero $57
+Esperando en transito
+[PREPARACION] Pedido #6401 asignado a casillero $85
+[VERIFICACION Thread-10] Pedido #bbb5 verificado correctamente.
+[PREPARACION] Pedido #3d55 asignado a casillero $5
+[DESPACHO] Pedido #008b despachado con Úxito.
+[PREPARACION] Pedido #6ba4 asignado a casillero $198
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #008b entregado correctamente.
+[PREPARACION] Pedido #1d70 asignado a casillero $188
+[DESPACHO] Pedido #3799 despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #a60c verificado correctamente.
+[PREPARACION] Pedido #8707 asignado a casillero $34
+Toy en transito
+[ENTREGA] Pedido #3799 entregado correctamente.
+[PREPARACION] Pedido #00e0 asignado a casillero $91
+Esperando en transito
+[PREPARACION] Pedido #5241 asignado a casillero $74
+[PREPARACION] Pedido #c09e asignado a casillero $133
+[PREPARACION] Pedido #f96d asignado a casillero $81
+[DESPACHO] Pedido #0e1c despachado con Úxito.
+[PREPARACION] Pedido #2de1 asignado a casillero $125
+Toy en transito
+[PREPARACION] Pedido #06a8 asignado a casillero $186
+[ENTREGA] Pedido #0e1c entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #c10c fall¾ verificaci¾n y casillero marcado FDS.
+[PREPARACION] Pedido #1a68 asignado a casillero $90
+[PREPARACION] Pedido #63a0 asignado a casillero $196
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #3f1f verificado correctamente.
+[PREPARACION] Pedido #6dd0 asignado a casillero $126
+[PREPARACION] Pedido #b6cb asignado a casillero $63
+[PREPARACION] Pedido #e982 asignado a casillero $194
+[DESPACHO] Pedido #b6cb despachado con Úxito.
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #b6cb entregado correctamente.
+[VERIFICACION Thread-9] Pedido #df61 verificado correctamente.
+[PREPARACION] Pedido #f85e asignado a casillero $174
+[PREPARACION] Pedido #1615 asignado a casillero $98
+Esperando en transito
+[DESPACHO] Pedido #b317 fall¾ verificaci¾n y casillero marcado FDS.
+[PREPARACION] Pedido #4b13 asignado a casillero $142
+[PREPARACION] Pedido #6b3b asignado a casillero $171
+[PREPARACION] Pedido #6972 asignado a casillero $10
+[DESPACHO] Pedido #d320 despachado con Úxito.
+[PREPARACION] Pedido #9fb3 asignado a casillero $14
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #d320 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #b542 asignado a casillero $52
+[PREPARACION] Pedido #82d7 asignado a casillero $21
+[DESPACHO] Pedido #8ac0 despachado con Úxito.
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #8ac0 entregado correctamente.
+[PREPARACION] Pedido #21d7 asignado a casillero $123
+[VERIFICACION Thread-10] Pedido #d320 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #b6cb verificado correctamente.
+[PREPARACION] Pedido #e76a asignado a casillero $141
+[PREPARACION] Pedido #506b asignado a casillero $50
+[PREPARACION] Pedido #fcbc asignado a casillero $97
+[DESPACHO] Pedido #0e34 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #0e34 entregado correctamente.
+[PREPARACION] Pedido #86dc asignado a casillero $138
+Esperando en transito
+[PREPARACION] Pedido #98e0 asignado a casillero $96
+[DESPACHO] Pedido #e522 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #a55d asignado a casillero $180
+[ENTREGA] Pedido #e522 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #0df8 asignado a casillero $43
+[PREPARACION] Pedido #e118 asignado a casillero $148
+[PREPARACION] Pedido #582e asignado a casillero $147
+[DESPACHO] Pedido #e9ec despachado con Úxito.
+[PREPARACION] Pedido #a520 asignado a casillero $63
+Toy en transito
+[ENTREGA] Pedido #e9ec entregado correctamente.
+[DESPACHO] Pedido #fcbc despachado con Úxito.
+[PREPARACION] Pedido #0bce asignado a casillero $139
+[ENTREGA] Pedido #fcbc fall¾ en la entrega.
+[VERIFICACION Thread-10] Pedido #0e1c verificado correctamente.
+[PREPARACION] Pedido #c685 asignado a casillero $170
+[VERIFICACION Thread-9] Pedido #eee4 verificado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #d17d asignado a casillero $42
+[PREPARACION] Pedido #a625 asignado a casillero $199
+[PREPARACION] Pedido #f922 asignado a casillero $149
+[DESPACHO] Pedido #4077 despachado con Úxito.
+[PREPARACION] Pedido #aecc asignado a casillero $146
+Toy en transito
+[ENTREGA] Pedido #4077 entregado correctamente.
+[DESPACHO] Pedido #c04f despachado con Úxito.
+[PREPARACION] Pedido #837b asignado a casillero $190
+[PREPARACION] Pedido #7921 asignado a casillero $12
+[ENTREGA] Pedido #c04f entregado correctamente.
+[PREPARACION] Pedido #8ebe asignado a casillero $173
+Esperando en transito
+[PREPARACION] Pedido #f89a asignado a casillero $110
+[PREPARACION] Pedido #8f92 asignado a casillero $83
+[PREPARACION] Pedido #7071 asignado a casillero $47
+[DESPACHO] Pedido #6b3b despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #6b3b entregado correctamente.
+[VERIFICACION Thread-10] Pedido #f2f2 verificado correctamente.
+[DESPACHO] Pedido #7889 despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #41dd verificado correctamente.
+[PREPARACION] Pedido #b082 asignado a casillero $122
+[PREPARACION] Pedido #0b78 asignado a casillero $76
+[ENTREGA] Pedido #7889 entregado correctamente.
+[PREPARACION] Pedido #e9b2 asignado a casillero $171
+Esperando en transito
+[PREPARACION] Pedido #74f0 asignado a casillero $144
+[PREPARACION] Pedido #50c2 asignado a casillero $145
+[DESPACHO] Pedido #1d1a despachado con Úxito.
+[PREPARACION] Pedido #14bc asignado a casillero $128
+Toy en transito
+[ENTREGA] Pedido #1d1a fall¾ en la entrega.
+[PREPARACION] Pedido #f89b asignado a casillero $97
+Esperando en transito
+[DESPACHO] Pedido #333d fall¾ verificaci¾n y casillero marcado FDS.
+[PREPARACION] Pedido #daf3 asignado a casillero $25
+Esperando en transito
+[PREPARACION] Pedido #320b asignado a casillero $69
+[PREPARACION] Pedido #4edd asignado a casillero $13
+[PREPARACION] Pedido #d08e asignado a casillero $56
+[DESPACHO] Pedido #7529 despachado con Úxito.
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #7529 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #4077 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #6b3b verificado correctamente.
+[PREPARACION] Pedido #4420 asignado a casillero $143
+[PREPARACION] Pedido #ed08 asignado a casillero $66
+Esperando en transito
+[DESPACHO] Pedido #97a1 despachado con Úxito.
+Toy en transito
+Toy en transito
+Esperando en transito
+[PREPARACION] Pedido #17e2 asignado a casillero $182
+[ENTREGA] Pedido #97a1 fall¾ en la entrega.
+[PREPARACION] Pedido #e6de asignado a casillero $9
+[PREPARACION] Pedido #e844 asignado a casillero $88
+[PREPARACION] Pedido #25c7 asignado a casillero $111
+[DESPACHO] Pedido #ec19 despachado con Úxito.
+[PREPARACION] Pedido #41ee asignado a casillero $108
+Toy en transito
+[ENTREGA] Pedido #ec19 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #da6a asignado a casillero $183
+[PREPARACION] Pedido #ffc4 asignado a casillero $3
+[PREPARACION] Pedido #e469 asignado a casillero $70
+[DESPACHO] Pedido #8f92 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #8f92 entregado correctamente.
+[PREPARACION] Pedido #f11b asignado a casillero $20
+Esperando en transito
+[PREPARACION] Pedido #9724 asignado a casillero $156
+[PREPARACION] Pedido #ecf9 asignado a casillero $83
+[DESPACHO] Pedido #4bab despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #e522 verificado correctamente.
+Toy en transito
+[VERIFICACION Thread-10] Pedido #a439 verificado correctamente.
+[ENTREGA] Pedido #4bab entregado correctamente.
+[PREPARACION] Pedido #e6a7 asignado a casillero $23
+Esperando en transito
+[DESPACHO] Pedido #e76a despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #7c0d asignado a casillero $141
+[ENTREGA] Pedido #e76a entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #950a despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #a63f asignado a casillero $4
+[ENTREGA] Pedido #950a entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #faec despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #87fd asignado a casillero $49
+[ENTREGA] Pedido #faec entregado correctamente.
+[VERIFICACION Thread-9] Pedido #8f92 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #3799 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #ba52 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #ba52 entregado correctamente.
+[PREPARACION] Pedido #31d9 asignado a casillero $61
+Esperando en transito
+[DESPACHO] Pedido #4744 despachado con Úxito.
+[PREPARACION] Pedido #8cab asignado a casillero $113
+Toy en transito
+[ENTREGA] Pedido #4744 fall¾ en la entrega.
+Esperando en transito
+[DESPACHO] Pedido #3196 despachado con Úxito.
+[PREPARACION] Pedido #ea61 asignado a casillero $62
+Toy en transito
+[ENTREGA] Pedido #3196 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #457c despachado con Úxito.
+[PREPARACION] Pedido #c12a asignado a casillero $94
+Toy en transito
+[ENTREGA] Pedido #457c entregado correctamente.
+[VERIFICACION Thread-9] Pedido #ec19 verificado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #db4b verificado correctamente.
+[DESPACHO] Pedido #0df8 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #e469 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+Esperando en transito
+[DESPACHO] Pedido #3d55 despachado con Úxito.
+[PREPARACION] Pedido #972f asignado a casillero $5
+Toy en transito
+Toy en transito
+[ENTREGA] Pedido #3d55 entregado correctamente.
+Esperando en transito
+Toy en transito
+Esperando en transito
+[DESPACHO] Pedido #837b despachado con Úxito.
+[PREPARACION] Pedido #17ec asignado a casillero $190
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #837b entregado correctamente.
+[VERIFICACION Thread-9] Pedido #837b verificado correctamente.
+[VERIFICACION Thread-10] Pedido #ba52 verificado correctamente.
+[PREPARACION] Pedido #3f0f asignado a casillero $65
+[DESPACHO] Pedido #72aa despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #72aa entregado correctamente.
+[DESPACHO] Pedido #6972 despachado con Úxito.
+[PREPARACION] Pedido #3382 asignado a casillero $10
+[ENTREGA] Pedido #6972 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #4e69 despachado con Úxito.
+[PREPARACION] Pedido #b6cc asignado a casillero $192
+Toy en transito
+[ENTREGA] Pedido #4e69 entregado correctamente.
+[DESPACHO] Pedido #2d37 despachado con Úxito.
+[PREPARACION] Pedido #3eb0 asignado a casillero $154
+[ENTREGA] Pedido #2d37 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #4bab verificado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #c04f verificado correctamente.
+[DESPACHO] Pedido #1211 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #97b7 asignado a casillero $157
+[ENTREGA] Pedido #1211 entregado correctamente.
+[DESPACHO] Pedido #5ed0 despachado con Úxito.
+[PREPARACION] Pedido #569f asignado a casillero $195
+[ENTREGA] Pedido #5ed0 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #b9c7 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #b9c7 entregado correctamente.
+[PREPARACION] Pedido #f9b4 asignado a casillero $86
+[DESPACHO] Pedido #4ed2 despachado con Úxito.
+[PREPARACION] Pedido #a765 asignado a casillero $134
+[ENTREGA] Pedido #4ed2 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #7529 verificado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #d362 verificado correctamente.
+[DESPACHO] Pedido #8df1 despachado con Úxito.
+[PREPARACION] Pedido #40e9 asignado a casillero $191
+Toy en transito
+[ENTREGA] Pedido #8df1 entregado correctamente.
+[DESPACHO] Pedido #21d7 despachado con Úxito.
+[PREPARACION] Pedido #bad4 asignado a casillero $123
+[ENTREGA] Pedido #21d7 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #cdc1 despachado con Úxito.
+[PREPARACION] Pedido #4731 asignado a casillero $26
+Toy en transito
+[ENTREGA] Pedido #cdc1 entregado correctamente.
+[DESPACHO] Pedido #97b7 despachado con Úxito.
+[PREPARACION] Pedido #715b asignado a casillero $157
+[ENTREGA] Pedido #97b7 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #2d37 verificado correctamente.
+[DESPACHO] Pedido #ae91 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #c16a verificado correctamente.
+[DESPACHO] Pedido #ccf1 despachado con Úxito.
+[PREPARACION] Pedido #f1b5 asignado a casillero $15
+Toy en transito
+[ENTREGA] Pedido #ccf1 entregado correctamente.
+Esperando en transito
+Esperando en transito
+[DESPACHO] Pedido #972f despachado con Úxito.
+[PREPARACION] Pedido #1544 asignado a casillero $53
+Toy en transito
+[PREPARACION] Pedido #2fbb asignado a casillero $5
+[DESPACHO] Pedido #7439 despachado con Úxito.
+[ENTREGA] Pedido #972f fall¾ en la entrega.
+Toy en transito
+[ENTREGA] Pedido #7439 fall¾ en la entrega.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #f93e verificado correctamente.
+[VERIFICACION Thread-10] Pedido #72aa verificado correctamente.
+[DESPACHO] Pedido #5241 despachado con Úxito.
+[PREPARACION] Pedido #6738 asignado a casillero $111
+[PREPARACION] Pedido #bebf asignado a casillero $74
+Toy en transito
+[ENTREGA] Pedido #5241 fall¾ en la entrega.
+[DESPACHO] Pedido #25c7 despachado con Úxito.
+[ENTREGA] Pedido #25c7 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #ecf9 despachado con Úxito.
+[PREPARACION] Pedido #ccc0 asignado a casillero $83
+Toy en transito
+[ENTREGA] Pedido #ecf9 entregado correctamente.
+[DESPACHO] Pedido #7071 despachado con Úxito.
+[PREPARACION] Pedido #6e9e asignado a casillero $47
+[ENTREGA] Pedido #7071 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #3196 verificado correctamente.
+[DESPACHO] Pedido #3a46 despachado con Úxito.
+[PREPARACION] Pedido #0c65 asignado a casillero $30
+[ENTREGA] Pedido #3a46 fall¾ en la entrega.
+[VERIFICACION Thread-10] Pedido #6972 verificado correctamente.
+[DESPACHO] Pedido #f1e7 despachado con Úxito.
+[PREPARACION] Pedido #e6d2 asignado a casillero $102
+[ENTREGA] Pedido #f1e7 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #0b28 asignado a casillero $13
+[DESPACHO] Pedido #4edd despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #4edd entregado correctamente.
+[DESPACHO] Pedido #0685 despachado con Úxito.
+[PREPARACION] Pedido #78b6 asignado a casillero $79
+[ENTREGA] Pedido #0685 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #7913 verificado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #97b7 verificado correctamente.
+[PREPARACION] Pedido #2a40 asignado a casillero $119
+[DESPACHO] Pedido #b037 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #b037 entregado correctamente.
+[DESPACHO] Pedido #6401 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+Esperando en transito
+[DESPACHO] Pedido #e4ba fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #c145 despachado con Úxito.
+Toy en transito
+Toy en transito
+Esperando en transito
+[PREPARACION] Pedido #1290 asignado a casillero $36
+[ENTREGA] Pedido #c145 fall¾ en la entrega.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #5ed0 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #457c verificado correctamente.
+[DESPACHO] Pedido #fcb1 despachado con Úxito.
+[PREPARACION] Pedido #5ee2 asignado a casillero $106
+[DESPACHO] Pedido #e648 fall¾ verificaci¾n y casillero marcado FDS.
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #fcb1 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #8f2a despachado con Úxito.
+[PREPARACION] Pedido #f0e5 asignado a casillero $31
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #8f2a entregado correctamente.
+[DESPACHO] Pedido #ffc4 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #20a5 asignado a casillero $3
+[ENTREGA] Pedido #ffc4 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #b037 verificado correctamente.
+[DESPACHO] Pedido #e982 despachado con Úxito.
+[PREPARACION] Pedido #0064 asignado a casillero $194
+Toy en transito
+[ENTREGA] Pedido #e982 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #25c7 verificado correctamente.
+[DESPACHO] Pedido #00e0 despachado con Úxito.
+[PREPARACION] Pedido #bdc0 asignado a casillero $91
+Esperando en transito
+[ENTREGA] Pedido #00e0 entregado correctamente.
+[DESPACHO] Pedido #0b78 despachado con Úxito.
+[PREPARACION] Pedido #e845 asignado a casillero $76
+Toy en transito
+[ENTREGA] Pedido #0b78 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #8743 asignado a casillero $38
+[DESPACHO] Pedido #f8a8 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #f8a8 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #4ed2 verificado correctamente.
+[DESPACHO] Pedido #0a6e despachado con Úxito.
+[PREPARACION] Pedido #ea31 asignado a casillero $131
+[ENTREGA] Pedido #0a6e entregado correctamente.
+[VERIFICACION Thread-10] Pedido #ebad verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #b6ea fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #0c65 despachado con Úxito.
+[PREPARACION] Pedido #64ef asignado a casillero $30
+Toy en transito
+[ENTREGA] Pedido #0c65 entregado correctamente.
+Esperando en transito
+Esperando en transito
+[DESPACHO] Pedido #0306 despachado con Úxito.
+[PREPARACION] Pedido #8334 asignado a casillero $168
+Toy en transito
+[DESPACHO] Pedido #a63f despachado con Úxito.
+[ENTREGA] Pedido #0306 entregado correctamente.
+[PREPARACION] Pedido #e2a5 asignado a casillero $4
+Toy en transito
+[ENTREGA] Pedido #a63f entregado correctamente.
+[VERIFICACION Thread-9] Pedido #0e34 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #21d7 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #8469 despachado con Úxito.
+[PREPARACION] Pedido #075d asignado a casillero $112
+Toy en transito
+[PREPARACION] Pedido #04ff asignado a casillero $57
+[ENTREGA] Pedido #8469 entregado correctamente.
+[DESPACHO] Pedido #b76d despachado con Úxito.
+Esperando en transito
+[ENTREGA] Pedido #b76d entregado correctamente.
+[DESPACHO] Pedido #6015 despachado con Úxito.
+[PREPARACION] Pedido #ddbc asignado a casillero $124
+Toy en transito
+[ENTREGA] Pedido #6015 entregado correctamente.
+[DESPACHO] Pedido #e9b2 fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-9] Pedido #8ac0 verificado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #fcb1 verificado correctamente.
+[DESPACHO] Pedido #20a5 despachado con Úxito.
+[PREPARACION] Pedido #036c asignado a casillero $3
+Toy en transito
+[ENTREGA] Pedido #20a5 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #9976 despachado con Úxito.
+[PREPARACION] Pedido #71a2 asignado a casillero $193
+Toy en transito
+[ENTREGA] Pedido #9976 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #1efc despachado con Úxito.
+[PREPARACION] Pedido #b8d6 asignado a casillero $169
+Toy en transito
+[ENTREGA] Pedido #1efc entregado correctamente.
+[DESPACHO] Pedido #a765 despachado con Úxito.
+[PREPARACION] Pedido #755b asignado a casillero $134
+[VERIFICACION Thread-9] Pedido #b9c7 verificado correctamente.
+Esperando en transito
+[ENTREGA] Pedido #a765 fall¾ en la entrega.
+[VERIFICACION Thread-10] Pedido #cdc1 verificado correctamente.
+[DESPACHO] Pedido #31d9 despachado con Úxito.
+[PREPARACION] Pedido #9a6f asignado a casillero $61
+Toy en transito
+[ENTREGA] Pedido #31d9 entregado correctamente.
+[DESPACHO] Pedido #ea61 despachado con Úxito.
+[PREPARACION] Pedido #eb10 asignado a casillero $62
+[ENTREGA] Pedido #ea61 entregado correctamente.
+[DESPACHO] Pedido #df76 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+Esperando en transito
+[PREPARACION] Pedido #713d asignado a casillero $147
+[DESPACHO] Pedido #582e despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #0685 verificado correctamente.
+Toy en transito
+[ENTREGA] Pedido #582e entregado correctamente.
+Toy en transito
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #4edd verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #1615 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #71a2 despachado con Úxito.
+[PREPARACION] Pedido #0286 asignado a casillero $193
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #71a2 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #8e02 despachado con Úxito.
+[PREPARACION] Pedido #5138 asignado a casillero $40
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #8e02 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #faec verificado correctamente.
+[DESPACHO] Pedido #b542 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #c69f asignado a casillero $52
+[ENTREGA] Pedido #b542 fall¾ en la entrega.
+[VERIFICACION Thread-10] Pedido #4e69 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #4953 despachado con Úxito.
+[PREPARACION] Pedido #82c1 asignado a casillero $29
+Toy en transito
+[ENTREGA] Pedido #4953 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #b6f8 asignado a casillero $69
+[DESPACHO] Pedido #320b despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #320b fall¾ en la entrega.
+Esperando en transito
+[DESPACHO] Pedido #17ec despachado con Úxito.
+[PREPARACION] Pedido #b7c7 asignado a casillero $190
+Toy en transito
+[ENTREGA] Pedido #17ec entregado correctamente.
+[VERIFICACION Thread-9] Pedido #e9ec verificado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #950a verificado correctamente.
+[DESPACHO] Pedido #5699 despachado con Úxito.
+[PREPARACION] Pedido #9c8e asignado a casillero $6
+Toy en transito
+[ENTREGA] Pedido #5699 entregado correctamente.
+[DESPACHO] Pedido #bebf despachado con Úxito.
+[PREPARACION] Pedido #0c59 asignado a casillero $74
+[ENTREGA] Pedido #bebf entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #5138 despachado con Úxito.
+[PREPARACION] Pedido #d6a3 asignado a casillero $40
+Toy en transito
+[ENTREGA] Pedido #5138 entregado correctamente.
+[DESPACHO] Pedido #e92f despachado con Úxito.
+[PREPARACION] Pedido #4071 asignado a casillero $92
+[ENTREGA] Pedido #e92f entregado correctamente.
+[VERIFICACION Thread-9] Pedido #3d55 verificado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #1efc verificado correctamente.
+[DESPACHO] Pedido #090b despachado con Úxito.
+[PREPARACION] Pedido #473a asignado a casillero $197
+Toy en transito
+[ENTREGA] Pedido #090b fall¾ en la entrega.
+Esperando en transito
+[DESPACHO] Pedido #0d15 despachado con Úxito.
+[PREPARACION] Pedido #3a70 asignado a casillero $150
+Toy en transito
+[ENTREGA] Pedido #0d15 entregado correctamente.
+[DESPACHO] Pedido #06a8 despachado con Úxito.
+[PREPARACION] Pedido #5464 asignado a casillero $186
+[ENTREGA] Pedido #06a8 entregado correctamente.
+[DESPACHO] Pedido #a7e6 despachado con Úxito.
+[PREPARACION] Pedido #d8a8 asignado a casillero $77
+[VERIFICACION Thread-9] Pedido #0d15 verificado correctamente.
+[ENTREGA] Pedido #a7e6 entregado correctamente.
+Esperando en transito
+[VERIFICACION] Pedido #0b78 fall¾ la verificaci¾n final.
+[DESPACHO] Pedido #a769 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #51c2 asignado a casillero $87
+[ENTREGA] Pedido #a769 entregado correctamente.
+[DESPACHO] Pedido #e6a7 despachado con Úxito.
+[PREPARACION] Pedido #3df0 asignado a casillero $23
+[ENTREGA] Pedido #e6a7 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #7566 asignado a casillero $49
+[DESPACHO] Pedido #87fd despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #87fd entregado correctamente.
+[DESPACHO] Pedido #64ef despachado con Úxito.
+[PREPARACION] Pedido #7cc3 asignado a casillero $30
+[ENTREGA] Pedido #64ef entregado correctamente.
+[VERIFICACION Thread-9] Pedido #ffc4 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #bc6f verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #6e9e despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #e796 asignado a casillero $47
+[DESPACHO] Pedido #a625 despachado con Úxito.
+[ENTREGA] Pedido #6e9e entregado correctamente.
+[PREPARACION] Pedido #b8d8 asignado a casillero $199
+[ENTREGA] Pedido #a625 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #a55d fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #4eb5 fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-9] Pedido #a769 verificado correctamente.
+Esperando en transito
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #a7e6 verificado correctamente.
+[DESPACHO] Pedido #3a70 despachado con Úxito.
+[PREPARACION] Pedido #dc82 asignado a casillero $150
+Toy en transito
+[ENTREGA] Pedido #3a70 entregado correctamente.
+Toy en transito
+Esperando en transito
+Toy en transito
+Esperando en transito
+[DESPACHO] Pedido #04c1 despachado con Úxito.
+[PREPARACION] Pedido #3a8f asignado a casillero $67
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #04c1 entregado correctamente.
+[DESPACHO] Pedido #9a6f fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-9] Pedido #8f2a verificado correctamente.
+[DESPACHO] Pedido #f85e despachado con Úxito.
+[PREPARACION] Pedido #869f asignado a casillero $174
+Toy en transito
+[ENTREGA] Pedido #f85e entregado correctamente.
+Esperando en transito
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #17ec verificado correctamente.
+[DESPACHO] Pedido #d457 despachado con Úxito.
+[PREPARACION] Pedido #5eb2 asignado a casillero $46
+Toy en transito
+[ENTREGA] Pedido #d457 entregado correctamente.
+Toy en transito
+Esperando en transito
+[DESPACHO] Pedido #17e2 despachado con Úxito.
+[PREPARACION] Pedido #2ba7 asignado a casillero $182
+Toy en transito
+[ENTREGA] Pedido #17e2 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #6dd0 despachado con Úxito.
+[PREPARACION] Pedido #6e09 asignado a casillero $126
+Toy en transito
+[ENTREGA] Pedido #6dd0 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #c800 verificado correctamente.
+[DESPACHO] Pedido #ac65 despachado con Úxito.
+[PREPARACION] Pedido #9650 asignado a casillero $105
+[ENTREGA] Pedido #ac65 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #d457 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #5cfe despachado con Úxito.
+[PREPARACION] Pedido #34f4 asignado a casillero $95
+Toy en transito
+[ENTREGA] Pedido #5cfe entregado correctamente.
+[DESPACHO] Pedido #b082 despachado con Úxito.
+[PREPARACION] Pedido #9602 asignado a casillero $122
+[ENTREGA] Pedido #b082 fall¾ en la entrega.
+Esperando en transito
+[DESPACHO] Pedido #2de1 despachado con Úxito.
+[PREPARACION] Pedido #ba97 asignado a casillero $125
+Toy en transito
+[ENTREGA] Pedido #2de1 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #ecf9 verificado correctamente.
+[DESPACHO] Pedido #60b4 despachado con Úxito.
+[PREPARACION] Pedido #ef99 asignado a casillero $176
+[ENTREGA] Pedido #60b4 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #2de1 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #9f31 despachado con Úxito.
+[PREPARACION] Pedido #b191 asignado a casillero $167
+Toy en transito
+[ENTREGA] Pedido #9f31 entregado correctamente.
+[DESPACHO] Pedido #f11b despachado con Úxito.
+[PREPARACION] Pedido #0e1c asignado a casillero $20
+[ENTREGA] Pedido #f11b entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #559d despachado con Úxito.
+[PREPARACION] Pedido #2226 asignado a casillero $177
+Toy en transito
+[ENTREGA] Pedido #559d entregado correctamente.
+[VERIFICACION] Pedido #8469 fall¾ la verificaci¾n final.
+[DESPACHO] Pedido #b6f8 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #8df1 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #4128 despachado con Úxito.
+[PREPARACION] Pedido #0530 asignado a casillero $135
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #4128 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #0064 despachado con Úxito.
+[PREPARACION] Pedido #605b asignado a casillero $194
+Toy en transito
+[ENTREGA] Pedido #0064 entregado correctamente.
+Toy en transito
+Esperando en transito
+[DESPACHO] Pedido #5e3b fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-9] Pedido #a625 verificado correctamente.
+[DESPACHO] Pedido #f89b despachado con Úxito.
+[PREPARACION] Pedido #a82a asignado a casillero $97
+Toy en transito
+[ENTREGA] Pedido #f89b entregado correctamente.
+[VERIFICACION Thread-10] Pedido #ccf1 verificado correctamente.
+Esperando en transito
+Esperando en transito
+[DESPACHO] Pedido #c92c fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #3d95 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #45c0 asignado a casillero $55
+[ENTREGA] Pedido #3d95 entregado correctamente.
+Toy en transito
+Esperando en transito
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #0064 verificado correctamente.
+[DESPACHO] Pedido #075d despachado con Úxito.
+[PREPARACION] Pedido #b33f asignado a casillero $112
+Toy en transito
+[PREPARACION] Pedido #504c asignado a casillero $35
+[DESPACHO] Pedido #bd19 despachado con Úxito.
+[ENTREGA] Pedido #075d entregado correctamente.
+Toy en transito
+[ENTREGA] Pedido #bd19 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #4128 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #8f87 despachado con Úxito.
+[PREPARACION] Pedido #9132 asignado a casillero $159
+Toy en transito
+[ENTREGA] Pedido #8f87 entregado correctamente.
+[DESPACHO] Pedido #f922 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #20a5 verificado correctamente.
+[DESPACHO] Pedido #91ab despachado con Úxito.
+[PREPARACION] Pedido #bb4e asignado a casillero $104
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #91ab entregado correctamente.
+[VERIFICACION Thread-10] Pedido #7889 verificado correctamente.
+[DESPACHO] Pedido #daf3 despachado con Úxito.
+[PREPARACION] Pedido #496a asignado a casillero $25
+Toy en transito
+[ENTREGA] Pedido #daf3 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #9602 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #9650 despachado con Úxito.
+[PREPARACION] Pedido #e914 asignado a casillero $105
+Toy en transito
+[ENTREGA] Pedido #9650 entregado correctamente.
+Esperando en transito
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #8e02 verificado correctamente.
+[DESPACHO] Pedido #8743 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #0fc2 asignado a casillero $38
+[ENTREGA] Pedido #8743 fall¾ en la entrega.
+Toy en transito
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #64ef verificado correctamente.
+[DESPACHO] Pedido #4731 despachado con Úxito.
+[PREPARACION] Pedido #8fa5 asignado a casillero $26
+Toy en transito
+[ENTREGA] Pedido #4731 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #330a despachado con Úxito.
+[PREPARACION] Pedido #82cb asignado a casillero $55
+[PREPARACION] Pedido #274c asignado a casillero $48
+Toy en transito
+[ENTREGA] Pedido #330a entregado correctamente.
+[DESPACHO] Pedido #45c0 despachado con Úxito.
+[ENTREGA] Pedido #45c0 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #9f31 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #d08e fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #5396 despachado con Úxito.
+[PREPARACION] Pedido #18f7 asignado a casillero $165
+[VERIFICACION Thread-10] Pedido #f85e verificado correctamente.
+Toy en transito
+[ENTREGA] Pedido #5396 entregado correctamente.
+Esperando en transito
+Esperando en transito
+[DESPACHO] Pedido #0bce despachado con Úxito.
+[PREPARACION] Pedido #c2fd asignado a casillero $139
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #0bce entregado correctamente.
+[DESPACHO] Pedido #8ebe despachado con Úxito.
+[PREPARACION] Pedido #36bf asignado a casillero $173
+Toy en transito
+[ENTREGA] Pedido #8ebe entregado correctamente.
+[VERIFICACION Thread-9] Pedido #ea61 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #4938 despachado con Úxito.
+[PREPARACION] Pedido #5d51 asignado a casillero $89
+Toy en transito
+[ENTREGA] Pedido #4938 entregado correctamente.
+[DESPACHO] Pedido #c69f fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-10] Pedido #582e verificado correctamente.
+Esperando en transito
+Esperando en transito
+[DESPACHO] Pedido #f1b5 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #60b4 verificado correctamente.
+[DESPACHO] Pedido #3db7 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #31e5 fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-10] Pedido #f89b verificado correctamente.
+[DESPACHO] Pedido #e844 despachado con Úxito.
+[PREPARACION] Pedido #028b asignado a casillero $88
+Toy en transito
+[ENTREGA] Pedido #e844 entregado correctamente.
+Toy en transito
+Esperando en transito
+Toy en transito
+Esperando en transito
+[DESPACHO] Pedido #78b6 despachado con Úxito.
+[PREPARACION] Pedido #690e asignado a casillero $79
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #78b6 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #daf3 verificado correctamente.
+[DESPACHO] Pedido #e6de despachado con Úxito.
+[PREPARACION] Pedido #4eb6 asignado a casillero $9
+Toy en transito
+[ENTREGA] Pedido #e6de entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #f3ef despachado con Úxito.
+[PREPARACION] Pedido #b3ee asignado a casillero $163
+Toy en transito
+[ENTREGA] Pedido #f3ef entregado correctamente.
+[VERIFICACION Thread-10] Pedido #9976 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #33f0 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #37e5 asignado a casillero $44
+[ENTREGA] Pedido #33f0 entregado correctamente.
+[DESPACHO] Pedido #ff1d despachado con Úxito.
+[PREPARACION] Pedido #c645 asignado a casillero $129
+[ENTREGA] Pedido #ff1d entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #f1e7 verificado correctamente.
+[DESPACHO] Pedido #d7bb despachado con Úxito.
+[PREPARACION] Pedido #a70e asignado a casillero $136
+Toy en transito
+[ENTREGA] Pedido #d7bb entregado correctamente.
+[DESPACHO] Pedido #8e8e despachado con Úxito.
+[PREPARACION] Pedido #dc21 asignado a casillero $64
+[ENTREGA] Pedido #8e8e entregado correctamente.
+[VERIFICACION Thread-10] Pedido #8e8e verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #715b despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #715b entregado correctamente.
+[PREPARACION] Pedido #2c02 asignado a casillero $157
+[DESPACHO] Pedido #6af6 despachado con Úxito.
+[PREPARACION] Pedido #4cf0 asignado a casillero $137
+[ENTREGA] Pedido #6af6 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #91ab verificado correctamente.
+[DESPACHO] Pedido #7c0d despachado con Úxito.
+[PREPARACION] Pedido #30da asignado a casillero $141
+Toy en transito
+[ENTREGA] Pedido #7c0d entregado correctamente.
+[DESPACHO] Pedido #1290 despachado con Úxito.
+[PREPARACION] Pedido #973b asignado a casillero $36
+[ENTREGA] Pedido #1290 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #0a6e verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #3eb0 despachado con Úxito.
+[PREPARACION] Pedido #7963 asignado a casillero $154
+Toy en transito
+[ENTREGA] Pedido #3eb0 entregado correctamente.
+[DESPACHO] Pedido #4071 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #e982 verificado correctamente.
+[DESPACHO] Pedido #605b despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #770d asignado a casillero $194
+Esperando en transito
+[ENTREGA] Pedido #605b entregado correctamente.
+[DESPACHO] Pedido #770d despachado con Úxito.
+[PREPARACION] Pedido #064c asignado a casillero $194
+Toy en transito
+[ENTREGA] Pedido #770d entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #04c1 verificado correctamente.
+[DESPACHO] Pedido #dc82 despachado con Úxito.
+[PREPARACION] Pedido #5d01 asignado a casillero $150
+Toy en transito
+[ENTREGA] Pedido #dc82 entregado correctamente.
+[DESPACHO] Pedido #5464 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #78b6 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #4eb6 despachado con Úxito.
+[PREPARACION] Pedido #96d2 asignado a casillero $9
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #4eb6 entregado correctamente.
+[DESPACHO] Pedido #2a40 despachado con Úxito.
+[PREPARACION] Pedido #ec07 asignado a casillero $119
+Toy en transito
+[ENTREGA] Pedido #2a40 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #6015 verificado correctamente.
+[DESPACHO] Pedido #82c1 despachado con Úxito.
+[PREPARACION] Pedido #a262 asignado a casillero $29
+Toy en transito
+[ENTREGA] Pedido #82c1 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #0b28 despachado con Úxito.
+[PREPARACION] Pedido #680e asignado a casillero $13
+Toy en transito
+[ENTREGA] Pedido #0b28 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #06a8 verificado correctamente.
+[DESPACHO] Pedido #86dc despachado con Úxito.
+[PREPARACION] Pedido #a0c1 asignado a casillero $138
+Toy en transito
+[ENTREGA] Pedido #86dc fall¾ en la entrega.
+[DESPACHO] Pedido #82d7 fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-10] Pedido #4938 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #2c02 despachado con Úxito.
+[PREPARACION] Pedido #a181 asignado a casillero $157
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #2c02 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #b484 asignado a casillero $64
+[DESPACHO] Pedido #dc21 despachado con Úxito.
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #dc21 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #e6a7 verificado correctamente.
+[DESPACHO] Pedido #5bbd despachado con Úxito.
+[PREPARACION] Pedido #a0fe asignado a casillero $0
+Toy en transito
+[ENTREGA] Pedido #5bbd entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #4953 verificado correctamente.
+[DESPACHO] Pedido #036c despachado con Úxito.
+[PREPARACION] Pedido #cad3 asignado a casillero $3
+Toy en transito
+[ENTREGA] Pedido #036c fall¾ en la entrega.
+[DESPACHO] Pedido #a684 despachado con Úxito.
+[PREPARACION] Pedido #1a31 asignado a casillero $178
+[ENTREGA] Pedido #a684 fall¾ en la entrega.
+Esperando en transito
+[DESPACHO] Pedido #82cb despachado con Úxito.
+[PREPARACION] Pedido #9644 asignado a casillero $55
+Toy en transito
+[ENTREGA] Pedido #82cb entregado correctamente.
+[VERIFICACION Thread-9] Pedido #075d verificado correctamente.
+[DESPACHO] Pedido #b484 despachado con Úxito.
+[PREPARACION] Pedido #0c84 asignado a casillero $64
+[ENTREGA] Pedido #b484 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #4b13 despachado con Úxito.
+[PREPARACION] Pedido #0d00 asignado a casillero $142
+Toy en transito
+[ENTREGA] Pedido #4b13 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #b484 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #b8d6 despachado con Úxito.
+[PREPARACION] Pedido #1fb8 asignado a casillero $169
+Toy en transito
+[ENTREGA] Pedido #b8d6 entregado correctamente.
+[DESPACHO] Pedido #5d01 despachado con Úxito.
+[PREPARACION] Pedido #3440 asignado a casillero $150
+[ENTREGA] Pedido #5d01 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #3d95 verificado correctamente.
+[DESPACHO] Pedido #5ee2 despachado con Úxito.
+[PREPARACION] Pedido #9402 asignado a casillero $106
+[ENTREGA] Pedido #5ee2 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #74f0 despachado con Úxito.
+[PREPARACION] Pedido #2e1a asignado a casillero $144
+Toy en transito
+[ENTREGA] Pedido #74f0 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #82cb verificado correctamente.
+[DESPACHO] Pedido #f0e5 despachado con Úxito.
+[PREPARACION] Pedido #78a9 asignado a casillero $31
+[ENTREGA] Pedido #f0e5 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #41ee fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #d8a8 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #d8a8 fall¾ en la entrega.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #87fd verificado correctamente.
+[PREPARACION] Pedido #6c56 asignado a casillero $77
+Esperando en transito
+[DESPACHO] Pedido #a1de despachado con Úxito.
+Toy en transito
+Toy en transito
+Esperando en transito
+[PREPARACION] Pedido #b408 asignado a casillero $51
+[VERIFICACION Thread-10] Pedido #8ebe verificado correctamente.
+[ENTREGA] Pedido #a1de entregado correctamente.
+[DESPACHO] Pedido #eb10 despachado con Úxito.
+[PREPARACION] Pedido #2f99 asignado a casillero $62
+Toy en transito
+[ENTREGA] Pedido #eb10 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #3ad1 despachado con Úxito.
+[PREPARACION] Pedido #42c9 asignado a casillero $172
+Toy en transito
+[ENTREGA] Pedido #3ad1 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #f8a8 verificado correctamente.
+[DESPACHO] Pedido #4c62 despachado con Úxito.
+[PREPARACION] Pedido #3947 asignado a casillero $71
+[ENTREGA] Pedido #4c62 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #ac66 despachado con Úxito.
+[PREPARACION] Pedido #4cc3 asignado a casillero $181
+Toy en transito
+[ENTREGA] Pedido #ac66 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #3a77 verificado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #d144 asignado a casillero $120
+[DESPACHO] Pedido #f293 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #f293 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #356b asignado a casillero $35
+[VERIFICACION Thread-9] Pedido #1290 verificado correctamente.
+[DESPACHO] Pedido #504c despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #504c fall¾ en la entrega.
+Esperando en transito
+[DESPACHO] Pedido #3382 despachado con Úxito.
+[PREPARACION] Pedido #9765 asignado a casillero $10
+Toy en transito
+[ENTREGA] Pedido #3382 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #ff1d verificado correctamente.
+[PREPARACION] Pedido #9bc7 asignado a casillero $126
+[DESPACHO] Pedido #6e09 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #6e09 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #fc68 despachado con Úxito.
+[PREPARACION] Pedido #0eb3 asignado a casillero $75
+Toy en transito
+[ENTREGA] Pedido #fc68 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #770d verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #22b5 despachado con Úxito.
+[PREPARACION] Pedido #9c48 asignado a casillero $101
+Toy en transito
+[ENTREGA] Pedido #22b5 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #dfa0 despachado con Úxito.
+[PREPARACION] Pedido #de76 asignado a casillero $103
+Toy en transito
+[ENTREGA] Pedido #dfa0 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #f0e5 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #3a8f despachado con Úxito.
+[PREPARACION] Pedido #b35d asignado a casillero $67
+Toy en transito
+[ENTREGA] Pedido #3a8f entregado correctamente.
+[DESPACHO] Pedido #27fd despachado con Úxito.
+[PREPARACION] Pedido #2cb8 asignado a casillero $2
+[ENTREGA] Pedido #27fd entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #00e0 verificado correctamente.
+[DESPACHO] Pedido #66f4 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #66f4 entregado correctamente.
+[PREPARACION] Pedido #c2fb asignado a casillero $78
+[DESPACHO] Pedido #3bac despachado con Úxito.
+[PREPARACION] Pedido #ea0e asignado a casillero $99
+[ENTREGA] Pedido #3bac entregado correctamente.
+[VERIFICACION] Pedido #dc21 fall¾ la verificaci¾n final.
+[DESPACHO] Pedido #3303 despachado con Úxito.
+[PREPARACION] Pedido #033a asignado a casillero $45
+[ENTREGA] Pedido #3303 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #f96d despachado con Úxito.
+[PREPARACION] Pedido #1d99 asignado a casillero $81
+Toy en transito
+[ENTREGA] Pedido #f96d entregado correctamente.
+[VERIFICACION Thread-9] Pedido #3303 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #b3ee despachado con Úxito.
+[PREPARACION] Pedido #db95 asignado a casillero $163
+Toy en transito
+[ENTREGA] Pedido #b3ee entregado correctamente.
+[DESPACHO] Pedido #cf3b despachado con Úxito.
+[PREPARACION] Pedido #4569 asignado a casillero $22
+[ENTREGA] Pedido #cf3b entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #bd19 verificado correctamente.
+[DESPACHO] Pedido #f581 despachado con Úxito.
+[PREPARACION] Pedido #1a3f asignado a casillero $184
+Toy en transito
+[ENTREGA] Pedido #f581 entregado correctamente.
+[DESPACHO] Pedido #30da despachado con Úxito.
+[PREPARACION] Pedido #3fee asignado a casillero $141
+[ENTREGA] Pedido #30da entregado correctamente.
+[DESPACHO] Pedido #2a51 fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+[VERIFICACION] Pedido #82c1 fall¾ la verificaci¾n final.
+[DESPACHO] Pedido #064c despachado con Úxito.
+[PREPARACION] Pedido #804d asignado a casillero $194
+Toy en transito
+[ENTREGA] Pedido #064c entregado correctamente.
+Esperando en transito
+Esperando en transito
+[VERIFICACION] Pedido #30da fall¾ la verificaci¾n final.
+[DESPACHO] Pedido #1d70 despachado con Úxito.
+[PREPARACION] Pedido #5631 asignado a casillero $188
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #1d70 entregado correctamente.
+[DESPACHO] Pedido #3fee despachado con Úxito.
+[PREPARACION] Pedido #7954 asignado a casillero $141
+Toy en transito
+[ENTREGA] Pedido #3fee fall¾ en la entrega.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #4731 verificado correctamente.
+[DESPACHO] Pedido #34f4 despachado con Úxito.
+[PREPARACION] Pedido #b691 asignado a casillero $95
+Toy en transito
+[ENTREGA] Pedido #34f4 entregado correctamente.
+[DESPACHO] Pedido #2f6a despachado con Úxito.
+[PREPARACION] Pedido #dcb5 asignado a casillero $107
+Esperando en transito
+[ENTREGA] Pedido #2f6a entregado correctamente.
+[VERIFICACION Thread-10] Pedido #5d01 verificado correctamente.
+[DESPACHO] Pedido #a82a despachado con Úxito.
+[PREPARACION] Pedido #c382 asignado a casillero $97
+Toy en transito
+[ENTREGA] Pedido #a82a entregado correctamente.
+[DESPACHO] Pedido #9bc7 despachado con Úxito.
+[PREPARACION] Pedido #e8ac asignado a casillero $126
+[ENTREGA] Pedido #9bc7 fall¾ en la entrega.
+[DESPACHO] Pedido #1544 despachado con Úxito.
+[PREPARACION] Pedido #c058 asignado a casillero $53
+[DESPACHO] Pedido #c50d despachado con Úxito.
+[PREPARACION] Pedido #af2d asignado a casillero $18
+[ENTREGA] Pedido #1544 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #bebf verificado correctamente.
+[ENTREGA] Pedido #c50d entregado correctamente.
+[DESPACHO] Pedido #a0fe despachado con Úxito.
+[PREPARACION] Pedido #6c7a asignado a casillero $0
+[ENTREGA] Pedido #a0fe entregado correctamente.
+[VERIFICACION Thread-10] Pedido #e6de verificado correctamente.
+[DESPACHO] Pedido #51c2 despachado con Úxito.
+[PREPARACION] Pedido #62fe asignado a casillero $87
+[ENTREGA] Pedido #51c2 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #50c2 despachado con Úxito.
+[PREPARACION] Pedido #d34f asignado a casillero $145
+Toy en transito
+[ENTREGA] Pedido #50c2 entregado correctamente.
+[DESPACHO] Pedido #973b fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-9] Pedido #5ee2 verificado correctamente.
+Esperando en transito
+Esperando en transito
+[DESPACHO] Pedido #8fa5 despachado con Úxito.
+[PREPARACION] Pedido #b6ad asignado a casillero $26
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #8fa5 entregado correctamente.
+[DESPACHO] Pedido #b6cc despachado con Úxito.
+[PREPARACION] Pedido #895d asignado a casillero $192
+Toy en transito
+[ENTREGA] Pedido #b6cc entregado correctamente.
+[VERIFICACION Thread-10] Pedido #f11b verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #2cb8 despachado con Úxito.
+[PREPARACION] Pedido #e591 asignado a casillero $2
+Toy en transito
+[ENTREGA] Pedido #2cb8 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #74f0 verificado correctamente.
+[DESPACHO] Pedido #8737 despachado con Úxito.
+[PREPARACION] Pedido #24b4 asignado a casillero $39
+Toy en transito
+[ENTREGA] Pedido #8737 fall¾ en la entrega.
+Esperando en transito
+[DESPACHO] Pedido #3ece despachado con Úxito.
+[PREPARACION] Pedido #629e asignado a casillero $179
+Toy en transito
+[ENTREGA] Pedido #3ece entregado correctamente.
+[VERIFICACION Thread-10] Pedido #f581 verificado correctamente.
+[DESPACHO] Pedido #dcb5 despachado con Úxito.
+[PREPARACION] Pedido #48a8 asignado a casillero $107
+[ENTREGA] Pedido #dcb5 fall¾ en la entrega.
+Esperando en transito
+[DESPACHO] Pedido #e76b despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #5758 asignado a casillero $16
+[ENTREGA] Pedido #e76b entregado correctamente.
+[VERIFICACION Thread-9] Pedido #2f6a verificado correctamente.
+[DESPACHO] Pedido #bb4e despachado con Úxito.
+[PREPARACION] Pedido #c422 asignado a casillero $104
+[ENTREGA] Pedido #bb4e entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #3f0f fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #0530 despachado con Úxito.
+[PREPARACION] Pedido #a89d asignado a casillero $135
+Toy en transito
+[ENTREGA] Pedido #0530 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #6dd0 verificado correctamente.
+Esperando en transito
+Esperando en transito
+[DESPACHO] Pedido #5758 despachado con Úxito.
+[PREPARACION] Pedido #35c9 asignado a casillero $16
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #5758 entregado correctamente.
+[DESPACHO] Pedido #14bc despachado con Úxito.
+[PREPARACION] Pedido #9102 asignado a casillero $128
+Toy en transito
+[ENTREGA] Pedido #14bc entregado correctamente.
+[VERIFICACION Thread-9] Pedido #5cfe verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #48a8 despachado con Úxito.
+[PREPARACION] Pedido #da1b asignado a casillero $107
+Toy en transito
+[ENTREGA] Pedido #48a8 fall¾ en la entrega.
+[DESPACHO] Pedido #569f despachado con Úxito.
+[PREPARACION] Pedido #c2cc asignado a casillero $195
+[VERIFICACION Thread-10] Pedido #b76d verificado correctamente.
+[ENTREGA] Pedido #569f entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #db95 despachado con Úxito.
+[PREPARACION] Pedido #69ab asignado a casillero $163
+Toy en transito
+[ENTREGA] Pedido #db95 entregado correctamente.
+[DESPACHO] Pedido #0aaa fall¾ verificaci¾n y casillero marcado FDS.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #dc82 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #496a despachado con Úxito.
+[PREPARACION] Pedido #b11e asignado a casillero $25
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #496a entregado correctamente.
+[DESPACHO] Pedido #0eb3 despachado con Úxito.
+[PREPARACION] Pedido #f280 asignado a casillero $75
+[VERIFICACION Thread-10] Pedido #7071 verificado correctamente.
+Toy en transito
+[ENTREGA] Pedido #0eb3 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #f2ed despachado con Úxito.
+[PREPARACION] Pedido #9a8c asignado a casillero $185
+Toy en transito
+[ENTREGA] Pedido #f2ed fall¾ en la entrega.
+[DESPACHO] Pedido #f2ef despachado con Úxito.
+[PREPARACION] Pedido #6bfd asignado a casillero $11
+[VERIFICACION Thread-9] Pedido #3a8f verificado correctamente.
+[ENTREGA] Pedido #f2ef entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #de76 despachado con Úxito.
+[PREPARACION] Pedido #2d48 asignado a casillero $103
+Toy en transito
+[ENTREGA] Pedido #de76 entregado correctamente.
+[DESPACHO] Pedido #c382 despachado con Úxito.
+[PREPARACION] Pedido #35dd asignado a casillero $97
+[ENTREGA] Pedido #c382 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #064c verificado correctamente.
+[DESPACHO] Pedido #0e1c despachado con Úxito.
+[PREPARACION] Pedido #3ea9 asignado a casillero $20
+[ENTREGA] Pedido #0e1c entregado correctamente.
+[DESPACHO] Pedido #7921 despachado con Úxito.
+[PREPARACION] Pedido #aa61 asignado a casillero $12
+[VERIFICACION Thread-9] Pedido #559d verificado correctamente.
+[ENTREGA] Pedido #7921 entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #b7c7 despachado con Úxito.
+[PREPARACION] Pedido #2f0c asignado a casillero $190
+Toy en transito
+[ENTREGA] Pedido #b7c7 entregado correctamente.
+[DESPACHO] Pedido #c058 despachado con Úxito.
+[PREPARACION] Pedido #6e14 asignado a casillero $53
+[ENTREGA] Pedido #c058 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #33f0 verificado correctamente.
+[DESPACHO] Pedido #a89d despachado con Úxito.
+[PREPARACION] Pedido #2824 asignado a casillero $135
+[ENTREGA] Pedido #a89d entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #8635 asignado a casillero $198
+[VERIFICACION Thread-9] Pedido #496a verificado correctamente.
+[DESPACHO] Pedido #6ba4 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #6ba4 entregado correctamente.
+[DESPACHO] Pedido #c09e despachado con Úxito.
+[PREPARACION] Pedido #bb04 asignado a casillero $133
+[ENTREGA] Pedido #c09e entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #2e1a despachado con Úxito.
+[VERIFICACION Thread-10] Pedido #b3ee verificado correctamente.
+[PREPARACION] Pedido #e131 asignado a casillero $144
+Toy en transito
+[ENTREGA] Pedido #2e1a entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #8cab despachado con Úxito.
+[PREPARACION] Pedido #bdae asignado a casillero $113
+Toy en transito
+[ENTREGA] Pedido #8cab entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #8cab verificado correctamente.
+[DESPACHO] Pedido #2f99 despachado con Úxito.
+[PREPARACION] Pedido #c084 asignado a casillero $62
+Toy en transito
+[ENTREGA] Pedido #2f99 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #a8aa asignado a casillero $105
+[DESPACHO] Pedido #e914 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #e914 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #f96d verificado correctamente.
+[DESPACHO] Pedido #9402 despachado con Úxito.
+[PREPARACION] Pedido #079e asignado a casillero $106
+Toy en transito
+[ENTREGA] Pedido #9402 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #91ee asignado a casillero $165
+[DESPACHO] Pedido #18f7 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #18f7 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #b7c7 verificado correctamente.
+[DESPACHO] Pedido #c12a fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-10] Pedido #6ba4 verificado correctamente.
+[PREPARACION] Pedido #0e4d asignado a casillero $156
+[DESPACHO] Pedido #9724 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #9724 entregado correctamente.
+Esperando en transito
+Esperando en transito
+[DESPACHO] Pedido #8635 despachado con Úxito.
+[PREPARACION] Pedido #1845 asignado a casillero $198
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #8635 entregado correctamente.
+[DESPACHO] Pedido #b6ad despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #7921 verificado correctamente.
+[PREPARACION] Pedido #e0e2 asignado a casillero $26
+Toy en transito
+[ENTREGA] Pedido #b6ad entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #1fb8 fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-10] Pedido #34f4 verificado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #9132 despachado con Úxito.
+[PREPARACION] Pedido #4539 asignado a casillero $159
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #9132 entregado correctamente.
+Esperando en transito
+[PREPARACION] Pedido #e90e asignado a casillero $62
+[DESPACHO] Pedido #c084 despachado con Úxito.
+Toy en transito
+Toy en transito
+Esperando en transito
+[ENTREGA] Pedido #c084 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #b6ad verificado correctamente.
+[DESPACHO] Pedido #14da despachado con Úxito.
+[PREPARACION] Pedido #a8b1 asignado a casillero $117
+Toy en transito
+[ENTREGA] Pedido #14da entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #d7bb verificado correctamente.
+[DESPACHO] Pedido #1845 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #73e2 asignado a casillero $198
+[ENTREGA] Pedido #1845 entregado correctamente.
+[DESPACHO] Pedido #6c7a despachado con Úxito.
+[PREPARACION] Pedido #f955 asignado a casillero $0
+[ENTREGA] Pedido #6c7a entregado correctamente.
+Esperando en transito
+[DESPACHO] Pedido #aecc fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION] Pedido #bb4e fall¾ la verificaci¾n final.
+[DESPACHO] Pedido #7cc3 despachado con Úxito.
+Toy en transito
+[PREPARACION] Pedido #113d asignado a casillero $30
+[ENTREGA] Pedido #7cc3 entregado correctamente.
+Esperando en transito
+Esperando en transito
+[VERIFICACION Thread-10] Pedido #1544 verificado correctamente.
+[DESPACHO] Pedido #bad4 despachado con Úxito.
+[PREPARACION] Pedido #476e asignado a casillero $123
+Toy en transito
+[ENTREGA] Pedido #bad4 entregado correctamente.
+[PREPARACION] Pedido #abb7 asignado a casillero $188
+[DESPACHO] Pedido #5631 despachado con Úxito.
+Toy en transito
+[ENTREGA] Pedido #5631 entregado correctamente.
+Esperando en transito
+[VERIFICACION Thread-9] Pedido #6c7a verificado correctamente.
+[DESPACHO] Pedido #e6d2 despachado con Úxito.
+[PREPARACION] Pedido #d78e asignado a casillero $102
+Toy en transito
+[ENTREGA] Pedido #e6d2 entregado correctamente.
+[DESPACHO] Pedido #ea0e despachado con Úxito.
+[ENTREGA] Pedido #ea0e entregado correctamente.
+[VERIFICACION Thread-10] Pedido #7c0d verificado correctamente.
+[DESPACHO] Pedido #629e despachado con Úxito.
+[ENTREGA] Pedido #629e entregado correctamente.
+[DESPACHO] Pedido #8334 despachado con Úxito.
+[ENTREGA] Pedido #8334 entregado correctamente.
+Pedidos preparados
+Pedidos preparados: 500
+Pedidos preparados: 346
+Pedidos entregados: 271
+Pedidos verificados: 173
+Pedidos fallidos: 82
+[DESPACHO] Pedido #aa61 despachado con Úxito.
+[ENTREGA] Pedido #aa61 fall¾ en la entrega.
+[VERIFICACION Thread-9] Pedido #c058 verificado correctamente.
+[DESPACHO] Pedido #9765 despachado con Úxito.
+[ENTREGA] Pedido #9765 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #18f7 verificado correctamente.
+[DESPACHO] Pedido #38af despachado con Úxito.
+[ENTREGA] Pedido #38af entregado correctamente.
+[DESPACHO] Pedido #680e despachado con Úxito.
+[ENTREGA] Pedido #680e entregado correctamente.
+[VERIFICACION Thread-9] Pedido #a0fe verificado correctamente.
+[DESPACHO] Pedido #f9b4 despachado con Úxito.
+[ENTREGA] Pedido #f9b4 fall¾ en la entrega.
+[DESPACHO] Pedido #f955 despachado con Úxito.
+[ENTREGA] Pedido #f955 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #a89d verificado correctamente.
+[DESPACHO] Pedido #f89a fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #9d43 despachado con Úxito.
+[ENTREGA] Pedido #9d43 entregado correctamente.
+[DESPACHO] Pedido #e905 despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #8f87 verificado correctamente.
+[ENTREGA] Pedido #e905 entregado correctamente.
+[DESPACHO] Pedido #e90e despachado con Úxito.
+[ENTREGA] Pedido #e90e entregado correctamente.
+[VERIFICACION Thread-10] Pedido #e914 verificado correctamente.
+[DESPACHO] Pedido #ff66 despachado con Úxito.
+[ENTREGA] Pedido #ff66 fall¾ en la entrega.
+[DESPACHO] Pedido #2d48 despachado con Úxito.
+[ENTREGA] Pedido #2d48 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #f3ef verificado correctamente.
+[DESPACHO] Pedido #3df0 despachado con Úxito.
+[ENTREGA] Pedido #3df0 entregado correctamente.
+[DESPACHO] Pedido #a262 despachado con Úxito.
+[ENTREGA] Pedido #a262 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #c09e verificado correctamente.
+[DESPACHO] Pedido #51aa despachado con Úxito.
+[ENTREGA] Pedido #51aa entregado correctamente.
+[VERIFICACION Thread-9] Pedido #5699 verificado correctamente.
+[DESPACHO] Pedido #96d2 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #4539 despachado con Úxito.
+[ENTREGA] Pedido #4539 entregado correctamente.
+[DESPACHO] Pedido #0d00 despachado con Úxito.
+[VERIFICACION] Pedido #6e09 fall¾ la verificaci¾n final.
+[ENTREGA] Pedido #0d00 entregado correctamente.
+[DESPACHO] Pedido #cd50 despachado con Úxito.
+[ENTREGA] Pedido #cd50 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #31d9 verificado correctamente.
+[DESPACHO] Pedido #9fb3 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #9a8c despachado con Úxito.
+[ENTREGA] Pedido #9a8c fall¾ en la entrega.
+[VERIFICACION] Pedido #9132 fall¾ la verificaci¾n final.
+[DESPACHO] Pedido #b191 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #ca52 despachado con Úxito.
+[ENTREGA] Pedido #ca52 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #50c2 verificado correctamente.
+[DESPACHO] Pedido #73be fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #40e9 fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-10] Pedido #e92f verificado correctamente.
+[DESPACHO] Pedido #ec07 despachado con Úxito.
+[DESPACHO] Pedido #24b4 fall¾ verificaci¾n y casillero marcado FDS.
+[ENTREGA] Pedido #ec07 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #9d43 verificado correctamente.
+[DESPACHO] Pedido #ccc0 despachado con Úxito.
+[ENTREGA] Pedido #ccc0 fall¾ en la entrega.
+[DESPACHO] Pedido #04ff fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-10] Pedido #0eb3 verificado correctamente.
+[DESPACHO] Pedido #2aaf despachado con Úxito.
+[ENTREGA] Pedido #2aaf fall¾ en la entrega.
+[DESPACHO] Pedido #4569 despachado con Úxito.
+[ENTREGA] Pedido #4569 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #2c02 verificado correctamente.
+[DESPACHO] Pedido #1a3f despachado con Úxito.
+[ENTREGA] Pedido #1a3f entregado correctamente.
+[VERIFICACION Thread-10] Pedido #9650 verificado correctamente.
+[DESPACHO] Pedido #d953 despachado con Úxito.
+[ENTREGA] Pedido #d953 entregado correctamente.
+[DESPACHO] Pedido #453b despachado con Úxito.
+[ENTREGA] Pedido #453b entregado correctamente.
+[DESPACHO] Pedido #6bfd despachado con Úxito.
+[ENTREGA] Pedido #6bfd entregado correctamente.
+[VERIFICACION Thread-9] Pedido #2f99 verificado correctamente.
+[DESPACHO] Pedido #d17d despachado con Úxito.
+[ENTREGA] Pedido #d17d entregado correctamente.
+[VERIFICACION Thread-10] Pedido #c084 verificado correctamente.
+[DESPACHO] Pedido #b11e despachado con Úxito.
+[ENTREGA] Pedido #b11e entregado correctamente.
+[DESPACHO] Pedido #6e14 despachado con Úxito.
+[ENTREGA] Pedido #6e14 entregado correctamente.
+[DESPACHO] Pedido #2e45 despachado con Úxito.
+[ENTREGA] Pedido #2e45 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #1211 verificado correctamente.
+[DESPACHO] Pedido #b8d8 despachado con Úxito.
+[ENTREGA] Pedido #b8d8 entregado correctamente.
+[DESPACHO] Pedido #9644 despachado con Úxito.
+[VERIFICACION Thread-10] Pedido #1a3f verificado correctamente.
+[ENTREGA] Pedido #9644 entregado correctamente.
+[DESPACHO] Pedido #3440 despachado con Úxito.
+[ENTREGA] Pedido #3440 entregado correctamente.
+[DESPACHO] Pedido #bdae despachado con Úxito.
+[ENTREGA] Pedido #bdae entregado correctamente.
+[VERIFICACION Thread-9] Pedido #38af verificado correctamente.
+[DESPACHO] Pedido #bbb0 fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-10] Pedido #e76b verificado correctamente.
+[DESPACHO] Pedido #a520 despachado con Úxito.
+[ENTREGA] Pedido #a520 fall¾ en la entrega.
+[DESPACHO] Pedido #a981 despachado con Úxito.
+[ENTREGA] Pedido #a981 entregado correctamente.
+[DESPACHO] Pedido #d34f fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-9] Pedido #0530 verificado correctamente.
+[DESPACHO] Pedido #e796 despachado con Úxito.
+[ENTREGA] Pedido #e796 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #0b28 verificado correctamente.
+[DESPACHO] Pedido #804d despachado con Úxito.
+[ENTREGA] Pedido #804d entregado correctamente.
+[DESPACHO] Pedido #cbe2 despachado con Úxito.
+[ENTREGA] Pedido #cbe2 entregado correctamente.
+[DESPACHO] Pedido #62fe despachado con Úxito.
+[ENTREGA] Pedido #62fe entregado correctamente.
+[VERIFICACION Thread-9] Pedido #a981 verificado correctamente.
+[DESPACHO] Pedido #a0c1 despachado con Úxito.
+[ENTREGA] Pedido #a0c1 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #453b verificado correctamente.
+[DESPACHO] Pedido #a0ec despachado con Úxito.
+[ENTREGA] Pedido #a0ec entregado correctamente.
+[DESPACHO] Pedido #f280 despachado con Úxito.
+[ENTREGA] Pedido #f280 entregado correctamente.
+[DESPACHO] Pedido #bdc0 despachado con Úxito.
+[ENTREGA] Pedido #bdc0 fall¾ en la entrega.
+[VERIFICACION Thread-9] Pedido #2e1a verificado correctamente.
+[VERIFICACION Thread-10] Pedido #629e verificado correctamente.
+[DESPACHO] Pedido #028b fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #c685 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #7f3a despachado con Úxito.
+[ENTREGA] Pedido #7f3a entregado correctamente.
+[DESPACHO] Pedido #1a68 despachado con Úxito.
+[ENTREGA] Pedido #1a68 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #5bbd verificado correctamente.
+[VERIFICACION Thread-10] Pedido #2e45 verificado correctamente.
+[DESPACHO] Pedido #e131 despachado con Úxito.
+[ENTREGA] Pedido #e131 entregado correctamente.
+[DESPACHO] Pedido #690e despachado con Úxito.
+[ENTREGA] Pedido #690e entregado correctamente.
+[DESPACHO] Pedido #35dd despachado con Úxito.
+[ENTREGA] Pedido #35dd entregado correctamente.
+[DESPACHO] Pedido #1d99 despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #569f verificado correctamente.
+[ENTREGA] Pedido #1d99 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #9765 verificado correctamente.
+[DESPACHO] Pedido #e591 despachado con Úxito.
+[ENTREGA] Pedido #e591 entregado correctamente.
+[DESPACHO] Pedido #abb7 despachado con Úxito.
+[ENTREGA] Pedido #abb7 entregado correctamente.
+[DESPACHO] Pedido #ba97 despachado con Úxito.
+[ENTREGA] Pedido #ba97 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #bdae verificado correctamente.
+[DESPACHO] Pedido #079e despachado con Úxito.
+[ENTREGA] Pedido #079e entregado correctamente.
+[VERIFICACION Thread-10] Pedido #b8d8 verificado correctamente.
+[DESPACHO] Pedido #c422 despachado con Úxito.
+[ENTREGA] Pedido #c422 entregado correctamente.
+[DESPACHO] Pedido #b099 despachado con Úxito.
+[ENTREGA] Pedido #b099 entregado correctamente.
+[DESPACHO] Pedido #78a9 despachado con Úxito.
+[ENTREGA] Pedido #78a9 entregado correctamente.
+[DESPACHO] Pedido #9c8e despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #0c65 verificado correctamente.
+[ENTREGA] Pedido #9c8e entregado correctamente.
+[VERIFICACION Thread-10] Pedido #e6d2 verificado correctamente.
+[DESPACHO] Pedido #a8aa fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #98e0 despachado con Úxito.
+[ENTREGA] Pedido #98e0 entregado correctamente.
+[DESPACHO] Pedido #c2fd despachado con Úxito.
+[ENTREGA] Pedido #c2fd entregado correctamente.
+[DESPACHO] Pedido #d6a3 despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #3382 verificado correctamente.
+[ENTREGA] Pedido #d6a3 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #330a verificado correctamente.
+[DESPACHO] Pedido #cad3 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #e2a5 despachado con Úxito.
+[ENTREGA] Pedido #e2a5 entregado correctamente.
+[DESPACHO] Pedido #a890 fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-9] Pedido #7f3a verificado correctamente.
+[DESPACHO] Pedido #713d despachado con Úxito.
+[ENTREGA] Pedido #713d entregado correctamente.
+[VERIFICACION Thread-10] Pedido #c422 verificado correctamente.
+[DESPACHO] Pedido #a8b1 despachado con Úxito.
+[ENTREGA] Pedido #a8b1 entregado correctamente.
+[DESPACHO] Pedido #476e fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-9] Pedido #d953 verificado correctamente.
+[DESPACHO] Pedido #473a despachado con Úxito.
+[ENTREGA] Pedido #473a entregado correctamente.
+[DESPACHO] Pedido #4cc3 despachado con Úxito.
+[ENTREGA] Pedido #4cc3 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #b11e verificado correctamente.
+[DESPACHO] Pedido #69ab despachado con Úxito.
+[ENTREGA] Pedido #69ab entregado correctamente.
+[DESPACHO] Pedido #af2d despachado con Úxito.
+[ENTREGA] Pedido #af2d entregado correctamente.
+[VERIFICACION Thread-9] Pedido #3440 verificado correctamente.
+[DESPACHO] Pedido #755b fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #915f despachado con Úxito.
+[ENTREGA] Pedido #915f entregado correctamente.
+[VERIFICACION Thread-10] Pedido #8fa5 verificado correctamente.
+[DESPACHO] Pedido #73e2 despachado con Úxito.
+[ENTREGA] Pedido #73e2 entregado correctamente.
+[DESPACHO] Pedido #e118 despachado con Úxito.
+[ENTREGA] Pedido #e118 entregado correctamente.
+[VERIFICACION] Pedido #6e14 fall¾ la verificaci¾n final.
+[DESPACHO] Pedido #2824 despachado con Úxito.
+[ENTREGA] Pedido #2824 entregado correctamente.
+[DESPACHO] Pedido #da6a despachado con Úxito.
+[VERIFICACION Thread-10] Pedido #079e verificado correctamente.
+[ENTREGA] Pedido #da6a entregado correctamente.
+[DESPACHO] Pedido #b408 despachado con Úxito.
+[ENTREGA] Pedido #b408 entregado correctamente.
+[DESPACHO] Pedido #2ba7 despachado con Úxito.
+[ENTREGA] Pedido #2ba7 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #0bce verificado correctamente.
+[DESPACHO] Pedido #63a0 despachado con Úxito.
+[ENTREGA] Pedido #63a0 entregado correctamente.
+[DESPACHO] Pedido #ee3d despachado con Úxito.
+[ENTREGA] Pedido #ee3d fall¾ en la entrega.
+[VERIFICACION Thread-10] Pedido #e76a verificado correctamente.
+[DESPACHO] Pedido #bb04 despachado con Úxito.
+[ENTREGA] Pedido #bb04 entregado correctamente.
+[DESPACHO] Pedido #42c9 despachado con Úxito.
+[ENTREGA] Pedido #42c9 entregado correctamente.
+[VERIFICACION] Pedido #e90e fall¾ la verificaci¾n final.
+[DESPACHO] Pedido #b33f despachado con Úxito.
+[ENTREGA] Pedido #b33f entregado correctamente.
+[DESPACHO] Pedido #243c despachado con Úxito.
+[VERIFICACION Thread-10] Pedido #690e verificado correctamente.
+[ENTREGA] Pedido #243c entregado correctamente.
+[DESPACHO] Pedido #6738 despachado con Úxito.
+[ENTREGA] Pedido #6738 entregado correctamente.
+[DESPACHO] Pedido #ef99 fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-9] Pedido #5631 verificado correctamente.
+[DESPACHO] Pedido #0c59 despachado con Úxito.
+[ENTREGA] Pedido #0c59 fall¾ en la entrega.
+[VERIFICACION Thread-10] Pedido #0d00 verificado correctamente.
+[DESPACHO] Pedido #b691 despachado con Úxito.
+[ENTREGA] Pedido #b691 entregado correctamente.
+[DESPACHO] Pedido #869f fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #e845 despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #ec07 verificado correctamente.
+[ENTREGA] Pedido #e845 entregado correctamente.
+[DESPACHO] Pedido #2f0c despachado con Úxito.
+[ENTREGA] Pedido #2f0c entregado correctamente.
+[VERIFICACION Thread-10] Pedido #27fd verificado correctamente.
+[DESPACHO] Pedido #35c9 despachado con Úxito.
+[ENTREGA] Pedido #35c9 fall¾ en la entrega.
+[DESPACHO] Pedido #e0e2 despachado con Úxito.
+[ENTREGA] Pedido #e0e2 entregado correctamente.
+[DESPACHO] Pedido #e355 despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #e845 verificado correctamente.
+[ENTREGA] Pedido #e355 entregado correctamente.
+[DESPACHO] Pedido #ed08 despachado con Úxito.
+[ENTREGA] Pedido #ed08 entregado correctamente.
+[DESPACHO] Pedido #0e4d despachado con Úxito.
+[ENTREGA] Pedido #0e4d entregado correctamente.
+[VERIFICACION Thread-10] Pedido #42c9 verificado correctamente.
+[DESPACHO] Pedido #8707 despachado con Úxito.
+[ENTREGA] Pedido #8707 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #dfa0 verificado correctamente.
+[DESPACHO] Pedido #3c77 despachado con Úxito.
+[ENTREGA] Pedido #3c77 entregado correctamente.
+[DESPACHO] Pedido #4420 despachado con Úxito.
+[ENTREGA] Pedido #4420 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #51aa verificado correctamente.
+[DESPACHO] Pedido #ddbc despachado con Úxito.
+[ENTREGA] Pedido #ddbc entregado correctamente.
+[DESPACHO] Pedido #2fbb despachado con Úxito.
+[ENTREGA] Pedido #2fbb entregado correctamente.
+[VERIFICACION Thread-9] Pedido #ca52 verificado correctamente.
+[DESPACHO] Pedido #506b despachado con Úxito.
+[ENTREGA] Pedido #506b entregado correctamente.
+[DESPACHO] Pedido #1a31 despachado con Úxito.
+[ENTREGA] Pedido #1a31 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #c50d verificado correctamente.
+[DESPACHO] Pedido #3947 despachado con Úxito.
+[ENTREGA] Pedido #3947 entregado correctamente.
+[DESPACHO] Pedido #5eb2 despachado con Úxito.
+[ENTREGA] Pedido #5eb2 entregado correctamente.
+[VERIFICACION Thread-9] Pedido #a0ec verificado correctamente.
+[DESPACHO] Pedido #7963 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #d144 despachado con Úxito.
+[ENTREGA] Pedido #d144 entregado correctamente.
+[DESPACHO] Pedido #b35d despachado con Úxito.
+[VERIFICACION Thread-10] Pedido #a8b1 verificado correctamente.
+[ENTREGA] Pedido #b35d entregado correctamente.
+[DESPACHO] Pedido #a70e despachado con Úxito.
+[ENTREGA] Pedido #a70e entregado correctamente.
+[VERIFICACION Thread-9] Pedido #a0c1 verificado correctamente.
+[DESPACHO] Pedido #37e5 despachado con Úxito.
+[ENTREGA] Pedido #37e5 entregado correctamente.
+[DESPACHO] Pedido #3ea9 despachado con Úxito.
+[ENTREGA] Pedido #3ea9 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #4eb6 verificado correctamente.
+[DESPACHO] Pedido #91ee despachado con Úxito.
+[ENTREGA] Pedido #91ee entregado correctamente.
+[DESPACHO] Pedido #da1b despachado con Úxito.
+[ENTREGA] Pedido #da1b entregado correctamente.
+[VERIFICACION Thread-9] Pedido #9724 verificado correctamente.
+[DESPACHO] Pedido #6c56 despachado con Úxito.
+[ENTREGA] Pedido #6c56 fall¾ en la entrega.
+[DESPACHO] Pedido #ea31 despachado con Úxito.
+[ENTREGA] Pedido #ea31 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #da1b verificado correctamente.
+[DESPACHO] Pedido #7566 despachado con Úxito.
+[ENTREGA] Pedido #7566 entregado correctamente.
+[DESPACHO] Pedido #9102 despachado con Úxito.
+[ENTREGA] Pedido #9102 entregado correctamente.
+[DESPACHO] Pedido #5d51 despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #b099 verificado correctamente.
+[ENTREGA] Pedido #5d51 entregado correctamente.
+[DESPACHO] Pedido #a181 despachado con Úxito.
+[ENTREGA] Pedido #a181 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #3a70 verificado correctamente.
+[DESPACHO] Pedido #4cf0 despachado con Úxito.
+[ENTREGA] Pedido #4cf0 entregado correctamente.
+[DESPACHO] Pedido #113d despachado con Úxito.
+[ENTREGA] Pedido #113d entregado correctamente.
+[VERIFICACION Thread-9] Pedido #f955 verificado correctamente.
+[DESPACHO] Pedido #895d despachado con Úxito.
+[ENTREGA] Pedido #895d entregado correctamente.
+[DESPACHO] Pedido #d78e despachado con Úxito.
+[VERIFICACION Thread-10] Pedido #f280 verificado correctamente.
+[ENTREGA] Pedido #d78e fall¾ en la entrega.
+[DESPACHO] Pedido #36bf despachado con Úxito.
+[ENTREGA] Pedido #36bf entregado correctamente.
+[DESPACHO] Pedido #c645 despachado con Úxito.
+[DESPACHO] Pedido #0286 fall¾ verificaci¾n y casillero marcado FDS.
+[VERIFICACION Thread-9] Pedido #e905 verificado correctamente.
+[ENTREGA] Pedido #c645 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #f293 verificado correctamente.
+[DESPACHO] Pedido #0c84 despachado con Úxito.
+[DESPACHO] Pedido #bc1a despachado con Úxito.
+[ENTREGA] Pedido #0c84 entregado correctamente.
+[ENTREGA] Pedido #bc1a entregado correctamente.
+[DESPACHO] Pedido #2226 despachado con Úxito.
+[DESPACHO] Pedido #356b despachado con Úxito.
+[ENTREGA] Pedido #356b entregado correctamente.
+[VERIFICACION Thread-9] Pedido #3bac verificado correctamente.
+[ENTREGA] Pedido #2226 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #0c84 verificado correctamente.
+[DESPACHO] Pedido #7954 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #ce37 fall¾ verificaci¾n y casillero marcado FDS.
+[DESPACHO] Pedido #033a despachado con Úxito.
+[VERIFICACION Thread-9] Pedido #008b verificado correctamente.
+[DESPACHO] Pedido #0fc2 despachado con Úxito.
+[ENTREGA] Pedido #033a entregado correctamente.
+[ENTREGA] Pedido #0fc2 entregado correctamente.
+[VERIFICACION Thread-10] Pedido #91ee verificado correctamente.
+[DESPACHO] Pedido #c2cc despachado con Úxito.
+[ENTREGA] Pedido #c2cc entregado correctamente.
+[DESPACHO] Pedido #c2fb despachado con Úxito.
+[ENTREGA] Pedido #c2fb entregado correctamente.
+[VERIFICACION Thread-9] Pedido #3ea9 verificado correctamente.
+[DESPACHO] Pedido #e8ac despachado con Úxito.
+[ENTREGA] Pedido #e8ac entregado correctamente.
+[DESPACHO] Pedido #274c despachado con Úxito.
+[ENTREGA] Pedido #274c entregado correctamente.
+[VERIFICACION Thread-10] Pedido #243c verificado correctamente.
+[DESPACHO] Pedido #9c48 despachado con Úxito.
+[ENTREGA] Pedido #9c48 entregado correctamente.
+Pedidos despachados
+[VERIFICACION Thread-9] Pedido #17e2 verificado correctamente.
+Pedidos preparados: 500
+Pedidos preparados: 500
+Pedidos entregados: 389
+Pedidos verificados: 250
+Pedidos fallidos: 122
+[VERIFICACION Thread-10] Pedido #9402 verificado correctamente.
+Pedidos entregados
+Pedidos preparados: 500
+Pedidos preparados: 500
+Pedidos entregados: 389
+Pedidos verificados: 251
+Pedidos fallidos: 122
+[VERIFICACION Thread-9] Pedido #e355 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #680e verificado correctamente.
+[VERIFICACION Thread-9] Pedido #5758 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #5eb2 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #2ba7 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #ea0e verificado correctamente.
+[VERIFICACION Thread-9] Pedido #45c0 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #cbe2 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #3c77 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #e131 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #713d verificado correctamente.
+[VERIFICACION Thread-10] Pedido #c2fb verificado correctamente.
+[VERIFICACION Thread-9] Pedido #a63f verificado correctamente.
+[VERIFICACION Thread-10] Pedido #6738 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #c382 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #1a68 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #915f verificado correctamente.
+[VERIFICACION Thread-10] Pedido #a262 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #4cf0 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #d6a3 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #35dd verificado correctamente.
+[VERIFICACION Thread-10] Pedido #bb04 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #36bf verificado correctamente.
+[VERIFICACION Thread-10] Pedido #b691 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #14bc verificado correctamente.
+[VERIFICACION Thread-10] Pedido #2824 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #1d70 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #3ece verificado correctamente.
+[VERIFICACION Thread-9] Pedido #e844 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #2fbb verificado correctamente.
+[VERIFICACION Thread-9] Pedido #1d99 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #033a verificado correctamente.
+[VERIFICACION Thread-9] Pedido #7566 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #506b verificado correctamente.
+[VERIFICACION Thread-9] Pedido #e8ac verificado correctamente.
+[VERIFICACION Thread-10] Pedido #d17d verificado correctamente.
+[VERIFICACION Thread-9] Pedido #804d verificado correctamente.
+[VERIFICACION Thread-10] Pedido #4539 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #78a9 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #c2cc verificado correctamente.
+[VERIFICACION Thread-9] Pedido #ed08 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #5138 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #a181 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #b35d verificado correctamente.
+[VERIFICACION Thread-9] Pedido #d144 verificado correctamente.
+[VERIFICACION] Pedido #4c62 fall¾ la verificaci¾n final.
+[VERIFICACION Thread-9] Pedido #a70e verificado correctamente.
+[VERIFICACION Thread-10] Pedido #895d verificado correctamente.
+[VERIFICACION Thread-9] Pedido #37e5 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #8707 verificado correctamente.
+[VERIFICACION] Pedido #abb7 fall¾ la verificaci¾n final.
+[VERIFICACION Thread-10] Pedido #c2fd verificado correctamente.
+[VERIFICACION Thread-9] Pedido #62fe verificado correctamente.
+[VERIFICACION Thread-10] Pedido #e2a5 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #fc68 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #ba97 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #22b5 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #a82a verificado correctamente.
+[VERIFICACION Thread-9] Pedido #51c2 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #3947 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #9c8e verificado correctamente.
+[VERIFICACION Thread-10] Pedido #356b verificado correctamente.
+[VERIFICACION Thread-9] Pedido #66f4 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #4420 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #4cc3 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #a1de verificado correctamente.
+[VERIFICACION Thread-9] Pedido #e796 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #bc1a verificado correctamente.
+[VERIFICACION Thread-9] Pedido #3df0 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #8635 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #b408 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #4b13 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #73e2 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #ea31 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #2cb8 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #2f0c verificado correctamente.
+[VERIFICACION Thread-9] Pedido #2a40 verificado correctamente.
+[VERIFICACION] Pedido #3ad1 fall¾ la verificaci¾n final.
+[VERIFICACION Thread-9] Pedido #71a2 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #5d51 verificado correctamente.
+[VERIFICACION] Pedido #6e9e fall¾ la verificaci¾n final.
+[VERIFICACION Thread-10] Pedido #db95 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #da6a verificado correctamente.
+[VERIFICACION Thread-10] Pedido #14da verificado correctamente.
+[VERIFICACION Thread-9] Pedido #1a31 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #2226 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #9102 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #f2ef verificado correctamente.
+[VERIFICACION Thread-9] Pedido #af2d verificado correctamente.
+[VERIFICACION Thread-10] Pedido #b8d6 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #473a verificado correctamente.
+[VERIFICACION Thread-10] Pedido #98e0 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #69ab verificado correctamente.
+[VERIFICACION Thread-10] Pedido #cf3b verificado correctamente.
+[VERIFICACION Thread-9] Pedido #0e4d verificado correctamente.
+[VERIFICACION Thread-10] Pedido #b6cc verificado correctamente.
+[VERIFICACION Thread-9] Pedido #ac65 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #113d verificado correctamente.
+[VERIFICACION Thread-9] Pedido #bad4 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #ddbc verificado correctamente.
+[VERIFICACION Thread-9] Pedido #de76 verificado correctamente.
+[VERIFICACION] Pedido #0306 fall¾ la verificaci¾n final.
+[VERIFICACION Thread-9] Pedido #3eb0 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #715b verificado correctamente.
+[VERIFICACION Thread-9] Pedido #e591 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #9c48 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #b33f verificado correctamente.
+[VERIFICACION Thread-10] Pedido #63a0 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #0e1c verificado correctamente.
+[VERIFICACION] Pedido #9644 fall¾ la verificaci¾n final.
+[VERIFICACION Thread-9] Pedido #1845 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #6af6 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #6bfd verificado correctamente.
+[VERIFICACION Thread-10] Pedido #605b verificado correctamente.
+[VERIFICACION Thread-9] Pedido #5396 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #e0e2 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #c645 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #ac66 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #cd50 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #0fc2 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #e118 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #8334 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #eb10 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #4569 verificado correctamente.
+[VERIFICACION Thread-9] Pedido #7cc3 verificado correctamente.
+[VERIFICACION Thread-10] Pedido #274c verificado correctamente.
+[VERIFICACION Thread-9] Pedido #2d48 verificado correctamente.
+Pedidos verificados
+Pedidos preparados: 500
+Pedidos preparados: 500
+Pedidos entregados: 389
+Pedidos verificados: 372
+Pedidos fallidos: 128
+EstadÝsticas finales:
+Pedidos preparados: 500
+Pedidos preparados: 500
+Pedidos entregados: 389
+Pedidos verificados: 372
+Pedidos fallidos: 128
 
---- ESTAD�STICAS FINALES ---
-Tiempo total: 14895 ms
-Pedidos fallidos: 130, verificados: 370
---- ESTADO DE CASILLEROS ---
-Casillero #0 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #1 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #2 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #3 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #4 | Estado: VAC�O | Usado: 3 veces
-Casillero #5 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #6 | Estado: VAC�O | Usado: 3 veces
-Casillero #7 | Estado: VAC�O | Usado: 1 veces
-Casillero #8 | Estado: FUERA DE SERVICIO | Usado: 3 veces
-Casillero #9 | Estado: FUERA DE SERVICIO | Usado: 4 veces
-Casillero #10 | Estado: VAC�O | Usado: 3 veces
-Casillero #11 | Estado: VAC�O | Usado: 4 veces
-Casillero #12 | Estado: VAC�O | Usado: 4 veces
-Casillero #13 | Estado: VAC�O | Usado: 3 veces
-Casillero #14 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #15 | Estado: VAC�O | Usado: 2 veces
-Casillero #16 | Estado: VAC�O | Usado: 2 veces
-Casillero #17 | Estado: VAC�O | Usado: 4 veces
-Casillero #18 | Estado: VAC�O | Usado: 1 veces
-Casillero #19 | Estado: VAC�O | Usado: 3 veces
-Casillero #20 | Estado: VAC�O | Usado: 2 veces
-Casillero #21 | Estado: VAC�O | Usado: 2 veces
-Casillero #22 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #23 | Estado: FUERA DE SERVICIO | Usado: 3 veces
-Casillero #24 | Estado: VAC�O | Usado: 2 veces
-Casillero #25 | Estado: VAC�O | Usado: 5 veces
-Casillero #26 | Estado: VAC�O | Usado: 4 veces
-Casillero #27 | Estado: VAC�O | Usado: 1 veces
-Casillero #28 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #29 | Estado: VAC�O | Usado: 4 veces
-Casillero #30 | Estado: VAC�O | Usado: 4 veces
-Casillero #31 | Estado: FUERA DE SERVICIO | Usado: 4 veces
-Casillero #32 | Estado: VAC�O | Usado: 3 veces
-Casillero #33 | Estado: VAC�O | Usado: 3 veces
-Casillero #34 | Estado: VAC�O | Usado: 2 veces
-Casillero #35 | Estado: VAC�O | Usado: 2 veces
-Casillero #36 | Estado: VAC�O | Usado: 1 veces
-Casillero #37 | Estado: FUERA DE SERVICIO | Usado: 3 veces
-Casillero #38 | Estado: VAC�O | Usado: 4 veces
-Casillero #39 | Estado: FUERA DE SERVICIO | Usado: 3 veces
-Casillero #40 | Estado: FUERA DE SERVICIO | Usado: 3 veces
-Casillero #41 | Estado: FUERA DE SERVICIO | Usado: 4 veces
-Casillero #42 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #43 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #44 | Estado: VAC�O | Usado: 3 veces
-Casillero #45 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #46 | Estado: VAC�O | Usado: 5 veces
-Casillero #47 | Estado: VAC�O | Usado: 4 veces
-Casillero #48 | Estado: VAC�O | Usado: 2 veces
-Casillero #49 | Estado: VAC�O | Usado: 4 veces
-Casillero #50 | Estado: VAC�O | Usado: 3 veces
-Casillero #51 | Estado: VAC�O | Usado: 3 veces
-Casillero #52 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #53 | Estado: OCUPADO | Usado: 5 veces
-Casillero #54 | Estado: VAC�O | Usado: 4 veces
-Casillero #55 | Estado: VAC�O | Usado: 1 veces
-Casillero #56 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #57 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #58 | Estado: VAC�O | Usado: 3 veces
-Casillero #59 | Estado: VAC�O | Usado: 2 veces
-Casillero #60 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #61 | Estado: VAC�O | Usado: 2 veces
-Casillero #62 | Estado: VAC�O | Usado: 4 veces
-Casillero #63 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #64 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #65 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #66 | Estado: VAC�O | Usado: 1 veces
-Casillero #67 | Estado: VAC�O | Usado: 5 veces
-Casillero #68 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #69 | Estado: VAC�O | Usado: 4 veces
-Casillero #70 | Estado: VAC�O | Usado: 2 veces
-Casillero #71 | Estado: VAC�O | Usado: 3 veces
-Casillero #72 | Estado: VAC�O | Usado: 5 veces
-Casillero #73 | Estado: VAC�O | Usado: 2 veces
-Casillero #74 | Estado: VAC�O | Usado: 1 veces
-Casillero #75 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #76 | Estado: VAC�O | Usado: 6 veces
-Casillero #77 | Estado: VAC�O | Usado: 2 veces
-Casillero #78 | Estado: VAC�O | Usado: 3 veces
-Casillero #79 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #80 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #81 | Estado: VAC�O | Usado: 5 veces
-Casillero #82 | Estado: VAC�O | Usado: 2 veces
-Casillero #83 | Estado: VAC�O | Usado: 5 veces
-Casillero #84 | Estado: VAC�O | Usado: 1 veces
-Casillero #85 | Estado: VAC�O | Usado: 3 veces
-Casillero #86 | Estado: VAC�O | Usado: 3 veces
-Casillero #87 | Estado: VAC�O | Usado: 2 veces
-Casillero #88 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #89 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #90 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #91 | Estado: FUERA DE SERVICIO | Usado: 4 veces
-Casillero #92 | Estado: VAC�O | Usado: 3 veces
-Casillero #93 | Estado: VAC�O | Usado: 4 veces
-Casillero #94 | Estado: VAC�O | Usado: 2 veces
-Casillero #95 | Estado: VAC�O | Usado: 1 veces
-Casillero #96 | Estado: VAC�O | Usado: 2 veces
-Casillero #97 | Estado: VAC�O | Usado: 2 veces
-Casillero #98 | Estado: VAC�O | Usado: 3 veces
-Casillero #99 | Estado: VAC�O | Usado: 2 veces
-Casillero #100 | Estado: FUERA DE SERVICIO | Usado: 4 veces
-Casillero #101 | Estado: VAC�O | Usado: 3 veces
-Casillero #102 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #103 | Estado: VAC�O | Usado: 3 veces
-Casillero #104 | Estado: VAC�O | Usado: 4 veces
-Casillero #105 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #106 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #107 | Estado: VAC�O | Usado: 2 veces
-Casillero #108 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #109 | Estado: VAC�O | Usado: 1 veces
-Casillero #110 | Estado: FUERA DE SERVICIO | Usado: 4 veces
-Casillero #111 | Estado: VAC�O | Usado: 3 veces
-Casillero #112 | Estado: VAC�O | Usado: 4 veces
-Casillero #113 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #114 | Estado: VAC�O | Usado: 3 veces
-Casillero #115 | Estado: VAC�O | Usado: 2 veces
-Casillero #116 | Estado: VAC�O | Usado: 4 veces
-Casillero #117 | Estado: VAC�O | Usado: 1 veces
-Casillero #118 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #119 | Estado: VAC�O | Usado: 4 veces
-Casillero #120 | Estado: FUERA DE SERVICIO | Usado: 3 veces
-Casillero #121 | Estado: VAC�O | Usado: 4 veces
-Casillero #122 | Estado: VAC�O | Usado: 4 veces
-Casillero #123 | Estado: VAC�O | Usado: 1 veces
-Casillero #124 | Estado: VAC�O | Usado: 4 veces
-Casillero #125 | Estado: VAC�O | Usado: 4 veces
-Casillero #126 | Estado: VAC�O | Usado: 2 veces
-Casillero #127 | Estado: VAC�O | Usado: 5 veces
-Casillero #128 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #129 | Estado: VAC�O | Usado: 2 veces
-Casillero #130 | Estado: VAC�O | Usado: 4 veces
-Casillero #131 | Estado: VAC�O | Usado: 2 veces
-Casillero #132 | Estado: FUERA DE SERVICIO | Usado: 7 veces
-Casillero #133 | Estado: VAC�O | Usado: 2 veces
-Casillero #134 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #135 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #136 | Estado: VAC�O | Usado: 3 veces
-Casillero #137 | Estado: VAC�O | Usado: 3 veces
-Casillero #138 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #139 | Estado: VAC�O | Usado: 4 veces
-Casillero #140 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #141 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #142 | Estado: VAC�O | Usado: 1 veces
-Casillero #143 | Estado: VAC�O | Usado: 3 veces
-Casillero #144 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #145 | Estado: VAC�O | Usado: 1 veces
-Casillero #146 | Estado: VAC�O | Usado: 2 veces
-Casillero #147 | Estado: VAC�O | Usado: 2 veces
-Casillero #148 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #149 | Estado: VAC�O | Usado: 6 veces
-Casillero #150 | Estado: FUERA DE SERVICIO | Usado: 5 veces
-Casillero #151 | Estado: VAC�O | Usado: 1 veces
-Casillero #152 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #153 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #154 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #155 | Estado: VAC�O | Usado: 3 veces
-Casillero #156 | Estado: VAC�O | Usado: 2 veces
-Casillero #157 | Estado: VAC�O | Usado: 2 veces
-Casillero #158 | Estado: VAC�O | Usado: 2 veces
-Casillero #159 | Estado: VAC�O | Usado: 1 veces
-Casillero #160 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #161 | Estado: VAC�O | Usado: 3 veces
-Casillero #162 | Estado: VAC�O | Usado: 3 veces
-Casillero #163 | Estado: VAC�O | Usado: 2 veces
-Casillero #164 | Estado: FUERA DE SERVICIO | Usado: 5 veces
-Casillero #165 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #166 | Estado: VAC�O | Usado: 2 veces
-Casillero #167 | Estado: VAC�O | Usado: 2 veces
-Casillero #168 | Estado: VAC�O | Usado: 2 veces
-Casillero #169 | Estado: FUERA DE SERVICIO | Usado: 3 veces
-Casillero #170 | Estado: VAC�O | Usado: 2 veces
-Casillero #171 | Estado: VAC�O | Usado: 1 veces
-Casillero #172 | Estado: VAC�O | Usado: 2 veces
-Casillero #173 | Estado: VAC�O | Usado: 2 veces
-Casillero #174 | Estado: VAC�O | Usado: 1 veces
-Casillero #175 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #176 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #177 | Estado: VAC�O | Usado: 4 veces
-Casillero #178 | Estado: VAC�O | Usado: 1 veces
-Casillero #179 | Estado: VAC�O | Usado: 2 veces
-Casillero #180 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #181 | Estado: VAC�O | Usado: 1 veces
-Casillero #182 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #183 | Estado: VAC�O | Usado: 1 veces
-Casillero #184 | Estado: VAC�O | Usado: 3 veces
-Casillero #185 | Estado: VAC�O | Usado: 3 veces
-Casillero #186 | Estado: VAC�O | Usado: 3 veces
-Casillero #187 | Estado: VAC�O | Usado: 2 veces
-Casillero #188 | Estado: VAC�O | Usado: 4 veces
-Casillero #189 | Estado: VAC�O | Usado: 3 veces
-Casillero #190 | Estado: FUERA DE SERVICIO | Usado: 2 veces
-Casillero #191 | Estado: VAC�O | Usado: 2 veces
-Casillero #192 | Estado: VAC�O | Usado: 2 veces
-Casillero #193 | Estado: VAC�O | Usado: 1 veces
-Casillero #194 | Estado: VAC�O | Usado: 4 veces
-Casillero #195 | Estado: VAC�O | Usado: 2 veces
-Casillero #196 | Estado: VAC�O | Usado: 4 veces
-Casillero #197 | Estado: VAC�O | Usado: 5 veces
-Casillero #198 | Estado: FUERA DE SERVICIO | Usado: 1 veces
-Casillero #199 | Estado: FUERA DE SERVICIO | Usado: 2 veces
+--- ESTAD═STICAS FINALES ---
+
+Tiempo total: 21108 ms
+
+Pedidos fallidos: 128, verificados: 372
+

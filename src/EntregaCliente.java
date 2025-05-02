@@ -13,18 +13,19 @@ public class EntregaCliente extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.enTransito) {
-                // if (repo.enTransito.isEmpty()
-                // && repo.pedidosEntregados.get() + repo.pedidosFallidos.get() < totalPedidos)
-                // {
-                // try {
-                // System.out.println("Esperando en transito");
-                // repo.enTransito.wait();
-                // System.out.println("Toy en transito");
-                // } catch (InterruptedException e) {
-                // Thread.currentThread().interrupt();
-                // return;
-                // }
-                // }
+                if (repo.enTransito.isEmpty()
+                        // && repo.pedidosEntregados.get() + repo.pedidosFallidos.get() < totalPedidos
+                        && repo.enPreparacion.size() < totalPedidos
+                        && repo.contadorGlobalPedidos.get() < totalPedidos) {
+                    try {
+                        System.out.println("Esperando en transito");
+                        repo.enTransito.wait();
+                        System.out.println("Toy en transito");
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                }
                 if (repo.enTransito.isEmpty())
                     continue;
 

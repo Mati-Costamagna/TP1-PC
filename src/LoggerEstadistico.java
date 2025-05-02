@@ -30,7 +30,8 @@ public class LoggerEstadistico extends Thread {
         try {
             // Log periódico
             while (!finalizar.get()) {
-                writer.write("Pedidos fallidos: " + repo.fallidos.size() + ", verificados: " + repo.pedidosVerificados.get() + "\n");
+                writer.write("Pedidos fallidos: " + repo.fallidos.size() + ", verificados: "
+                        + repo.pedidosVerificados.get() + "\n");
                 writer.flush();
                 Thread.sleep(200);
             }
@@ -38,16 +39,25 @@ public class LoggerEstadistico extends Thread {
             // Estadísticas finales
             writer.write("\n--- ESTADÍSTICAS FINALES ---\n");
             writer.write("Tiempo total: " + (System.currentTimeMillis() - inicio) + " ms\n");
-            writer.write("Pedidos fallidos: " + repo.fallidos.size() + ", verificados: " + repo.pedidosVerificados.get() + "\n");
+            writer.write("Pedidos fallidos: " + repo.fallidos.size() + ", verificados: " + repo.pedidosVerificados.get()
+                    + "\n");
+
+            System.out.println("\n--- ESTADÍSTICAS FINALES ---\n");
+            System.out.println("Tiempo total: " + (System.currentTimeMillis() - inicio) + " ms\n");
+            System.out.println("Pedidos fallidos: " + repo.fallidos.size() + ", verificados: "
+                    + repo.pedidosVerificados.get() + "\n");
 
             writer.write("--- ESTADO DE CASILLEROS ---\n");
             for (int i = 0; i < this.casilleros.length; i++) {
                 Casillero c = this.casilleros[i];
                 String estado;
                 synchronized (c) {
-                    if (c.getEstado()==EstadoCasillero.FUERA_DE_SERVICIO) estado = "FUERA DE SERVICIO";
-                    else if (c.estaDisponible()) estado = "VACÍO";
-                    else estado = "OCUPADO";
+                    if (c.getEstado() == EstadoCasillero.FUERA_DE_SERVICIO)
+                        estado = "FUERA DE SERVICIO";
+                    else if (c.estaDisponible())
+                        estado = "VACÍO";
+                    else
+                        estado = "OCUPADO";
                 }
                 writer.write("Casillero #" + i + " | Estado: " + estado + " | Usado: " + c.getContador() + " veces\n");
             }

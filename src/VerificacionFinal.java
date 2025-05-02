@@ -13,21 +13,23 @@ public class VerificacionFinal extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.entregados) {
-                // if (repo.entregados.isEmpty()
-                // && (repo.pedidosVerificados.get() + repo.fallidos.size()) < totalPedidos) {
-                // try {
-                // System.out.println("Esperando entregados" +
-                // Thread.currentThread().getName());
-                // repo.entregados.wait();
-                // System.out.println("Toy entregando");
-                // } catch (InterruptedException e) {
-                // Thread.currentThread().interrupt();
-                // return;
-                // }
-                // }
+                if (repo.entregados.isEmpty()
+                        && repo.enPreparacion.size() < totalPedidos
+                        && repo.contadorGlobalPedidos.get() < totalPedidos
+                        && repo.enTransito.size() < totalPedidos) {
+                    try {
+                        System.out.println("Esperando entregados" +
+                                Thread.currentThread().getName());
+                        repo.entregados.wait();
+                        System.out.println("Toy entregando");
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                }
 
                 if (repo.entregados.isEmpty()) {
-                    System.out.println("Esperando entregas");
+                    System.out.println("continue 1");
                     continue;
                 }
                 pedido = repo.entregados.remove(rand.nextInt(repo.entregados.size()));
