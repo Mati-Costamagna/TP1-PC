@@ -19,5 +19,4 @@ public abstract class ProcesoPedido implements Runnable {
             Thread.currentThread().interrupt();
         }
     }
-
 }

@@ -9,6 +9,10 @@ public class LoggerEstadistico extends Thread {
     private final long inicio;
     private BufferedWriter writer;
     private final Casillero[] casilleros;
+    private long finPreparacion = -1;
+    private long finDespacho = -1;
+    private long finEntrega = -1;
+    private long finVerificacion = -1;
 
     public LoggerEstadistico(RepositorioPedidos repo, long inicio, Casillero[] casillero) {
         this.repo = repo;
@@ -20,7 +24,18 @@ public class LoggerEstadistico extends Thread {
             e.printStackTrace();
         }
     }
-
+    public void setFinPreparacion() {
+        this.finPreparacion = System.currentTimeMillis();
+    }
+    public void setFinDespacho() {
+        this.finDespacho = System.currentTimeMillis();
+    }
+    public void setFinEntrega() {
+        this.finEntrega = System.currentTimeMillis();
+    }
+    public void setFinVerificacion() {
+        this.finVerificacion = System.currentTimeMillis();
+    }
     public void finalizar() {
         finalizar.set(true);
     }
@@ -30,8 +45,7 @@ public class LoggerEstadistico extends Thread {
         try {
             // Log periódico
             while (!finalizar.get()) {
-                writer.write("Pedidos fallidos: " + repo.fallidos.size() +
-                        ", verificados: " + repo.pedidosVerificados.get() + "\n");
+                writer.write("Pedidos fallidos: " + repo.fallidos.size() + ", verificados: " + repo.pedidosVerificados.get() + "\n");
                 writer.flush();
                 Thread.sleep(200);
             }
@@ -39,12 +53,7 @@ public class LoggerEstadistico extends Thread {
             // Estadísticas finales
             writer.write("\n--- ESTADÍSTICAS FINALES ---\n");
             writer.write("Tiempo total: " + (System.currentTimeMillis() - inicio) + " ms\n");
-
-            writer.write("Pedidos generados: " + repo.contadorGlobalPedidos.get() + "\n");
-            writer.write("Pedidos despachados: " + repo.pedidosDespachados.get() + "\n");
-            writer.write("Pedidos entregados: " + repo.pedidosEntregados.get() + "\n");
-            writer.write("Pedidos verificados: " + repo.pedidosVerificados.get() + "\n");
-            writer.write("Pedidos fallidos: " + repo.fallidos.size() + "\n\n");
+            writer.write("Pedidos fallidos: " + repo.fallidos.size() + ", verificados: " + repo.pedidosVerificados.get() + "\n");
 
             writer.write("--- ESTADO DE CASILLEROS ---\n");
             for (int i = 0; i < this.casilleros.length; i++) {
@@ -57,6 +66,29 @@ public class LoggerEstadistico extends Thread {
                 }
                 writer.write("Casillero #" + i + " | Estado: " + estado + " | Usado: " + c.getContador() + " veces\n");
             }
+            writer.write("\n--- TIEMPOS POR ETAPA (duraciones reales) ---\n");
+
+            if (finPreparacion != -1)
+                writer.write("Duración de preparación: " + (finPreparacion - inicio) + " ms\n");
+            else
+                writer.write("Preparación no completada\n");
+
+            if (finDespacho != -1 && finPreparacion != -1)
+                writer.write("Duración de despacho: " + (finDespacho - finPreparacion) + " ms\n");
+            else
+                writer.write("Despacho no completado o preparación faltante\n");
+
+            if (finEntrega != -1 && finDespacho != -1)
+                writer.write("Duración de entrega: " + (finEntrega - finDespacho) + " ms\n");
+            else
+                writer.write("Entrega no completada o despacho faltante\n");
+
+            if (finVerificacion != -1 && finEntrega != -1)
+                writer.write("Duración de verificación: " + (finVerificacion - finEntrega) + " ms\n");
+            else
+                writer.write("Verificación no completada o entrega faltante\n");
+
+            writer.write("Tiempo total (inicio → fin de verificación): " + (finVerificacion - inicio) + " ms\n");
 
             writer.close();
 

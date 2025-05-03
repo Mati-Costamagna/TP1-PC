@@ -1,7 +1,7 @@
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
-        int cantidadPedidos = 50;
-        int numeroCasilleros = 20;
+    public static void main(String[] args) {//throws InterruptedException {
+        int cantidadPedidos = 500;
+        int numeroCasilleros = 200;
         long inicio = System.currentTimeMillis();
 
         Casillero[] casilleros = new Casillero[numeroCasilleros];
@@ -28,52 +28,35 @@ public class Main {
 
         Thread[] entregaThreads = new Thread[3];
         for (int i = 0; i < 3; i++) {
-            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 120));
+            entregaThreads[i] = new Thread(new EntregaCliente(repo, cantidadPedidos, 90));
             entregaThreads[i].start();
         }
 
         Thread[] verificacionThreads = new Thread[2];
         for (int i = 0; i < 2; i++) {
-            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 150));
+            verificacionThreads[i] = new Thread(new VerificacionFinal(repo, cantidadPedidos, 120));
             verificacionThreads[i].start();
         }
 
-        for (Thread t : preparacionThreads) {
-            try{
-                t.join();
+        try {
+            for (Thread t : preparacionThreads) t.join();
+            System.out.println("Pedidos preparados OK");
+            logger.setFinPreparacion();
+            for (Thread t : despachoThreads) t.join();
+            System.out.println("Pedidos despachados OK");
+            logger.setFinDespacho();
+            for (Thread t : entregaThreads) t.join();
+            System.out.println("Pedidos entregados OK");
+            logger.setFinEntrega();
+            for (Thread t : verificacionThreads) t.join();
+            System.out.println("Pedidos verificados OK");
+            logger.setFinVerificacion();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-        System.out.println("Pedidos preparados");
-        for (Thread t : despachoThreads) {
-            try{
-                t.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-        System.out.println("Pedidos despachados");
-        for (Thread t : entregaThreads) {
-            try{
-                t.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-        System.out.println("Pedidos entregados");
-        for (Thread t : verificacionThreads) {
-            try{
-                t.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-        System.out.println("Pedidos verificados");
-
-        System.out.println("Estadísticas finales:");
-        System.out.println("Pedidos preparados: " + repo.pedidosDespachados.get());
+        System.out.println("Estadisticas finales:");
+        System.out.println("Pedidos preparados: " + repo.contadorGlobalPedidos.get());
         System.out.println("Pedidos entregados: " + repo.pedidosEntregados.get());
         System.out.println("Pedidos verificados: " + repo.pedidosVerificados.get());
         System.out.println("Pedidos fallidos: " + repo.fallidos.size());
@@ -84,8 +67,5 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        long fin = System.currentTimeMillis();
-        System.out.println("Tiempo total: " + (fin - inicio) + " ms");
-
     }
 }

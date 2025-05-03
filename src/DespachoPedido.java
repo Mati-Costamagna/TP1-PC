@@ -1,6 +1,4 @@
-import java.util.concurrent.TimeUnit;
 import java.util.Random;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class DespachoPedido extends ProcesoPedido {
     private final Casillero[] casilleros;
@@ -17,7 +15,9 @@ public class DespachoPedido extends ProcesoPedido {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
-                while (repo.enPreparacion.isEmpty()) {
+                if (repo.enPreparacion.isEmpty() // Todavia tengo que despachar pedidos
+                        && repo.contadorGlobalPedidos.get() < totalPedidos) // Todavia me falta generar pedidos
+                {
                     try {
                         repo.enPreparacion.wait();
                     } catch (InterruptedException e) {
@@ -25,40 +25,37 @@ public class DespachoPedido extends ProcesoPedido {
                         return;
                     }
                 }
-                int index = rand.nextInt(repo.enPreparacion.size());
-                pedido = repo.enPreparacion.remove(index);
+                try {
+                    int index = rand.nextInt(repo.enPreparacion.size());
+                    pedido = repo.enPreparacion.remove(index);
+                } catch (IllegalArgumentException e){
+                    continue;
+                }
             }
 
-            /*synchronized (pedido) {*/
-                Casillero casillero = casilleros[pedido.getIdCasillero()];
-                boolean datosCorrectos = rand.nextDouble() < 0.85;
+            Casillero casillero = casilleros[pedido.getIdCasillero()];
+            boolean datosCorrectos = rand.nextDouble() < 0.85;
 
-                if (datosCorrectos) {
-                    casillero.liberar();
-                    pedido.setEstado(EstadoPedido.EN_TRANSITO);
-                    synchronized (repo.enTransito) {
-                        repo.enTransito.add(pedido);
-                        repo.pedidosDespachados.incrementAndGet();
-                        repo.enTransito.notifyAll();
-                        System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
-                    }
-
-                } else {
-                    casillero.ponerFueraDeServicio();
-                    pedido.setEstado(EstadoPedido.FALLIDO);
-                    synchronized (repo.fallidos) {
-                        repo.fallidos.add(pedido);
-                        repo.pedidosDespachados.incrementAndGet();
-                        repo.pedidosFallidos.incrementAndGet();
-                        System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
-                    }
+            if (datosCorrectos) {
+                casillero.liberar();
+                pedido.setEstado(EstadoPedido.EN_TRANSITO);
+                synchronized (repo.enTransito) {
+                    repo.enTransito.add(pedido);
+                    repo.pedidosDespachados.incrementAndGet();
+                    repo.enTransito.notifyAll();
+                    System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
+                }
+            } else {
+                casillero.ponerFueraDeServicio();
+                pedido.setEstado(EstadoPedido.FALLIDO);
+                synchronized (repo.fallidos) {
+                    repo.fallidos.add(pedido);
+                    repo.pedidosDespachados.incrementAndGet();
+                    repo.pedidosFallidos.incrementAndGet();
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
                 }
-
-            //}
+            }
             esperar();
         }
     }
 }
-
-
