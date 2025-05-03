@@ -6,12 +6,13 @@ public class Casillero {
         this.estado = EstadoCasillero.VACIO;
     }
 
-    public synchronized void ocupar() {
+    public synchronized boolean ocupar() {
         if (estaDisponible()) {
             this.estado = EstadoCasillero.OCUPADO;
             this.contador++;
-
+            return true;
         }
+        return false;
     }
 
     public synchronized void liberar() {
