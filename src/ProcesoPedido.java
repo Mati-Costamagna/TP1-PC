@@ -3,8 +3,11 @@ import java.util.concurrent.TimeUnit;
 public abstract class ProcesoPedido implements Runnable {
     protected final RepositorioPedidos repo;
     protected final int tiempoEspera;
+    protected final int totalPedidos;
 
-    public ProcesoPedido(RepositorioPedidos repo, int tiempoEspera) {
+
+    public ProcesoPedido(RepositorioPedidos repo, int totalPedidos, int tiempoEspera) {
+        this.totalPedidos = totalPedidos;
         this.repo = repo;
         this.tiempoEspera = tiempoEspera;
     }
@@ -13,11 +16,7 @@ public abstract class ProcesoPedido implements Runnable {
         try {
             TimeUnit.MILLISECONDS.sleep(tiempoEspera);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            Thread.currentThread().interrupt();
         }
     }
-
-    public abstract void run();
 }
-
-// A chequear

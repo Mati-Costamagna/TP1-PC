@@ -1,7 +1,17 @@
+import java.util.*;
+
 public class Pedido {
     private final String id;
     private final int idCasillero;
     private EstadoPedido estado;
+    private static final Map<EstadoPedido, Set<EstadoPedido>> transicionesEstado = new HashMap<>();
+
+    static {
+        transicionesEstado.put(EstadoPedido.EN_PREPARACION, Set.of(EstadoPedido.EN_TRANSITO, EstadoPedido.FALLIDO));
+        transicionesEstado.put(EstadoPedido.EN_TRANSITO, Set.of(EstadoPedido.ENTREGADO, EstadoPedido.FALLIDO));
+        transicionesEstado.put(EstadoPedido.ENTREGADO, Set.of(EstadoPedido.VERIFICADO, EstadoPedido.FALLIDO));
+
+    }
 
     public Pedido(String id, int idCasillero) {
         this.id = id;
@@ -18,22 +28,11 @@ public class Pedido {
     }
 
     // Control de estado
-    public synchronized void setEstado(EstadoPedido estado) {
-        // Validar que la transición de estado sea permitida
-        if (this.estado == EstadoPedido.EN_PREPARACION && estado == EstadoPedido.EN_TRANSITO) {
-            this.estado = estado;
-        } else if (this.estado == EstadoPedido.EN_PREPARACION && estado == EstadoPedido.FALLIDO) {
-            this.estado = estado;
-        }else if (this.estado == EstadoPedido.EN_TRANSITO && estado == EstadoPedido.ENTREGADO) {
-            this.estado = estado;
-        } else if (this.estado == EstadoPedido.EN_TRANSITO && estado == EstadoPedido.FALLIDO) {
-            this.estado = estado;
-        } else if (this.estado == EstadoPedido.ENTREGADO && estado == EstadoPedido.FALLIDO) {
-            this.estado = estado;
-        } else if (this.estado == EstadoPedido.ENTREGADO && estado == EstadoPedido.VERIFICADO) {
-            this.estado = estado;
+    public synchronized void setEstado(EstadoPedido nuevoEstado) {
+        Set<EstadoPedido> posibles = transicionesEstado.getOrDefault(this.estado, Set.of());
+        if (posibles.contains(nuevoEstado)) {
+            this.estado = nuevoEstado;
         } else {
-
             System.out.println("[ERROR] Transición de estado no válida para el pedido #" + this.id);
         }
     }

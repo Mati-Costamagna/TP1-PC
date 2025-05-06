@@ -1,61 +1,61 @@
-import java.util.concurrent.TimeUnit;
 import java.util.Random;
 
 public class DespachoPedido extends ProcesoPedido {
     private final Casillero[] casilleros;
     private final Random rand = new Random();
-    private boolean pedidosListo = false;
 
-
-    public DespachoPedido(Casillero[] casilleros, RepositorioPedidos repo, int tiempoEspera) {
-        super(repo, tiempoEspera);
+    public DespachoPedido(Casillero[] casilleros, RepositorioPedidos repo, int totalPedidos, int tiempoEspera) {
+        super(repo, totalPedidos, tiempoEspera);
         this.casilleros = casilleros;
-    }
-
-    public void setBandera(boolean bandera) {
-        this.pedidosListo = bandera;
     }
 
     @Override
     public void run() {
-        while (!Thread.currentThread().isInterrupted()) {
+        while (repo.pedidosDespachados.get() < totalPedidos) {
             Pedido pedido = null;
 
             synchronized (repo.enPreparacion) {
-                if (!repo.enPreparacion.isEmpty()) {
+                if (repo.enPreparacion.isEmpty() // Todavia tengo que despachar pedidos
+                    && repo.contadorGlobalPedidos.get() < totalPedidos) // Todavia me falta generar pedidos
+                {
+                    try {
+                        repo.enPreparacion.wait();
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                }
+                try {
                     int index = rand.nextInt(repo.enPreparacion.size());
                     pedido = repo.enPreparacion.remove(index);
+                } catch (IllegalArgumentException e){
+                    continue;
                 }
             }
 
-            if (pedido == null) {
-                esperar();
-                continue;
-            }
+            Casillero casillero = casilleros[pedido.getIdCasillero()];
+            boolean datosCorrectos = rand.nextDouble() < 0.85;
 
-            synchronized (pedido) {
-                Casillero casillero = casilleros[pedido.getIdCasillero()];
-                boolean datosCorrectos = rand.nextDouble() < 0.85;
-
-                if (datosCorrectos) {
-                    casillero.liberar();
-                    pedido.setEstado(EstadoPedido.EN_TRANSITO);
-                    synchronized (repo.enTransito) {
-                        repo.enTransito.add(pedido);
-                    }
+            if (datosCorrectos) {
+                casillero.liberar();
+                pedido.setEstado(EstadoPedido.EN_TRANSITO);
+                synchronized (repo.enTransito) {
+                    repo.enTransito.add(pedido);
+                    repo.pedidosDespachados.incrementAndGet();
+                    repo.enTransito.notifyAll();
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " despachado con éxito.");
-                } else {
-                    casillero.ponerFueraDeServicio();
-                    pedido.setEstado(EstadoPedido.FALLIDO);
-                    synchronized (repo.fallidos) {
-                        repo.fallidos.add(pedido);
-                    }
+                }
+            } else {
+                casillero.ponerFueraDeServicio();
+                pedido.setEstado(EstadoPedido.FALLIDO);
+                synchronized (repo.fallidos) {
+                    repo.fallidos.add(pedido);
+                    repo.pedidosDespachados.incrementAndGet();
+                    repo.pedidosFallidos.incrementAndGet();
                     System.out.println("[DESPACHO] Pedido #" + pedido.getId() + " falló verificación y casillero marcado FDS.");
                 }
             }
-            if(repo.enPreparacion.isEmpty()) {}
             esperar();
         }
-
     }
 }
